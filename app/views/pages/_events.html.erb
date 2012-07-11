@@ -1,10 +1,18 @@
+<%= link_to "previous month", :month => @calendar_month.to_i - 1 % 13, :year => @calendar_year.to_i %>
+&nbsp;&nbsp;
+<%= link_to "next month", :month => @calendar_month.to_i + 1 % 13, :year => @calendar_year.to_i %>
+<br /><br />
+
 <div class="calendar">
-<%= calendar_for(@tasks) do |t| %>
+<%= calendar_for(@tasks, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
   <%= t.head('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun') %>
   <%= t.day do |day, tasks| %>
-    <%= day.day %>
+    <strong><%= day.day %></strong>
     <% tasks.each do |task| %>
-      <%= h(task.name) %>
+      <br />
+      <p><%= h(task.name) %></p>
+      <p><%= h(task.description) %></p>
+      <strong><%= format_hours(task.date) %> - <%= format_hours(task.end_date) %></strong>
     <% end %>
   <% end %>
 <% end %>

@@ -5,6 +5,7 @@
     <th>Name</th>
     <th>Description</th>
     <th>Date</th>
+    <th>End date</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,6 +16,7 @@
     <td><%= event.name %></td>
     <td><%= event.description %></td>
     <td><%= event.date %></td>
+    <td><%= event.end_date %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, confirm: 'Are you sure?', method: :delete %></td>
