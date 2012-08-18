@@ -1,29 +1,8 @@
-<%= form_for(@group) do |f| %>
-  <% if @group.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@group.errors.count, "error") %> prohibited this group from being saved:</h2>
-
-      <ul>
-      <% @group.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
+<%= semantic_form_for(@group) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <%= f.input :current_main_event %>
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :button %>
   <% end %>
-
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :current_main_event %><br />
-    <%= f.text_area :current_main_event %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
 <% end %>

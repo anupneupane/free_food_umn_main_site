@@ -9,6 +9,7 @@ gem 'devise'
 gem 'heroku'
 gem 'bootstrap-sass'
 gem "watu_table_builder", :require => "table_builder"
+gem 'formtastic'
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -59,6 +59,8 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.0.11)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
     heroku (2.25.0)
       launchy (>= 0.3.2)
       netrc (~> 0.7.1)
@@ -169,6 +171,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   devise
+  formtastic
   heroku
   jquery-rails
   pg
