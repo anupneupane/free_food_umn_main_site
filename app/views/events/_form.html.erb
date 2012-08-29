@@ -1,8 +1,27 @@
 <%= semantic_form_for(@event) do |f| %>
   <%= f.input :name %>
   <%= f.input :description %>
-  <%= f.input :date %>
-  <%= f.input :end_date %>
+  <table>
+    <tr>
+      <td class="start_date_time" colspan="3">Beginning of event</td>
+      <td colspan="1">Duration of event</td>
+    </tr>
+    <tr>
+      <td class="start_date_time">
+        <%= f.input :date_string, :as => :date_picker, :label => false %>
+      </td>
+      <td class="start_date_time">
+        <%= f.input :start_time_string, :label => false %>
+      </td>
+      <td class="start_date_time">
+        <%= f.input :meridian_indicator, :as => :radio, :collection => ["am", "pm"], :label => false %>
+      </td>
+      <td>
+        <%= f.input :duration, :label => false %>
+      </td>
+    </tr>
+  </table>
+  <br />
   <%= f.actions do %>
     <%= f.action :submit, :as => :button %>
   <% end %>

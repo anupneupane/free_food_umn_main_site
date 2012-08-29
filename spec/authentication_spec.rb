@@ -1,3 +1,0 @@
-
-describe "authentication" do
-end

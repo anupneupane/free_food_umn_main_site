@@ -26,6 +26,9 @@ class EventsController < ApplicationController
   # GET /events/new.json
   def new
     @event = Event.new
+    @event.meridian_indicator = "pm"
+    @event.start_time_string = "10:00"
+    @event.duration = "1:00"
 
     respond_to do |format|
       format.html # new.html.erb

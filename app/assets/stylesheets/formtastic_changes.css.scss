@@ -1,0 +1,21 @@
+form.formtastic fieldset > ol > li.radio fieldset ol li {
+    margin:0.1em 0.5em 0.5em 0 !important;
+    display: inline-block !important;
+}
+
+
+#event_meridian_indicator_input {
+  width: 70px;
+}
+
+#event_duration_input {
+  display:inline;
+}
+
+.formtastic li {
+  list-style: none;
+}
+
+.start_date_time {
+  background-color: #ccc;
+}

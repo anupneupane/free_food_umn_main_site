@@ -1,0 +1,8 @@
+
+In need of refactoring:
+
+form_entered_time_to_seconds function is duplicated in event_spec.rb and in models/event.rb
+It needs to be put in a common module
+
+duplicate code in models/event_spec.rb: the tests after Event.create/Event.new -> event.save
+
