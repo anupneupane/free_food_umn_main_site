@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "Events" do
-  describe "GET /events/new" do
+  describe "creating an event" do
     before {
       group = FactoryGirl.create(:group)
     }
