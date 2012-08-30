@@ -1,6 +1,6 @@
-<%= link_to "previous month", :month => @calendar_month.to_i - 1 % 13, :year => @calendar_year.to_i %>
+<%= link_to image_tag('left-arrow.png'), :month => @calendar_month.to_i - 1 % 13, :year => @calendar_year.to_i %>
 &nbsp;&nbsp;
-<%= link_to "next month", :month => @calendar_month.to_i + 1 % 13, :year => @calendar_year.to_i %>
+<%= link_to image_tag('right-arrow.png'), :month => @calendar_month.to_i + 1 % 13, :year => @calendar_year.to_i %>
 <br /><br />
 
 <div class="calendar">
