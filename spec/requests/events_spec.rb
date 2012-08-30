@@ -22,6 +22,9 @@ describe "Events" do
         click_button 'Create Event'
       end.to change(Event, :count).by(1)
 
+      page.should have_selector('div', :class => 'alert alert-info', :text => "Event created!")
+
+
     end
   end
 end

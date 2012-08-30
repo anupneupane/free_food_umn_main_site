@@ -13,8 +13,8 @@
   <div class="container wrapper">
     <%= render 'layouts/header' %>
     <% if notice or alert %>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+      <%= content_tag(:div, notice, :class => 'alert alert-info') unless notice.nil? %>
+      <%= content_tag(:div, alert, :class => 'alert alert-error') unless alert.nil? %>
     <% end %>
     <%= yield %>
     <br /><br />

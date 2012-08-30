@@ -2,7 +2,6 @@
 class PagesController < ApplicationController
 
   def home
-    @featured_group = Group.first
     @tasks = Event.all
     @calendar_year = params[:year] || DateTime.now.year
     @calendar_month = params[:month] || DateTime.now.month
