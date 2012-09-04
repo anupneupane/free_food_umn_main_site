@@ -1,6 +1,6 @@
 class Event < ActiveRecord::Base
-  attr_accessible :name, :description, :meridian_indicator, :date_string, :duration, :start_time_string
-  attr_accessor :date_string, :meridian_indicator, :duration, :start_time_string
+  attr_accessible :name, :description, :meridian_indicator, :google_maps_url, :date_string, :duration, :start_time_string
+  attr_accessor :date_string, :meridian_indicator, :duration, :google_maps_url, :start_time_string
 
   before_save :save_dates
 
