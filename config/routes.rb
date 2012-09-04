@@ -3,7 +3,10 @@ FreeFoodUmn::Application.routes.draw do
   resources :events
   resources :groups
 
-  root :to => "date_view#view_by_month"
+  root :to => redirect('/view_by_week')
+  match '/join_us' => "pages#join_us"
+
+  match '/view_by_month' => 'date_view#view_by_month'
   match '/month/:month/year/:year' => "date_view#view_by_month"
   match '/view_by_week' => "date_view#view_by_week"
   match '/view_by_week/:year/:month/:day' => "date_view#view_by_week"
