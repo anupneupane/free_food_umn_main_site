@@ -1,7 +1,6 @@
 FreeFoodUmn::Application.routes.draw do
 
   resources :events
-
   resources :groups
 
   root :to => "date_view#view_by_month"
