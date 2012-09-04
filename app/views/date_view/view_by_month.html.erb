@@ -1,0 +1,40 @@
+<% content_for :left_arrow do %>
+  <%= link_to image_tag('left-arrow.png'), "/month/#{(@calendar_month.to_i - 1) % 13}/year/#{@calendar_year.to_i}", :id => 'previous_month' %>
+<% end %>
+
+<% content_for :menu do %>
+  <%= menu(
+    [
+      {
+        link_name: "view by month",
+        controller: "date_view",
+        action: "view_by_month",
+      },
+      {
+        link_name: "view by week",
+        controller: "date_view",
+        action: "view_by_week",
+      },
+    ])
+  %>
+<% end %>
+
+<% content_for :date_view do %>
+<div class="calendar">
+<%= calendar_for(@tasks, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
+  <%= t.head('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun') %>
+  <%= t.day do |day, tasks| %>
+    <strong><%= day.day %></strong>
+    <% tasks.each do |task| %>
+      <br />
+      <% @event = task %>
+      <%= render 'shared/event' %>
+    <% end %>
+  <% end %>
+<% end %>
+</div>
+<% end %>
+
+<% content_for :right_arrow do %>
+  <%= link_to image_tag('right-arrow.png'), "/month/#{(@calendar_month.to_i + 1) % 13}/year/#{@calendar_year.to_i}", :id => 'next_month'  %>
+<% end %>

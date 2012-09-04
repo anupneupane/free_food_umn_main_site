@@ -1,9 +1,24 @@
 <div class="row">
   <div class="span4">
-    <%= link_to image_tag("logo.png"), root_path %>
-    <%= render "shared/menu" %>
+    <%= link_to image_tag("logo_sunny_side_eggs.png"), root_path %>
+
   </div>
   <div class="span8">
-    <%= render 'pages/featured_group' %>
+    <%= menu(
+      [
+        {
+          link_name: "Home",
+          controller: "date_view",
+          action: "view_by_month",
+        },
+        {
+          link_name: "Add event",
+          controller: "events",
+          action: "new",
+        },
+      ])
+    %>
+    <br />
+    <%= yield :date_view_ui %>
   </div>
 </div>

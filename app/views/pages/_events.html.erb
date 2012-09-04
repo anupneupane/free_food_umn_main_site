@@ -2,29 +2,24 @@
 
 <div class="row">
   <div class="span2">
-    <%= link_to image_tag('left-arrow.png'), :month => @calendar_month.to_i - 1 % 13, :year => @calendar_year.to_i %>
   </div>
   <div class="span8">
-    <h2>Free Food Events for <%= @month_and_year %></h2>
+    <h2>Free Food Events for <%= @date_group %></h2><br />
+    <%= menu(
+      [
+        {
+          link_name: "view by month",
+          controller: "pages",
+          action: "view_by_month",
+        },
+        {
+          link_name: "view by week",
+          controller: "pages",
+          action: "view_by_week",
+        },
+      ])
+    %>
   </div>
   <div class="span2">
-    <%= link_to image_tag('right-arrow.png'), :month => @calendar_month.to_i + 1 % 13, :year => @calendar_year.to_i %>
   </div>
-</div>
-
-<br />
-
-<div class="calendar">
-<%= calendar_for(@tasks, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
-  <%= t.head('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun') %>
-  <%= t.day do |day, tasks| %>
-    <strong><%= day.day %></strong>
-    <% tasks.each do |task| %>
-      <br />
-      <p><%= h(task.name) %></p>
-      <p><%= h(task.description) %></p>
-      <strong><%= format_hours(task.date) %> - <%= format_hours(task.end_date) %></strong>
-    <% end %>
-  <% end %>
-<% end %>
 </div>

@@ -1,27 +1,7 @@
 
-<%
-menu = [
-  {
-    link_name: "Home",
-    controller: "pages",
-    action: "home",
-  },
-  {
-    link_name: "Create Group",
-    controller: "groups",
-    action: "new",
-  },
-  {
-    link_name: "Add event",
-    controller: "events",
-    action: "new",
-  },
-]
-%>
-
 <div id="centeredmenu">
    <ul>
-      <% menu.each do |menu_item| %>
+      <% menu_items.each do |menu_item| %>
         <% if params["controller"] == menu_item[:controller] and params["action"] == menu_item[:action] %>
           <li><a href="#" class="active"><%= menu_item[:link_name] %></a></li>
         <% else %>

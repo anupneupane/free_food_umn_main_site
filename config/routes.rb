@@ -4,8 +4,10 @@ FreeFoodUmn::Application.routes.draw do
 
   resources :groups
 
-  root :to => "pages#home"
-  match "contact_us" => "pages#contact_us"
+  root :to => "date_view#view_by_month"
+  match '/month/:month/year/:year' => "date_view#view_by_month"
+  match '/view_by_week' => "date_view#view_by_week"
+  match '/view_by_week/:year/:month/:day' => "date_view#view_by_week"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

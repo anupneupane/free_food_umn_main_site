@@ -1,0 +1,49 @@
+
+
+<% content_for :menu do %>
+  <%= menu(
+    [
+      {
+        link_name: "view by month",
+        controller: "date_view",
+        action: "view_by_month",
+      },
+      {
+        link_name: "view by week",
+        controller: "date_view",
+        action: "view_by_week",
+      },
+    ])
+  %>
+<% end %>
+
+<% @day_iterator = @starting_day %>
+
+<% content_for :date_view do %>
+<div class="row" class="week_view">
+  <% (1..7).each do |day| %>
+    <% if day == 4 %>
+      </div><br />
+      <div class="row">
+    <% end %>
+    <div class="span<%= day <= 3 ? 4 : 3 %> week_view_item">
+      <%= @day_iterator.strftime('%a') %>
+      <% @events.each do |event| %>
+        <% if event.date.strftime("%Y/%m/%d") == @day_iterator.strftime("%Y/%m/%d") %>
+          <% @event = event %>
+          <%= render 'shared/event' %>
+        <% end %>
+      <% end %>
+    </div>
+    <% @day_iterator += 1 %>
+  <% end %>
+</div>
+<% end %>
+
+<% content_for :left_arrow do %>
+  <%= link_to image_tag('left-arrow.png'), "/view_by_week/#{(@starting_day-7).strftime("%Y/%m/%d")}", :id => 'previous_month' %>
+<% end %>
+
+<% content_for :right_arrow do %>
+  <%= link_to image_tag('right-arrow.png'), "/view_by_week/#{(@starting_day+7).strftime("%Y/%m/%d")}", :id => 'next_month'  %>
+<% end %>

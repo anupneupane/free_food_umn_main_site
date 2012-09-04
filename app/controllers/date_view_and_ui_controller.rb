@@ -1,0 +1,2 @@
+class DateViewAndUiController < ApplicationController
+end

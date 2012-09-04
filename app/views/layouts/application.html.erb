@@ -16,7 +16,7 @@
       <%= content_tag(:div, notice, :class => 'alert alert-info') unless notice.nil? %>
       <%= content_tag(:div, alert, :class => 'alert alert-error') unless alert.nil? %>
     <% end %>
-    <%= yield %>
+    <%= content_for?(:content) ? yield(:content) : yield %>
     <br /><br />
     <div class="push"></div>
   </div>
