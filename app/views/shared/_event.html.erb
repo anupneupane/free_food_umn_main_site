@@ -1,7 +1,7 @@
 
 <hr />
 
-<p><%= h(@event.name) %></p>
+<%= (@event.group_url.nil?) ? content_tag('p', @event.name) : link_to(@event.name, @event.group_url) %>
 <p><%= h(@event.description) %></p>
 <p><%= link_to("google maps", raw(@event.google_maps_url)) unless @event.google_maps_url.nil? %></p>
 <strong><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></strong>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120904055226) do
+ActiveRecord::Schema.define(:version => 20120905040154) do
 
   create_table "events", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20120904055226) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
     t.string   "google_maps_url"
+    t.string   "group_url"
   end
 
   create_table "groups", :force => true do |t|

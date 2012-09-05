@@ -1,5 +1,6 @@
 <%= semantic_form_for(@event) do |f| %>
   <%= f.input :name, :label => 'title' %>
+  <%= f.input :group_url, :placeholder => 'optional', :label => 'web address of your group/organization' %>
   <%= f.input :description %>
   <%= f.input :google_maps_url, :placeholder => 'optional, but potentially really useful!' %>
   <table>
