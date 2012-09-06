@@ -1,11 +1,14 @@
-
 <div id="centeredmenu">
    <ul>
       <% menu_items.each do |menu_item| %>
-        <% if params["controller"] == menu_item[:controller] and params["action"] == menu_item[:action] %>
+        <% if request.path == menu_item[:url] %>
           <li><a href="#" class="active"><%= menu_item[:link_name] %></a></li>
         <% else %>
-          <li><%= link_to menu_item[:link_name], :controller => menu_item[:controller], :action => menu_item[:action] %></a></li>
+          <% if menu_item.has_key?(:method) %>
+            <%= content_tag("li", link_to(menu_item[:link_name], menu_item[:url], :method => menu_item[:method])) %>
+          <% else %>
+            <%= content_tag("li", link_to(menu_item[:link_name], menu_item[:url])) %>
+          <% end %>
         <% end %>
       <% end %>
    </ul>

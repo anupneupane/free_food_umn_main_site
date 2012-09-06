@@ -2,6 +2,9 @@
 class EventsController < ApplicationController
   # GET /events
   # GET /events.json
+
+  before_filter :authenticate_admin!, :only => [:index, :update, :destroy, :edit]
+
   def index
     @events = Event.all
 
