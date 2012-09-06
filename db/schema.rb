@@ -11,17 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120905040154) do
+ActiveRecord::Schema.define(:version => 20120905220813) do
 
   create_table "events", :force => true do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "date"
     t.datetime "end_date"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",                           :null => false
+    t.datetime "updated_at",                           :null => false
     t.string   "google_maps_url"
     t.string   "group_url"
+    t.boolean  "approved_by_admin", :default => false
+    t.string   "location"
+    t.string   "meal_type"
+    t.string   "group_name"
   end
 
   create_table "groups", :force => true do |t|

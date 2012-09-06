@@ -1,8 +1,6 @@
 <%= semantic_form_for(@event) do |f| %>
-  <%= f.input :name, :label => 'title' %>
-  <%= f.input :group_url, :placeholder => 'optional', :label => 'web address of your group/organization' %>
-  <%= f.input :description %>
-  <%= f.input :google_maps_url, :placeholder => 'optional, but potentially really useful!' %>
+  <%= f.input :description, :placeholder => "You can quick enter a brief description of your event, or if you want you can use our more advanced optional form below" %>
+
   <table>
     <tr>
       <td class="start_date_time" colspan="3">Beginning of event</td>
@@ -23,8 +21,20 @@
       </td>
     </tr>
   </table>
+
   <br />
   <%= f.actions do %>
     <%= f.action :submit, :as => :button %>
   <% end %>
+  <hr />
+  <h2>Optional Stuff</h2>
+  <%= f.input :name, :label => 'title' %>
+  <%= f.input :group_name %>
+  <%= f.input :group_url, :label => 'web address of your group/organization' %>
+  <%= f.input :location %>
+  <%= f.input :google_maps_url %>
+  <%= f.input :meal_type, :as => :select,
+              :collection => ["Refreshments", "Full meal", "snacks"] %>
+  <br />
+
 <% end %>
