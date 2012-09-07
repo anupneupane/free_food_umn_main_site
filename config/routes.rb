@@ -1,5 +1,8 @@
 FreeFoodUmn::Application.routes.draw do
 
+  get '/admins/sign_up' => redirect('/')
+  get '/admins/password/new' => redirect('/')
+
   devise_for :admins
 
   resources :events
