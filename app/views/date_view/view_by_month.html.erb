@@ -24,13 +24,11 @@
   <%= t.day do |day, tasks| %>
     <span><%= day.day %></span>
     <div class="events">
-      <ul>
       <% tasks.each do |task| %>
         <br />
         <% @event = task %>
-        <li><%= render 'events/month_view_show' %></li>
+        <%= render 'events/month_view_show' %>
       <% end %>
-      </ul>
     </div>
   <% end %>
 <% end %>
