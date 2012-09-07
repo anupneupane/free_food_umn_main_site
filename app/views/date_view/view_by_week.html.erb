@@ -25,13 +25,15 @@
       <div class="row">
     <% end %>
     <div class="span<%= day <= 3 ? 4 : 3 %> week_view_item">
+      <ul>
       <%= @day_iterator.strftime('%a') %>
       <% @events.each do |event| %>
         <% if event.date.strftime("%Y/%m/%d") == @day_iterator.strftime("%Y/%m/%d") %>
           <% @event = event %>
-          <%= render 'shared/event' %>
+          <li><%= render 'events/week_view_show' %></li>
         <% end %>
       <% end %>
+      </ul>
     </div>
     <% @day_iterator += 1 %>
   <% end %>

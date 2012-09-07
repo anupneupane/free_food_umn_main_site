@@ -1,7 +1,14 @@
 .calendar {
     td {
         width: 200px;
-        height: 100px;
+        height: 170px;
         border: 1px solid black;
+        span {
+            float: left;
+        }
+        .events {
+            height:170px;
+            overflow: auto;
+        }
     }
 }

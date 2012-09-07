@@ -22,12 +22,16 @@
 <%= calendar_for(@events, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
   <%= t.head('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun') %>
   <%= t.day do |day, tasks| %>
-    <strong><%= day.day %></strong>
-    <% tasks.each do |task| %>
-      <br />
-      <% @event = task %>
-      <%= render 'shared/event' %>
-    <% end %>
+    <span><%= day.day %></span>
+    <div class="events">
+      <ul>
+      <% tasks.each do |task| %>
+        <br />
+        <% @event = task %>
+        <li><%= render 'events/month_view_show' %></li>
+      <% end %>
+      </ul>
+    </div>
   <% end %>
 <% end %>
 </div>

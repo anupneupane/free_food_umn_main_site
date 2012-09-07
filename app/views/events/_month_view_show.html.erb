@@ -1,0 +1,4 @@
+
+<br />
+<p><%= link_to(truncate(@event.description, length: 150), "/events/#{@event.id}") %></p>
+<strong><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></strong>

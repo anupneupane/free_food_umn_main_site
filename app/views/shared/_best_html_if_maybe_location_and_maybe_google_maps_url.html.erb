@@ -1,0 +1,8 @@
+
+<% if(location_exists and not google_maps_url_exists) %>
+  <p><%= link_to("google maps", google_maps_url) %></p>
+<% elsif(not location_exists and not google_maps_url_exists) %>
+  <p><%= link_to(@event.location, google_maps_url) %></p>
+<% elsif(not location_exists and google_maps_url_exists) %>
+  <p>location: <%= location %></p>
+<% end %>
