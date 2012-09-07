@@ -1,7 +1,7 @@
 
 
 <%= semantic_form_for(@event) do |f| %>
-  <%= f.input :description, :placeholder => "You can quick enter a brief description of your event, or if you want you can use our more advanced optional form below" %>
+  <%= f.input :name, :label => 'title' %>
   <%= f.input :description, :as => 'text', :input_html => { :rows => 5, :maxlength => 150 }, \
       :placeholder => "You may enter a brief description of your event, \
 like location, food details, organization type, etc... or \
@@ -35,7 +35,6 @@ you may use our more advanced form below. Please limit yourself to \
   <% end %>
   <hr />
   <h2>Optional Stuff</h2>
-  <%= f.input :name, :label => 'title' %>
   <%= f.input :group_name %>
   <%= f.input :group_url, :label => 'web address of your group/organization' %>
   <%= f.input :location %>
