@@ -2,11 +2,10 @@
 
 <%= semantic_form_for(@event) do |f| %>
   <%= f.input :name, :label => 'title' %>
-  <%= f.input :description, :as => 'text', :input_html => { :rows => 5, :maxlength => 150 }, \
+  <%= f.input :description, :as => 'text', :input_html => { :rows => 5 }, \
       :placeholder => "You may enter a brief description of your event, \
 like location, food details, organization type, etc... or \
-you may use our more advanced form below. Please limit yourself to \
-150 characters." %>
+you may use our more advanced form below." %>
 
   <table>
     <tr>
