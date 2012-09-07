@@ -56,7 +56,7 @@ class EventsController < ApplicationController
 
     respond_to do |format|
       if @event.save
-        format.html { redirect_to root_path, notice: 'Event created!' }
+        format.html { redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.' }
         format.json { render json: @event, status: :created, location: @event }
       else
         format.html { render action: "new" }
