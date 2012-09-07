@@ -5,6 +5,11 @@ class EventsController < ApplicationController
 
   before_filter :authenticate_admin!, :only => [:index, :update, :destroy, :edit]
 
+  def admin_approve
+    event_to_approve = Event.find(params[:id])
+    event_to_approve.update_column(:approved_by_admin, true)
+  end
+
   def index
     @events = Event.all
 

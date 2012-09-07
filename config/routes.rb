@@ -12,6 +12,8 @@ FreeFoodUmn::Application.routes.draw do
   match '/month/:month/year/:year' => "date_view#view_by_month"
   match '/view_by_week' => "date_view#view_by_week"
   match '/view_by_week/:year/:month/:day' => "date_view#view_by_week"
+
+  match '/admin_approve_event/:id' => "events#admin_approve"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

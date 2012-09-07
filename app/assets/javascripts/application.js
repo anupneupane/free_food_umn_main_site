@@ -17,3 +17,11 @@
 $(function() {
   $("#article_published_on").datepicker();
 });
+
+
+function admin_approve(id) {
+  $.get("/admin_approve_event/"+id, { id: id },
+   function(data){
+    $('#approve'+id).html('');
+   });
+}
