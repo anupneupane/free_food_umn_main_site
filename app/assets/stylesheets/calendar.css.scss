@@ -12,3 +12,27 @@
         }
     }
 }
+
+.month_view, .week_view {
+    font-size: 9px !important;
+}
+
+.month_view {
+    padding-right: 2px;
+    .date {
+        margin-top: -10px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .bullet {
+        float: left;
+        padding-right: 1px;
+    }
+    .paragraph_hyperlink {
+        line-height: 9px;
+        font-size: 8px;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

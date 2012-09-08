@@ -22,4 +22,7 @@ module ApplicationHelper
     return date.strftime("%l:%M %P")
   end
 
+  def flexible_line_height_link_to text, href
+    render partial: 'shared/paragraph_hyper_link', locals: { href: href, text: text }
+  end
 end

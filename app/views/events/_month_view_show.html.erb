@@ -1,5 +1,7 @@
 
-<br />
 
-<p>- <%= link_to(truncate(@event.description, length: 150), "/events/#{@event.id}") %></p>
-<strong><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></strong>
+<div class="month_view">
+  <div class="bullet">-</div>
+  <%= flexible_line_height_link_to(truncate(@event.description, length: 55), "/events/#{@event.id}") %>
+  <div class="date"><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></div>
+</div>
