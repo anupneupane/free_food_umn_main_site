@@ -22,17 +22,20 @@
     .date {
         margin-top: -10px;
         font-weight: bold;
-        font-size: 8px;
     }
     .bullet {
         float: left;
         padding-right: 1px;
     }
     .paragraph_hyperlink {
-        line-height: 9px;
-        font-size: 8px;
+        line-height: 12px;
         color: blue;
-        text-decoration: underline;
         cursor: pointer;
+    }
+    .paragraph_hyperlink:hover {
+        text-decoration: underline;
+    }
+    .paragraph_hyperlink, .date {
+        font-size: 11px !important;
     }
 }
