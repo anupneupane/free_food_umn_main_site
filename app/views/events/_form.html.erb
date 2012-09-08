@@ -1,8 +1,8 @@
 
 
 <%= semantic_form_for(@event) do |f| %>
-  <%= f.input :name, :label => 'title' %>
-  <%= f.input :description, :label => "short description", :as => 'text', :input_html => { :rows => 5 }, \
+  <%= f.input :name, :label => 'Title', :placeholder => 'Name your event' %>
+  <%= f.input :description, :label => "Short description", :as => 'text', :input_html => { :rows => 5 }, \
       :placeholder => " What will show up on our homepage. Please add a brief summary, \
 like location, food details, organization type, etc..." %>
 
