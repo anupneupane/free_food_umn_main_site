@@ -13,10 +13,10 @@
 
 <br />
 
-<%= content_tag("p", @event.meal_type) unless @event.meal_type.nil? %>
-
-<br />
-
+<% unless @event.long_description.nil? %>
+  <%= content_tag("p", @event.long_description) %>
+  <br />
+<% end %>
 
 <%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.location.nil?, @event.google_maps_url.nil?,
                                                            @event.location, raw(@event.google_maps_url)) %>

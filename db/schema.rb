@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120906184130) do
+ActiveRecord::Schema.define(:version => 20120908021108) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -42,8 +42,8 @@ ActiveRecord::Schema.define(:version => 20120906184130) do
     t.string   "group_url"
     t.boolean  "approved_by_admin", :default => false
     t.string   "location"
-    t.string   "meal_type"
     t.string   "group_name"
+    t.text     "long_description"
   end
 
   create_table "groups", :force => true do |t|

@@ -2,7 +2,7 @@ class Event < ActiveRecord::Base
   attr_accessible :name, :description, :meridian_indicator,
                   :google_maps_url, :group_url, :date_string,
                   :duration, :start_time_string,
-                  :location, :meal_type, :group_name
+                  :location, :meal_type, :group_name, :long_description
 
   cattr_accessor :date_string, :meridian_indicator, :duration,
                 :google_maps_url, :group_url, :start_time_string,
