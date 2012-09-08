@@ -14,7 +14,12 @@
 }
 
 .month_view, .week_view {
-    font-size: 9px !important;
+    .paragraph_hyperlink, .date {
+        font-size: 11px !important;
+    }
+    a {
+        color: blue;
+    }
 }
 
 .month_view {
@@ -34,8 +39,5 @@
     }
     .paragraph_hyperlink:hover {
         text-decoration: underline;
-    }
-    .paragraph_hyperlink, .date {
-        font-size: 11px !important;
     }
 }
