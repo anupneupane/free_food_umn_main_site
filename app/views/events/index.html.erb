@@ -27,7 +27,7 @@
     <td><%= event.end_date %></td>
     <td><%= link_to 'Show', event %>&nbsp;</td>
     <td><%= link_to 'Edit', edit_event_path(event) %>&nbsp;</td>
-    <td><%= link_to 'Destroy', "/delete/event/#{event.id}", confirm: 'Are you sure?' %></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to 'Destroy', "/delete/event/#{event.id}", confirm: 'Are you sure?' %></td>
   </tr>
 <% end %>
 </table>
