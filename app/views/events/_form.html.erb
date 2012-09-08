@@ -1,8 +1,7 @@
 
-
 <%= semantic_form_for(@event) do |f| %>
   <%= f.input :name, :label => 'Title', :placeholder => 'Name your event' %>
-  <%= f.input :description, :label => "Short description", :as => 'text', :input_html => { :rows => 5 }, \
+  <%= f.input :description, :label => "Short description", :input_html => { :rows => 5 }, \
       :placeholder => "Brief summary of event, like what kind of free stuff there \
 will be, exciting activities, etc." %>
   <table>

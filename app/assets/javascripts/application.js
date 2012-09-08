@@ -10,8 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
-//= require jquery_ujs
 //= require_tree .
 
 $(function() {
@@ -25,3 +23,17 @@ function admin_approve(id) {
     $('#approve'+id).html('');
    });
 }
+
+//'displayFormat' : '#input/#max | #words words'
+			var info;
+			$(document).ready(function(){
+				var options2 = {
+						'maxCharacterSize': 55,
+						'originalStyle': 'originalTextareaInfo',
+						'warningStyle' : 'warningTextareaInfo',
+						'warningNumber': 40,
+						'displayFormat' : 'character limit: #input/#max'
+				};
+				$('#event_description').textareaCount(options2);
+
+			});
