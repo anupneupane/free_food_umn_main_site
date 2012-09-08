@@ -5,9 +5,15 @@
                                                            @event.group_name, raw(@event.group_url)) %>
 
 
-<strong><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></strong>
-
+<strong>
+  <%= @event.date.strftime("%A, %B %e ") %>
+</strong>
 <br />
+<strong>
+  <%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %>
+</strong>
+
+<br /><br />
 
 <%= content_tag("p", @event.description) unless @event.description.nil? %>
 
