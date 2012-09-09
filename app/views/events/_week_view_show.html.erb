@@ -6,7 +6,7 @@
   
   <p><%= truncate(@event.description, length: 150) %></p>
 
-  <strong><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></strong>
+  <div class="date"><%= format_hours(@event.date) %> - <%= format_hours(@event.end_date) %></div>
 
 </div>
 
