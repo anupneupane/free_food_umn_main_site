@@ -1,6 +1,3 @@
-<% content_for :left_arrow do %>
-  <%= link_to image_tag('left-arrow.png'), "/month/#{(@calendar_month.to_i - 1) % 13}/year/#{@calendar_year.to_i}", :id => 'previous_month' %>
-<% end %>
 
 <% content_for :menu do %>
   <%= menu(
@@ -20,7 +17,7 @@
 <% content_for :date_view do %>
 <div class="calendar month_view">
 <%= calendar_for(@events, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
-  <%= t.head('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun') %>
+  <%= t.head('sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat') %>
   <%= t.day do |day, tasks| %>
     <span><%= day.day %></span>
     <div class="events">
@@ -35,6 +32,10 @@
 </div>
 <% end %>
 
+<% content_for :left_arrow do %>
+  <%= link_to image_tag('left-arrow.png'), "/month/#{previous_month(@calendar_month.to_i)}/year/#{previous_months_year(@calendar_month.to_i, @calendar_year.to_i)}", :id => 'previous_month' %>
+<% end %>
+
 <% content_for :right_arrow do %>
-  <%= link_to image_tag('right-arrow.png'), "/month/#{(@calendar_month.to_i + 1) % 13}/year/#{@calendar_year.to_i}", :id => 'next_month'  %>
+  <%= link_to image_tag('right-arrow.png'), "/month/#{next_month(@calendar_month.to_i)}/year/#{next_months_year(@calendar_month.to_i, @calendar_year.to_i)}", :id => 'next_month'  %>
 <% end %>

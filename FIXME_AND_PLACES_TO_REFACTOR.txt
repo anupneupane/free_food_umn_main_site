@@ -6,3 +6,4 @@ It needs to be put in a common module
 
 duplicate code in models/event_spec.rb: the tests after Event.create/Event.new -> event.save
 
+next_month and previous_month helpers can be refactoring according to the template method pattern
