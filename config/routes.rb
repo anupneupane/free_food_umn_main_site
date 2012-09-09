@@ -1,12 +1,15 @@
 FreeFoodUmn::Application.routes.draw do
 
+
+
   get '/admins/sign_up' => redirect('/')
   get '/admins/password/new' => redirect('/')
 
-  devise_for :admins
-
   resources :events
   resources :groups
+
+  devise_for :admins
+  devise_for :organizations
 
   root :to => redirect('/view_by_week')
   match '/join_us' => "pages#join_us"
