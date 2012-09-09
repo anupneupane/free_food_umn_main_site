@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.5'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,6 +12,7 @@ gem "watu_table_builder", :require => "table_builder"
 gem 'formtastic'
 
 gem 'spork'
+gem 'sqlite3'
 
 gem 'jquery-ui-rails'
 
@@ -28,8 +29,8 @@ group :assets do
 end
 
 group :development do
-  gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-spork'
 end
 
 group :test do
@@ -38,7 +39,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
 end
 
 gem 'jquery-rails'
