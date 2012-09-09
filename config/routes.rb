@@ -6,7 +6,6 @@ FreeFoodUmn::Application.routes.draw do
   get '/admins/password/new' => redirect('/')
 
   resources :events
-  resources :groups
 
   devise_for :admins
   devise_for :organizations
