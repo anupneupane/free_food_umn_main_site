@@ -21,7 +21,6 @@ describe Event do
                     group_url: "http://www.test.com",
                     google_maps_url: 'http://maps.google.com',
                     location: "coffman",
-                    meal_type: "full meal",
                     group_name: "chess club")
       Event.find_by_name("title")
     end
@@ -34,8 +33,40 @@ describe Event do
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
-    it { event.meal_type.should == "full meal" }
-    it { event.group_name.should == "chess club" }
+
+    it "event.attributes works" do
+        event_hash = {
+          "name"=>"title",
+          "description"=>"New event",
+          "google_maps_url"=>'http://maps.google.com',
+          "group_url"=>"http://www.test.com",
+          "approved_by_admin"=>false,
+          "location"=>"coffman",
+          "group_name"=>"chess club",
+          "long_description"=>nil
+        }
+        event_created = event.attributes
+        event_created.delete "id"
+        event_created.delete "date"
+        event_created.delete "end_date"
+        event_created.delete "created_at"
+        event_created.delete "updated_at"
+        event_created.should == event_hash
+    end
+
+    it "should be able to update events" do
+      event.update_attributes({name: "title",
+                    description: "New event",
+                    date_string: "2012-1-11",
+                    start_time_string: "10:10",
+                    meridian_indicator: "pm",
+                    duration: "2:20",
+                    group_url: "http://www.test.com",
+                    google_maps_url: 'http://maps.google.com',
+                    location: "different location",
+                    group_name: "chess club"})
+      event.location.should == "different location"
+    end
   end
 
   describe "should be able to create an event with valid data the long way" do
@@ -51,7 +82,6 @@ describe Event do
       event.group_url = "http://www.test.com"
       event.google_maps_url = 'http://maps.google.com'
       event.location = "coffman"
-      event.meal_type = "full meal"
       event.group_name = "chess club"
       event.save
       Event.find_by_name("title")
@@ -65,8 +95,44 @@ describe Event do
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
-    it { event.meal_type.should == "full meal" }
-    it { event.group_name.should == "chess club" }
+  end
+
+  describe "invalid data" do
+
+    it "invalid date_string, start_time_string, ... date-related" do
+      expect {
+        Event.create(name: "title",
+                      description: "New event",
+                      date_string: "asd",
+                      start_time_string: "asd",
+                      meridian_indicator: "122",
+                      duration: "1232",
+                      google_maps_url: 'http://maps.google.com',
+                      location: "coffman",
+                      group_name: "chess club")
+      }.to change { Event.count }.by(0)
+    end
+
+    it "should be invalid if google_maps_url is given without location" do
+      expect {
+        Event.create(description: "New event",
+                      date_string: "2012-1-11",
+                      start_time_string: "10:10",
+                      meridian_indicator: "pm",
+                      duration: "2:20",
+                      google_maps_url: 'http://maps.google.com',
+                      group_name: "chess club")
+      }.to change { Event.count }.by(0)
+    end
+
+    it "should be invalid" do
+      expect {
+        Event.create(date_string: "2012-1-11",
+                      start_time_string: "10:10",
+                      meridian_indicator: "pm",
+                      duration: "2:20")
+      }.to change { Event.count }.by(0)
+    end
   end
 
 end
