@@ -19,7 +19,7 @@ class Event < ActiveRecord::Base
   VALID_DURATION = /\d{1,2}:\d{2,2}/i
   validates :duration, presence: true, format: { with: VALID_DURATION }
 
-  validates :title, :presence => true
+  validates :name, :presence => true
   validates :description, :presence => true
   #validates :location, :presence => true, :unless => "google_maps_url.nil?"
 
