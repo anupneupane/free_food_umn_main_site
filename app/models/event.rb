@@ -20,7 +20,7 @@ class Event < ActiveRecord::Base
   validates :duration, presence: true, format: { with: VALID_DURATION }
 
   validates :description, :presence => true
-  validates :location, :presence => true, :unless => "google_maps_url.nil?"
+  #validates :location, :presence => true, :unless => "google_maps_url.nil?"
 
   before_save { |event|
     event.date = starting_date
