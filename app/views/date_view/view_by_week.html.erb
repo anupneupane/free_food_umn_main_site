@@ -32,7 +32,9 @@
       <div class="row">
     <% end %>
     <div class="span<%= day <= 3 ? 4 : 3 %> week_view_item">
-      <%= @day_iterator.strftime('%a | %b, %-d') %>
+      <div style="float: left">&nbsp;<%= @day_iterator.strftime('%a') %></div>
+      <div style="float: right"><%= @day_iterator.strftime('%b, %-d') %>&nbsp;</div>
+      <br />
       <% @events.each do |event| %>
         <% if event.date.strftime("%Y/%m/%d") == @day_iterator.strftime("%Y/%m/%d") %>
           <% @event = event %>

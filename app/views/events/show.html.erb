@@ -1,7 +1,7 @@
 
 <%= content_tag("h1", @event.name) unless @event.name.nil? %>
 
-<%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.group_name.nil?, @event.group_url.nil?,
+<%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.group_name.blank?, @event.group_url.blank?,
                                                            @event.group_name, raw(@event.group_url), "By: ") %>
 
 
@@ -24,7 +24,7 @@
   <br />
 <% end %>
 
-<%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.location.nil?, @event.google_maps_url.nil?,
+<%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.location.blank?, @event.google_maps_url.blank?,
                                                            @event.location, raw(@event.google_maps_url), "Location: ") %>
 
 <br />
