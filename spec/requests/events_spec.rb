@@ -6,7 +6,7 @@ describe "when I fill out the new event form" do
     visit '/events/new'
 
     fill_in 'event_name', with: 'Example title'
-    fill_in 'event_date_string', with: "2012-08-25"
+    fill_in 'event_date_string', with: Time.now.strftime("%Y-%m-%d")
     fill_in 'event_start_time_string', with: '10:00'
     choose 'event_meridian_indicator_am'
     fill_in 'event_duration', with: '5:00'
@@ -41,6 +41,8 @@ describe "when I fill out the new event form" do
         click_button "Sign up"
       end
 
+      it { Organization.count.should == 1 }
+
       it do
         page.should have_selector('div', :class => 'alert alert-info',
         :text => "Thank you for submitting the event! An admin should approve it shortly.")
@@ -49,6 +51,28 @@ describe "when I fill out the new event form" do
       it { Event.count.should == 1 }
 
       it { Event.first.group_name.should == "Test Organization" }
+
+      describe "make organization admin-approved" do
+        before do
+          organization = Organization.first
+          organization.update_attribute(:approved_by_admin, true)
+        end
+
+        it { Organization.first.approved_by_admin.should == true }
+
+        describe "visit appropriate places to insure admin approval works" do
+          it do
+            visit '/'
+            save_and_open_page
+            page.should have_selector('p', :text => 'Chess Club meeting')
+          end
+          it do
+            id = Event.first.id
+            visit "/events/#{id}"
+            page.should have_selector('p', :text => "By: Test Organization")
+          end
+        end
+      end
 
     end
   end
