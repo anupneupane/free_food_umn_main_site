@@ -17,14 +17,32 @@
       if admin_signed_in?
         menu_links += [
           {
-            link_name: "Sign out",
-            url: "/admins/sign_out",
-            method: "delete",
+            link_name: "Admin signout",
+            url: "/admins/signout",
           },
           {
             link_name: "Edit events",
             url: "/events",
           }
+        ]
+      end
+      if organization_signed_in?
+        menu_links += [
+          {
+            link_name: "Sign out",
+            url: "/organizations/signout",
+          },
+          {
+            link_name: "Edit organization details",
+            url: "/organizations/edit",
+          }
+        ]
+      else
+        menu_links += [
+          {
+            link_name: "Sign in/sign up as an organization",
+            url: "/organizations/sign_in",
+          },
         ]
       end
       menu(menu_links)

@@ -4,6 +4,7 @@ class EventsController < ApplicationController
   # GET /events.json
 
   before_filter :authenticate_admin!, :only => [:index, :update, :destroy, :edit]
+  before_filter :authenticate_organization!, :only => [:create_event_from_session_stored_params]
 
   def admin_approve
     event_to_approve = Event.find(params[:id])
@@ -52,6 +53,14 @@ class EventsController < ApplicationController
   # POST /events
   # POST /events.json
   def create
+
+    if params[:submit_as_organization]
+      session[:stored_params] = params[:event]
+      authenticate_organization!
+      create_event_from_session_stored_params
+      return
+    end
+
     @event = Event.new(params[:event])
 
     respond_to do |format|
@@ -59,9 +68,21 @@ class EventsController < ApplicationController
         format.html { redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.' }
         format.json { render json: @event, status: :created, location: @event }
       else
-        format.html { render action: "new" }
+        format.html {  }
         format.json { render json: @event.errors, status: :unprocessable_entity }
       end
+    end
+  end
+
+  def create_event_from_session_stored_params
+    params = session[:stored_params]
+    session[:stored_params] = nil
+    params[:group_name] = current_organization.name
+    @event = Event.new(params)
+    if @event.save
+      redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.'
+    else
+      render action: "new"
     end
   end
 

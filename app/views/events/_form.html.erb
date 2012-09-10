@@ -33,6 +33,7 @@ will be, exciting activities, etc." %>
 
   <%= f.actions do %>
     <%= f.action :submit, :as => :button %>
+    <%= f.action :submit, :as => :button, :label => 'Submit Event as Organization', :button_html => { name: "submit_as_organization" } %>
   <% end %>
 
 <% end %>
