@@ -11,6 +11,8 @@ gem 'bootstrap-sass'
 gem "watu_table_builder", :require => "table_builder"
 gem 'formtastic'
 
+gem 'yaml_db'
+
 gem 'spork'
 gem 'sqlite3'
 
