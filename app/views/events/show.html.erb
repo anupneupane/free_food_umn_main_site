@@ -2,7 +2,7 @@
 <%= content_tag("h1", @event.name) unless @event.name.nil? %>
 
 <%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.group_name.nil?, @event.group_url.nil?,
-                                                           @event.group_name, raw(@event.group_url)) %>
+                                                           @event.group_name, raw(@event.group_url), "Organization name: ") %>
 
 
 <strong>
@@ -25,7 +25,7 @@
 <% end %>
 
 <%=  best_html_if_maybe_location_and_maybe_google_maps_url(@event.location.nil?, @event.google_maps_url.nil?,
-                                                           @event.location, raw(@event.google_maps_url)) %>
+                                                           @event.location, raw(@event.google_maps_url), "Location: ") %>
 
 <br />
 

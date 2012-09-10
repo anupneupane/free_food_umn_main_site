@@ -13,10 +13,10 @@ module ApplicationHelper
 #  <p>location: <%= @event.location %></p>
 #<% end %>
   def best_html_if_maybe_location_and_maybe_google_maps_url location_exists, google_maps_url_exists,
-                                                            location, google_maps_url
+                                                            location, google_maps_url, text_before_location
     render 'shared/best_html_if_maybe_location_and_maybe_google_maps_url',
       location_exists: location_exists, google_maps_url_exists: google_maps_url_exists,
-      location: location, google_maps_url: google_maps_url
+      location: location, google_maps_url: google_maps_url, text_before_location: text_before_location
   end
 
   def format_hours date
