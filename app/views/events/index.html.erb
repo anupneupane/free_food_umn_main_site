@@ -34,4 +34,25 @@
 
 <br />
 
+
+<table>
+  <tr>
+    <td colspan="2">
+      <h1>Organizations</h1>
+    </td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>email</td>
+  </tr>
+  <% @organizations.each do |organization| %>
+  <tr>
+    <td><%= organization.name %></td>
+    <td><%= organization.email %></td>
+  </tr>
+  <% end %>
+</table>
+<br />
+
 <%= link_to 'New Event', new_event_path %>
+
