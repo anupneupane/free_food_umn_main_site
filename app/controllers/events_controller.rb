@@ -13,6 +13,7 @@ class EventsController < ApplicationController
 
   def index
     @events = Event.all
+    @organizations = Organization.all
 
     respond_to do |format|
       format.html # index.html.erb
