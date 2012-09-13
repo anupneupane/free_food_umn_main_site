@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120911052351) do
+ActiveRecord::Schema.define(:version => 20120913224409) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -59,9 +59,9 @@ ActiveRecord::Schema.define(:version => 20120911052351) do
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
     t.string   "name"
-    t.boolean  "approved_by_admin",      :default => false
     t.string   "url"
     t.text     "description"
+    t.boolean  "approved_by_admin",      :default => false
   end
 
   add_index "organizations", ["email"], :name => "index_organizations_on_email", :unique => true
