@@ -15,7 +15,7 @@
 <% end %>
 
 <% content_for :date_view do %>
-<div class="calendar month_view">
+<div class="month_view">
 <%= calendar_for(@events, :year => @calendar_year.to_i, :month => @calendar_month.to_i) do |t| %>
   <%= t.head('sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat') %>
   <%= t.day do |day, tasks| %>

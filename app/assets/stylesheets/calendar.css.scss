@@ -1,17 +1,4 @@
-.calendar {
-    td {
-        width: 200px;
-        height: 170px;
-        border: 1px solid black;
-        span {
-            float: left;
-        }
-        .events {
-            height:170px;
-            overflow: auto;
-        }
-    }
-}
+
 
 .month_view, .week_view {
     .paragraph_hyperlink, .date {
@@ -29,8 +16,27 @@
     }
 }
 
+.week_view_item {
+    overflow: auto;
+    height: 200px;
+}
+
+
+
 .month_view {
     padding-right: 2px;
+    td {
+        width: 200px;
+        height: 170px;
+        border: 1px solid black;
+        span {
+            float: left;
+        }
+        .events {
+            height:170px;
+            overflow: auto;
+        }
+    }
     .date {
         margin-top: -10px;
         font-weight: bold;
