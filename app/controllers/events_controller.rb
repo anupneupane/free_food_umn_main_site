@@ -12,7 +12,7 @@ class EventsController < ApplicationController
   end
 
   def index
-    @events = Event.all
+    @events = Event.order("created_at DESC").all
     @organizations = Organization.all
 
     respond_to do |format|
