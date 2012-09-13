@@ -8,6 +8,8 @@ FreeFoodUmn::Application.routes.draw do
   resources :events
 
   devise_for :admins
+  match '/admin' => redirect('/events')
+
   devise_for :organizations
   match '/create_event' => 'events#create_event_from_session_stored_params'
 
