@@ -14,12 +14,13 @@
 
 <% @events.each do |event| %>
   <tr>
+    
+    <td id="approve<%= event.id %>">
     <% if event.approved_by_admin == false %>
-      <td id="approve<%= event.id %>">
-        <a href="javascript:admin_approve(<%= event.id %>)">approve</a>
-      </td>
-      <% else %>
-        <td></td>
+      <a id="admin_approve_event_<%= event.id %>" class="admin_approve_event" value="<%= event.id %>">approve</a>
+    <% else %>
+    </td>
+
     <% end %>
     <td><%= event.name %></td>
     <td><%= event.description %></td>
@@ -42,11 +43,19 @@
     </td>
   </tr>
   <tr>
+    <td></td>
     <td>name</td>
     <td>email</td>
   </tr>
   <% @organizations.each do |organization| %>
   <tr>
+    
+    <td id="approve_organization_td_<%= organization.id %>">
+    <% if organization.approved_by_admin == false %>
+      <a id="admin_approve_organization_<%= organization.id %>" class="admin_approve_organization" value="<%= organization.id %>">approve</a>
+    <% end %>
+    </td>
+    
     <td><%= organization.name %></td>
     <td><%= organization.email %></td>
   </tr>
@@ -56,3 +65,21 @@
 
 <%= link_to 'New Event', new_event_path %>
 
+<script type="text/javascript">
+  $(".admin_approve_event").click(function() {
+  id = $(this).attr('value');
+  $.get("/admin_approve_event/"+id,
+   function(data){
+   $('#approve'+id).html('');
+   });
+  });
+
+  $(".admin_approve_organization").click(function() {
+  id = $(this).attr('value');
+  $.get("/admin_approve_organization/"+id,
+   function(data){
+   $('#approve_organization_td_'+id).html('');
+   });
+  });
+
+</script>
