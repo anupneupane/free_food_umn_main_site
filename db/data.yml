@@ -1,0 +1,201 @@
+
+---
+admins:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - gkiss25@gmail.com
+    - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
+    - 
+    - 
+    - '2012-09-07 07:32:15.813990'
+    - 12
+    - '2012-09-10 15:58:49.109692'
+    - '2012-09-10 06:43:43.849293'
+    - 97.86.232.127
+    - 97.86.232.127
+    - '2012-09-07 06:14:27.241942'
+    - '2012-09-10 15:58:49.110400'
+
+---
+events:
+  columns:
+  - id
+  - name
+  - description
+  - date
+  - end_date
+  - created_at
+  - updated_at
+  - google_maps_url
+  - group_url
+  - approved_by_admin
+  - location
+  - group_name
+  - long_description
+  records: 
+  - - 13
+    - Free Comedy Screening
+    - Dinner, movie, gift bags, and prize drawings
+    - '2012-09-06 19:00:00.000000'
+    - '2012-09-07 04:00:00.000000'
+    - '2012-09-09 05:14:28.262415'
+    - '2012-09-09 18:04:14.770030'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - 
+    - true
+    - Coffman Union, Mississippi Room
+    - 
+    - ! "Want free pizza? Free gift bags?\r\nFOX and Xfinity invite you and your friends
+      to a private screening of THE NEW FOX TUESDAY! We’ll be screening the premiere
+      episodes of two new FOX comedies, BEN AND KATE and THE MINDY PROJECT. There
+      will be special prizes for trivia winners (URBAN EARS HEADPHONES), and free
+      pizza and gift bags for all who attend! So join us Thursday, September 6th at
+      7pm in the MISSISSIPPI Room in the Coffman Memorial Union. See you there!"
+  - - 14
+    - HMSA's Back 2 School BBQ
+    - Hot dogs, hamburgers, volleyball and football!
+    - '2012-09-07 19:00:00.000000'
+    - '2012-09-08 04:00:00.000000'
+    - '2012-09-09 05:20:44.838237'
+    - '2012-09-09 18:07:20.200035'
+    - https://maps.google.com/maps?q=East+River+Flats,+Minneapolis,+MN&hl=en&ll=44.970248,-93.233993&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=east+ri&t=h&hq=East+River+Flats,+Minneapolis,+MN&z=16
+    - 
+    - true
+    - East River Flats
+    - 
+    - Come join us, the Hmong Minnesota Student Association on Friday September 7th
+      from 12PM to 5PM as we host our annual Back to School BBQ. Mingle. Play. Eat.
+      It's all in good fun and best of all, the food is FREE! What more can you ask
+      for? Come out and say hello to new and old friends. See you there.
+  - - 16
+    - New Student Welcome Night 2012
+    - Korean BBQ
+    - '2012-09-05 18:00:00.000000'
+    - '2012-09-06 03:00:00.000000'
+    - '2012-09-10 05:09:53.037986'
+    - '2012-09-10 05:09:53.037986'
+    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
+    - 
+    - true
+    - Coffman Theater
+    - 
+    - Be sure to not miss the biggest event on our calendar! New Student Welcome Night
+      is an event where freshmen, transfer students, and returning students alike
+      can come and enjoy a night of live music, a hilarious skit, a thought-provoking
+      and engaging talk, and of course….delicious FREE KOREAN BBQ! Whether you are
+      coming for one or all of these reasons, all students are welcome!
+  - - 17
+    - ¡Viva Kiva! Back to School BBQ
+    - Dinner, pinata, slip-n-slide, bonfire!
+    - '2012-09-07 18:00:00.000000'
+    - '2012-09-08 03:00:00.000000'
+    - '2012-09-10 05:45:31.979690'
+    - '2012-09-10 05:45:31.979690'
+    - http://maps.google.com/maps?q=1077+22nd+ave+se&hl=en&hnear=1077+22nd+Ave+SE,+Minneapolis,+Minnesota+55413&t=m&z=16
+    - 
+    - true
+    - 1077 22nd Ave SE (In Como)
+    - 
+    - Menu includes empanadas, vegetarian hotdogs, and fruits & veggies from the University's
+      Organic Farm!
+  - - 18
+    - Innovative Engineers first meeting
+    - Free pizza!
+    - '2012-09-07 15:00:00.000000'
+    - '2012-09-07 20:00:00.000000'
+    - '2012-09-10 05:49:42.413918'
+    - '2012-09-10 05:49:42.413918'
+    - ''
+    - 
+    - true
+    - STSS 312
+    - 
+    - Everyone is welcome! Come check us out!
+  - - 19
+    - Gamma-Beta Cookout
+    - Grilling & fun
+    - '2012-09-14 15:00:00.000000'
+    - '2012-09-14 21:00:00.000000'
+    - '2012-09-10 08:41:28.611341'
+    - '2012-09-10 08:41:28.611341'
+    - ''
+    - 
+    - true
+    - Coffman
+    - 
+    - ''
+  - - 20
+    - WSAC Open House
+    - Free Falafels!
+    - '2012-09-12 14:00:00.000000'
+    - '2012-09-12 18:00:00.000000'
+    - '2012-09-10 08:47:10.272854'
+    - '2012-09-10 08:47:10.272854'
+    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
+    - 
+    - true
+    - Coffman Union 202
+    - 
+    - Come to meet and get to know the Women's Student Activist Collective! Look around
+      our awesome space (Coffman 202) whilst eating FREE FANTASTIC FEMINIST FALAFELS.
+
+---
+organizations:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  - name
+  records: 
+  - - 1
+    - test@test.com
+    - $2a$10$h4Uitai84o2/PJeVQeFfd.WBtmAFpkd.8rq9wAvEFUDw78obNEWU6
+    - 
+    - 
+    - 
+    - 1
+    - '2012-09-10 02:18:21.111493'
+    - '2012-09-10 02:18:21.111493'
+    - 97.86.232.127
+    - 97.86.232.127
+    - '2012-09-10 02:18:21.105960'
+    - '2012-09-10 02:18:21.112308'
+    - ! 'test test asd '
+  - - 2
+    - gkiss25@gmail.com
+    - $2a$10$eXLfXb30ph4Wnowwx/rD7ubEan1riSISyPND4m4zUr4Ox2crnW36O
+    - 
+    - 
+    - 
+    - 1
+    - '2012-09-10 03:00:43.198808'
+    - '2012-09-10 03:00:43.198808'
+    - 160.94.87.2
+    - 160.94.87.2
+    - '2012-09-10 03:00:43.193700'
+    - '2012-09-10 03:00:43.199820'
+    - SMD
