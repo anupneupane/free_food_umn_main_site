@@ -5,7 +5,7 @@ class Event < ActiveRecord::Base
   attr_accessible :name, :description, :meridian_indicator,
                   :google_maps_url, :group_url, :date_string,
                   :duration, :start_time_string,
-                  :location, :group_name, :long_description
+                  :location, :long_description
 
   VALID_DATE_STRING_REGEX = /\d{4,4}-\d{1,2}-\d{2,2}/i
   validates :date_string, presence: true, format: { with: VALID_DATE_STRING_REGEX }
@@ -22,6 +22,8 @@ class Event < ActiveRecord::Base
   validates :name, :presence => true
   validates :description, :presence => true
   #validates :location, :presence => true, :unless => "google_maps_url.nil?"
+
+  belongs_to :organization
 
   before_save { |event|
     event.date = starting_date

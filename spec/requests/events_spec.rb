@@ -50,9 +50,9 @@ describe "when I fill out the new event form" do
 
       it { Event.count.should == 1 }
 
-      it { Event.first.group_name.should == "Test Organization" }
+      it { Event.first.organization.name.should == "Test Organization" }
 
-      describe "make organization admin-approved" do
+      describe "if organization admin-approved" do
         before do
           organization = Organization.first
           organization.update_attribute(:approved_by_admin, true)
@@ -60,17 +60,28 @@ describe "when I fill out the new event form" do
 
         it { Organization.first.approved_by_admin.should == true }
 
-        describe "visit appropriate places to insure admin approval works" do
-          it do
-            visit '/'
-            save_and_open_page
-            page.should have_selector('p', :text => 'Chess Club meeting')
-          end
-          it do
-            id = Event.first.id
-            visit "/events/#{id}"
-            page.should have_selector('p', :text => "By: Test Organization")
-          end
+        it do
+          visit '/'
+          page.should have_selector('p', :text => 'Chess Club meeting')
+        end
+
+        it do
+          id = Event.first.id
+          visit "/events/#{id}"
+          page.should have_selector('p', :text => "By: Test Organization")
+        end
+      end
+
+      describe "if organization not admin-approved" do
+        it do
+          visit '/'
+          page.should_not have_selector('p', :text => 'Chess Club meeting')
+        end
+
+        it do
+          id = Event.first.id
+          visit "/events/#{id}"
+          page.should_not have_selector('p', :text => "By: Test Organization")
         end
       end
 

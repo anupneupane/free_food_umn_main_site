@@ -1,25 +1,8 @@
 
 class EventsController < ApplicationController
-  # GET /events
-  # GET /events.json
 
   before_filter :authenticate_admin!, :only => [:index, :update, :destroy, :edit]
   before_filter :authenticate_organization!, :only => [:create_event_from_session_stored_params]
-
-  def admin_approve
-    event_to_approve = Event.find(params[:id])
-    event_to_approve.update_column(:approved_by_admin, true)
-  end
-
-  def index
-    @events = Event.order("created_at DESC").all
-    @organizations = Organization.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @events }
-    end
-  end
 
   # GET /events/1
   # GET /events/1.json
@@ -78,9 +61,8 @@ class EventsController < ApplicationController
   def create_event_from_session_stored_params
     params = session[:stored_params]
     session[:stored_params] = nil
-    params[:group_name] = current_organization.name
-    @event = Event.new(params)
-    if @event.save
+    organization = Organization.where(email: current_organization.email).first
+    if organization.events.create(params)
       redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.'
     else
       render action: "new"

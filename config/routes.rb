@@ -8,7 +8,7 @@ FreeFoodUmn::Application.routes.draw do
   resources :events
 
   devise_for :admins
-  match '/admin' => redirect('/events')
+  match '/admin' => "admin#index"
 
   devise_for :organizations
   match '/create_event' => 'events#create_event_from_session_stored_params'
@@ -21,7 +21,8 @@ FreeFoodUmn::Application.routes.draw do
   match '/view_by_week' => "date_view#view_by_week", :as => 'root'
   match '/view_by_week/:year/:month/:day' => "date_view#view_by_week"
 
-  match '/admin_approve_event/:id' => "events#admin_approve"
+  match '/admin_approve_event/:id' => "admin#admin_approve_event"
+  match '/admin_approve_organization/:id' => "admin#admin_approve_organization"
 
   #hacks to get around fact that delete requests are not working for some reason
   devise_scope :organization do
@@ -31,6 +32,7 @@ FreeFoodUmn::Application.routes.draw do
     match '/admins/signout' => 'devise/sessions#destroy'
   end
   match '/delete/event/:id' => "events#destroy"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

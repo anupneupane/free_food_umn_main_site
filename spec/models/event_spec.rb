@@ -18,10 +18,8 @@ describe Event do
                     start_time_string: "10:10",
                     meridian_indicator: "pm",
                     duration: "2:20",
-                    group_url: "http://www.test.com",
                     google_maps_url: 'http://maps.google.com',
-                    location: "coffman",
-                    group_name: "chess club")
+                    location: "coffman")
       Event.find_by_name("title")
     end
 
@@ -29,7 +27,6 @@ describe Event do
     it { event.description.should == "New event" }
     it { (event.end_date - event.date).should == 60*60 * (2 + 2.0/6) }
     it { event.date.strftime("%_m/%d/%Y %l:%M %P").strip.should == "1/11/2012 10:10 pm" }
-    it { event.group_url.should == "http://www.test.com" }
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
@@ -39,11 +36,10 @@ describe Event do
           "name"=>"title",
           "description"=>"New event",
           "google_maps_url"=>'http://maps.google.com',
-          "group_url"=>"http://www.test.com",
           "approved_by_admin"=>false,
           "location"=>"coffman",
-          "group_name"=>"chess club",
-          "long_description"=>nil
+          "long_description"=>nil,
+          "organization_id"=>nil,
         }
         event_created = event.attributes
         event_created.delete "id"
@@ -61,10 +57,8 @@ describe Event do
                     start_time_string: "10:10",
                     meridian_indicator: "pm",
                     duration: "2:20",
-                    group_url: "http://www.test.com",
                     google_maps_url: 'http://maps.google.com',
-                    location: "different location",
-                    group_name: "chess club"})
+                    location: "different location"})
       event.location.should == "different location"
     end
   end
@@ -79,10 +73,8 @@ describe Event do
       event.start_time_string = "10:10"
       event.meridian_indicator =  "pm"
       event.duration = "2:20"
-      event.group_url = "http://www.test.com"
       event.google_maps_url = 'http://maps.google.com'
       event.location = "coffman"
-      event.group_name = "chess club"
       event.save
       Event.find_by_name("title")
     end
@@ -91,7 +83,6 @@ describe Event do
     it { event.description.should == "New event" }
     it { (event.end_date - event.date).should == 60*60 * (2 + 2.0/6) }
     it { event.date.strftime("%_m/%d/%Y %l:%M %P").strip.should == "1/11/2012 10:10 pm" }
-    it { event.group_url.should == "http://www.test.com" }
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
@@ -108,8 +99,7 @@ describe Event do
                       meridian_indicator: "122",
                       duration: "1232",
                       google_maps_url: 'http://maps.google.com',
-                      location: "coffman",
-                      group_name: "chess club")
+                      location: "coffman")
       }.to change { Event.count }.by(0)
     end
 
@@ -120,8 +110,7 @@ describe Event do
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",
-                      google_maps_url: 'http://maps.google.com',
-                      group_name: "chess club")
+                      google_maps_url: 'http://maps.google.com')
       }.to change { Event.count }.by(0)
     end
 

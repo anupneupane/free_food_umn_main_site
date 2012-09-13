@@ -17,23 +17,17 @@ $(function() {
 });
 
 
-function admin_approve(id) {
-  $.get("/admin_approve_event/"+id, { id: id },
-   function(data){
-    $('#approve'+id).html('');
-   });
-}
-
 //'displayFormat' : '#input/#max | #words words'
-			var info;
-			$(document).ready(function(){
-				var options2 = {
-						'maxCharacterSize': 55,
-						'originalStyle': 'originalTextareaInfo',
-						'warningStyle' : 'warningTextareaInfo',
-						'warningNumber': 40,
-						'displayFormat' : 'character limit: #input/#max'
-				};
-				$('#event_description').textareaCount(options2);
+var info;
+$(document).ready(function(){
+  var options2 = {
+      'maxCharacterSize': 55,
+      'originalStyle': 'originalTextareaInfo',
+      'warningStyle' : 'warningTextareaInfo',
+      'warningNumber': 40,
+      'displayFormat' : 'character limit: #input/#max'
+  };
+  $('#event_description').textareaCount(options2);
 
-			});
+});
+
