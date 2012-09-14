@@ -53,13 +53,15 @@ describe Event do
     it "should be able to update events" do
       event.update_attributes({name: "title",
                     description: "New event",
-                    date_string: "2012-1-11",
-                    start_time_string: "10:10",
-                    meridian_indicator: "pm",
-                    duration: "2:20",
+                    date_string: "2015-3-13",
+                    start_time_string: "7:15",
+                    meridian_indicator: "am",
+                    duration: "1:15",
                     google_maps_url: 'http://maps.google.com',
                     location: "different location"})
       event.location.should == "different location"
+      event.date.should == DateTime.parse('13th Mar 2015 07:15:00 AM')
+      event.end_date.should == DateTime.parse('13th Mar 2015 08:30:00 AM')
     end
   end
 

@@ -48,6 +48,22 @@ describe "Admin page" do
         it "should be logged in" do
           page.should have_selector("h1", text: "Listing events")
         end
+
+        describe "editing an event" do
+          before do
+            click_link "Edit"
+            fill_in "event_date_string", with: "2015-3-15"
+            fill_in "event_start_time_string", with: "11:15"
+            choose 'event_meridian_indicator_pm'
+            fill_in "event_duration", with: "3:15"
+            click_button "Update Event"
+          end
+          it "Event should be changed" do
+            event = Event.first
+            event.date.should == DateTime.parse('15th Mar 2015 11:15:00 PM')
+            event.end_date.should == DateTime.parse('16th Mar 2015 02:30:00 AM')
+          end
+        end
         #javascript tests are unfortunately not working as of now
         #describe "click approve event", :js => true do
         #  it { Event.where(:approved_by_admin => true).count.should == 0 }
