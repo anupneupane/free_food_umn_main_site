@@ -12,11 +12,14 @@ gem "watu_table_builder", :require => "table_builder"
 gem 'formtastic'
 
 gem 'yaml_db'
-
 gem 'spork'
 gem 'sqlite3'
+#gem 'rb-inotify', '~> 0.8.8'
+
+gem 'mobile-fu'
 
 gem 'jquery-ui-rails'
+#gem "capybara-webkit"
 
 # Gems used only for assets and not required
 # in production environments by default.

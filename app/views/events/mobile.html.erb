@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+
+<body>
+  
+
+<% datestring = "%B, %_d" %>
+<% date = @events.length > 0 ? DateTime.now : @events[0].date %>
+<% date = date.strftime(datestring) %>
+
+<%= image_tag "mobile_logo.png" %><br />
+
+<% if @events[0].date.today? %>
+  <h2>Today</h2>
+<% end %>
+
+<% @events.each do |event| %>
+
+  <% if event.date.strftime(datestring) != date %>
+    <% date = event.date.strftime(datestring) %>
+    <h2><%= date %></h2>
+  <% end %>
+
+  <p>
+    <strong><%= event.name %></strong> |
+    <%= event.description %> |
+    <strong><%= format_hours(event.date) %> - <%= format_hours(event.end_date) %></strong> |
+  <% if event.google_maps_url? %>
+    <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
+  <% else %>
+    <% if event.location? %>
+      <%= event.location %>
+    <% end %>
+  <% end %>
+  </p>
+
+  <br />
+<% end %>
+
+</body>
+</html>
