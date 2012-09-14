@@ -21,137 +21,14 @@ admins:
     - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
     - 
     - 
-    - '2012-09-07 07:32:15.813990'
-    - 12
-    - '2012-09-10 15:58:49.109692'
-    - '2012-09-10 06:43:43.849293'
-    - 97.86.232.127
-    - 97.86.232.127
+    - '2012-09-14 04:23:06.548180'
+    - 22
+    - '2012-09-14 14:54:18.330860'
+    - '2012-09-14 04:23:06.552049'
+    - 146.57.249.82
+    - 146.57.249.82
     - '2012-09-07 06:14:27.241942'
-    - '2012-09-10 15:58:49.110400'
-
----
-events:
-  columns:
-  - id
-  - name
-  - description
-  - date
-  - end_date
-  - created_at
-  - updated_at
-  - google_maps_url
-  - group_url
-  - approved_by_admin
-  - location
-  - group_name
-  - long_description
-  records: 
-  - - 13
-    - Free Comedy Screening
-    - Dinner, movie, gift bags, and prize drawings
-    - '2012-09-06 19:00:00.000000'
-    - '2012-09-07 04:00:00.000000'
-    - '2012-09-09 05:14:28.262415'
-    - '2012-09-09 18:04:14.770030'
-    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
-    - 
-    - true
-    - Coffman Union, Mississippi Room
-    - 
-    - ! "Want free pizza? Free gift bags?\r\nFOX and Xfinity invite you and your friends
-      to a private screening of THE NEW FOX TUESDAY! We’ll be screening the premiere
-      episodes of two new FOX comedies, BEN AND KATE and THE MINDY PROJECT. There
-      will be special prizes for trivia winners (URBAN EARS HEADPHONES), and free
-      pizza and gift bags for all who attend! So join us Thursday, September 6th at
-      7pm in the MISSISSIPPI Room in the Coffman Memorial Union. See you there!"
-  - - 14
-    - HMSA's Back 2 School BBQ
-    - Hot dogs, hamburgers, volleyball and football!
-    - '2012-09-07 19:00:00.000000'
-    - '2012-09-08 04:00:00.000000'
-    - '2012-09-09 05:20:44.838237'
-    - '2012-09-09 18:07:20.200035'
-    - https://maps.google.com/maps?q=East+River+Flats,+Minneapolis,+MN&hl=en&ll=44.970248,-93.233993&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=east+ri&t=h&hq=East+River+Flats,+Minneapolis,+MN&z=16
-    - 
-    - true
-    - East River Flats
-    - 
-    - Come join us, the Hmong Minnesota Student Association on Friday September 7th
-      from 12PM to 5PM as we host our annual Back to School BBQ. Mingle. Play. Eat.
-      It's all in good fun and best of all, the food is FREE! What more can you ask
-      for? Come out and say hello to new and old friends. See you there.
-  - - 16
-    - New Student Welcome Night 2012
-    - Korean BBQ
-    - '2012-09-05 18:00:00.000000'
-    - '2012-09-06 03:00:00.000000'
-    - '2012-09-10 05:09:53.037986'
-    - '2012-09-10 05:09:53.037986'
-    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
-    - 
-    - true
-    - Coffman Theater
-    - 
-    - Be sure to not miss the biggest event on our calendar! New Student Welcome Night
-      is an event where freshmen, transfer students, and returning students alike
-      can come and enjoy a night of live music, a hilarious skit, a thought-provoking
-      and engaging talk, and of course….delicious FREE KOREAN BBQ! Whether you are
-      coming for one or all of these reasons, all students are welcome!
-  - - 17
-    - ¡Viva Kiva! Back to School BBQ
-    - Dinner, pinata, slip-n-slide, bonfire!
-    - '2012-09-07 18:00:00.000000'
-    - '2012-09-08 03:00:00.000000'
-    - '2012-09-10 05:45:31.979690'
-    - '2012-09-10 05:45:31.979690'
-    - http://maps.google.com/maps?q=1077+22nd+ave+se&hl=en&hnear=1077+22nd+Ave+SE,+Minneapolis,+Minnesota+55413&t=m&z=16
-    - 
-    - true
-    - 1077 22nd Ave SE (In Como)
-    - 
-    - Menu includes empanadas, vegetarian hotdogs, and fruits & veggies from the University's
-      Organic Farm!
-  - - 18
-    - Innovative Engineers first meeting
-    - Free pizza!
-    - '2012-09-07 15:00:00.000000'
-    - '2012-09-07 20:00:00.000000'
-    - '2012-09-10 05:49:42.413918'
-    - '2012-09-10 05:49:42.413918'
-    - ''
-    - 
-    - true
-    - STSS 312
-    - 
-    - Everyone is welcome! Come check us out!
-  - - 19
-    - Gamma-Beta Cookout
-    - Grilling & fun
-    - '2012-09-14 15:00:00.000000'
-    - '2012-09-14 21:00:00.000000'
-    - '2012-09-10 08:41:28.611341'
-    - '2012-09-10 08:41:28.611341'
-    - ''
-    - 
-    - true
-    - Coffman
-    - 
-    - ''
-  - - 20
-    - WSAC Open House
-    - Free Falafels!
-    - '2012-09-12 14:00:00.000000'
-    - '2012-09-12 18:00:00.000000'
-    - '2012-09-10 08:47:10.272854'
-    - '2012-09-10 08:47:10.272854'
-    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
-    - 
-    - true
-    - Coffman Union 202
-    - 
-    - Come to meet and get to know the Women's Student Activist Collective! Look around
-      our awesome space (Coffman 202) whilst eating FREE FANTASTIC FEMINIST FALAFELS.
+    - '2012-09-14 14:54:18.331373'
 
 ---
 organizations:
@@ -170,6 +47,8 @@ organizations:
   - created_at
   - updated_at
   - name
+  - approved_by_admin
+  - url
   records: 
   - - 1
     - test@test.com
@@ -185,6 +64,8 @@ organizations:
     - '2012-09-10 02:18:21.105960'
     - '2012-09-10 02:18:21.112308'
     - ! 'test test asd '
+    - false
+    - 
   - - 2
     - gkiss25@gmail.com
     - $2a$10$eXLfXb30ph4Wnowwx/rD7ubEan1riSISyPND4m4zUr4Ox2crnW36O
@@ -199,3 +80,323 @@ organizations:
     - '2012-09-10 03:00:43.193700'
     - '2012-09-10 03:00:43.199820'
     - SMD
+    - false
+    - 
+
+---
+events:
+  columns:
+  - id
+  - name
+  - description
+  - date
+  - end_date
+  - created_at
+  - updated_at
+  - google_maps_url
+  - approved_by_admin
+  - location
+  - long_description
+  - organization_id
+  records: 
+  - - 13
+    - Free Comedy Screening
+    - Dinner, movie, gift bags, and prize drawings
+    - '2012-09-06 19:00:00.000000'
+    - '2012-09-07 04:00:00.000000'
+    - '2012-09-09 05:14:28.262415'
+    - '2012-09-09 18:04:14.770030'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Union, Mississippi Room
+    - ! "Want free pizza? Free gift bags?\r\nFOX and Xfinity invite you and your friends
+      to a private screening of THE NEW FOX TUESDAY! We’ll be screening the premiere
+      episodes of two new FOX comedies, BEN AND KATE and THE MINDY PROJECT. There
+      will be special prizes for trivia winners (URBAN EARS HEADPHONES), and free
+      pizza and gift bags for all who attend! So join us Thursday, September 6th at
+      7pm in the MISSISSIPPI Room in the Coffman Memorial Union. See you there!"
+    - 
+  - - 14
+    - HMSA's Back 2 School BBQ
+    - Hot dogs, hamburgers, volleyball and football!
+    - '2012-09-07 19:00:00.000000'
+    - '2012-09-08 04:00:00.000000'
+    - '2012-09-09 05:20:44.838237'
+    - '2012-09-09 18:07:20.200035'
+    - https://maps.google.com/maps?q=East+River+Flats,+Minneapolis,+MN&hl=en&ll=44.970248,-93.233993&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=east+ri&t=h&hq=East+River+Flats,+Minneapolis,+MN&z=16
+    - true
+    - East River Flats
+    - Come join us, the Hmong Minnesota Student Association on Friday September 7th
+      from 12PM to 5PM as we host our annual Back to School BBQ. Mingle. Play. Eat.
+      It's all in good fun and best of all, the food is FREE! What more can you ask
+      for? Come out and say hello to new and old friends. See you there.
+    - 
+  - - 16
+    - New Student Welcome Night 2012
+    - Korean BBQ
+    - '2012-09-05 18:00:00.000000'
+    - '2012-09-06 03:00:00.000000'
+    - '2012-09-10 05:09:53.037986'
+    - '2012-09-10 05:09:53.037986'
+    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
+    - true
+    - Coffman Theater
+    - Be sure to not miss the biggest event on our calendar! New Student Welcome Night
+      is an event where freshmen, transfer students, and returning students alike
+      can come and enjoy a night of live music, a hilarious skit, a thought-provoking
+      and engaging talk, and of course….delicious FREE KOREAN BBQ! Whether you are
+      coming for one or all of these reasons, all students are welcome!
+    - 
+  - - 17
+    - ¡Viva Kiva! Back to School BBQ
+    - Dinner, pinata, slip-n-slide, bonfire!
+    - '2012-09-07 18:00:00.000000'
+    - '2012-09-08 03:00:00.000000'
+    - '2012-09-10 05:45:31.979690'
+    - '2012-09-10 05:45:31.979690'
+    - http://maps.google.com/maps?q=1077+22nd+ave+se&hl=en&hnear=1077+22nd+Ave+SE,+Minneapolis,+Minnesota+55413&t=m&z=16
+    - true
+    - 1077 22nd Ave SE (In Como)
+    - Menu includes empanadas, vegetarian hotdogs, and fruits & veggies from the University's
+      Organic Farm!
+    - 
+  - - 18
+    - Innovative Engineers first meeting
+    - Free pizza!
+    - '2012-09-07 15:00:00.000000'
+    - '2012-09-07 20:00:00.000000'
+    - '2012-09-10 05:49:42.413918'
+    - '2012-09-10 05:49:42.413918'
+    - ''
+    - true
+    - STSS 312
+    - Everyone is welcome! Come check us out!
+    - 
+  - - 19
+    - Gamma-Beta Cookout
+    - Grilling & fun
+    - '2012-09-14 15:00:00.000000'
+    - '2012-09-14 21:00:00.000000'
+    - '2012-09-10 08:41:28.611341'
+    - '2012-09-10 08:41:28.611341'
+    - ''
+    - true
+    - Coffman
+    - ''
+    - 
+  - - 20
+    - WSAC Open House
+    - Free Falafels!
+    - '2012-09-12 14:00:00.000000'
+    - '2012-09-12 18:00:00.000000'
+    - '2012-09-10 08:47:10.272854'
+    - '2012-09-10 08:47:10.272854'
+    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
+    - true
+    - Coffman Union 202
+    - Come to meet and get to know the Women's Student Activist Collective! Look around
+      our awesome space (Coffman 202) whilst eating FREE FANTASTIC FEMINIST FALAFELS.
+    - 
+  - - 21
+    - Business Fair
+    - Free Qdoba, Jimmy John's, t-shirts, and much more!
+    - '2012-09-10 08:00:00.000000'
+    - '2012-09-10 10:00:00.000000'
+    - '2012-09-11 00:24:53.148573'
+    - '2012-09-11 00:24:53.148573'
+    - ''
+    - true
+    - Coffman Front Lawn
+    - Many businesses from around the U will be handing out a lot of free stuff to
+      hopefully win your patronage.
+    - 
+  - - 22
+    - General Mills Breakfast
+    - Free breakfast!
+    - '2012-09-10 09:00:00.000000'
+    - '2012-09-10 20:30:00.000000'
+    - '2012-09-11 00:27:48.691056'
+    - '2012-09-11 00:27:48.691056'
+    - ''
+    - true
+    - Lind Hall Library
+    - General Mills is sponsoring a free breakfast with muffins and cereal!
+    - 
+  - - 23
+    - Glow-in-the-Dark Frisbee
+    - Pizza and frisbee
+    - '2012-09-04 19:00:00.000000'
+    - '2012-09-05 04:00:00.000000'
+    - '2012-09-13 01:39:42.672476'
+    - '2012-09-13 01:39:42.672476'
+    - ''
+    - true
+    - Coffman Lawn
+    - Acts2Fellowship
+    - 
+  - - 24
+    - Labor Day Picnic
+    - Hamburgers and hotdogs!
+    - '2012-09-03 12:00:00.000000'
+    - '2012-09-03 15:00:00.000000'
+    - '2012-09-13 01:41:50.817441'
+    - '2012-09-13 01:41:50.817441'
+    - ''
+    - true
+    - Coffman Lawn
+    - Acts2Fellowship
+    - 
+  - - 25
+    - Smoothie Social
+    - Smoothies and friendship!
+    - '2012-08-30 18:30:00.000000'
+    - '2012-08-31 02:30:00.000000'
+    - '2012-09-13 01:44:04.834432'
+    - '2012-09-13 01:44:04.834432'
+    - ''
+    - true
+    - Coffman 303
+    - Acts2Fellowship
+    - 
+  - - 26
+    - BSU & NSBE BBQ
+    - Barbecue and music
+    - '2012-08-03 15:00:00.000000'
+    - '2012-08-03 22:00:00.000000'
+    - '2012-09-13 03:56:19.701082'
+    - '2012-09-13 03:56:19.701082'
+    - ''
+    - true
+    - Superblock
+    - Black Student Union is teaming up with the National Society of Black Engineers
+      for a Labor Day BBQ filled with food, music, and good company.
+    - 
+  - - 29
+    - BSU Kick-Off
+    - Dinner
+    - '2012-09-19 16:00:00.000000'
+    - '2012-09-19 22:00:00.000000'
+    - '2012-09-13 13:47:10.682303'
+    - '2012-09-13 13:52:35.839925'
+    - ''
+    - true
+    - Northrop Plaza
+    - Meet the 2012-2013 Black Student Union Executive board, eat good food, & watch
+      as multi-cultural Greek organizations participate in a stroll-off.
+    - 
+  - - 30
+    - BSU General Membership Meeting
+    - Soul food
+    - '2012-09-28 16:00:00.000000'
+    - '2012-09-28 22:00:00.000000'
+    - '2012-09-13 13:51:11.056831'
+    - '2012-09-13 13:51:11.056831'
+    - ''
+    - true
+    - Coffman 209
+    - The Black Student Union will be welcoming new students as well as catching up
+      with returning ones at the first general membership meeting of the year. Get
+      ready to get updates on what the board has in store for the upcoming school
+      year, ways to get involved, and enjoy soul food catered by Lady O.
+    - 
+  - - 31
+    - Fab Launch Party
+    - Bruegger's Bagels
+    - '2012-09-13 16:30:00.000000'
+    - '2012-09-13 23:30:00.000000'
+    - '2012-09-13 19:13:14.565098'
+    - '2012-09-13 19:13:14.565098'
+    - ''
+    - true
+    - Outdoor Plaza between Northrop & Rapson
+    - ! 'Join us for a behind-the-scenes look at the making of TWIN, the debut of
+      our September Issue, mocktails, a DJ, beauty styling, Bruegger''s Bagels,exclusive
+      discounts, FAB: Fashion & Businss involvement and membership sign up, and SO
+      much more!'
+    - 
+  - - 32
+    - Amnesty International kick-off
+    - Free food
+    - '2012-09-12 19:00:00.000000'
+    - '2012-09-13 03:30:00.000000'
+    - '2012-09-13 19:33:07.215100'
+    - '2012-09-13 19:33:07.215100'
+    - ''
+    - true
+    - Coffman room 302
+    - ''
+    - 
+  - - 34
+    - BLW Kick-off Event
+    - Free Food!!!!
+    - '2012-09-14 18:00:00.000000'
+    - '2012-09-15 01:00:00.000000'
+    - '2012-09-14 01:58:19.623513'
+    - '2012-09-14 01:58:19.623513'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Memorial Union, President's Room
+    - ! 'The New Miracle Life: An all conquering, invincible, indestructible, untouchable
+      life!'
+    - 
+  - - 35
+    - Chip Samples
+    - Free chips
+    - '2012-09-13 11:00:00.000000'
+    - '2012-09-13 12:00:00.000000'
+    - '2012-09-14 02:03:13.258835'
+    - '2012-09-14 02:03:13.258835'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Gopher Express in Coffman
+    - ''
+    - 
+  - - 36
+    - Welcome Geek
+    - snacks and Vitamin Water
+    - '2012-09-21 17:00:00.000000'
+    - '2012-09-22 03:00:00.000000'
+    - '2012-09-14 02:06:17.404015'
+    - '2012-09-14 02:06:17.404015'
+    - ''
+    - true
+    - STSS 530B
+    - Come out and meet all of your fellow gamers on campus and enjoy free snacks,
+      Vitamin Water, and gaming!
+    - 
+  - - 39
+    - The Great Fall Get Together
+    - Corn roast & BBQ
+    - '2012-10-06 19:30:00.000000'
+    - '2012-10-07 04:30:00.000000'
+    - '2012-09-14 04:25:03.430368'
+    - '2012-09-14 04:25:03.430368'
+    - https://maps.google.com/maps?q=St.+Paul+Student+Center,+Buford+Avenue,+Saint+Paul,+MN&hl=en&ll=44.985472,-93.183482&spn=0.010609,0.026157&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=saint+paul+student+center&t=h&hnear=St+Paul+Student+Center,+2017+Buford
+    - true
+    - Saint Paul Student Center, Garden Terrace
+    - Also bingo, live folk music, and prizes!
+    - 
+  - - 40
+    - Gopher Celebration
+    - Pizza & pop
+    - '2012-09-21 16:00:00.000000'
+    - '2012-09-22 00:00:00.000000'
+    - '2012-09-14 04:29:38.432684'
+    - '2012-09-14 04:29:38.432684'
+    - https://maps.google.com/maps?q=St.+Paul+Student+Center,+Buford+Avenue,+Saint+Paul,+MN&hl=en&ll=44.985472,-93.183482&spn=0.010609,0.026157&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=saint+paul+student+center&t=h&hnear=St+Paul+Student+Center,+2017+Buford
+    - true
+    - Saint Paul Student Center
+    - Bowling, food, lawn games, and arts & crafts.
+    - 
+  - - 41
+    - Gopher Spot Sample Day
+    - Desserts, snacks, beverages
+    - '2012-09-20 08:00:00.000000'
+    - '2012-09-20 17:00:00.000000'
+    - '2012-09-14 15:06:34.280283'
+    - '2012-09-14 15:06:34.280283'
+    - ''
+    - true
+    - Saint Paul Student Center, Gopher Spot
+    - Sample a variety of products at Gopher Spot from desserts, to snacks, to beverages.
+    - 
