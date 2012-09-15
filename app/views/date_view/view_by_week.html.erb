@@ -48,8 +48,9 @@
 <% end %>
 
 <% content_for :description_of_viewing_mode do %>
-Free food events for this week
+<%= @date_group %>
 <% end %>
+
 
 <% content_for :left_arrow do %>
   <%= link_to image_tag('left-arrow.png'), "/view_by_week/#{(@starting_day-7).strftime("%Y/%m/%d")}", :id => 'previous_month' %>

@@ -14,7 +14,7 @@ class DateViewController < DateViewAndUiController
     month = (params[:month] || DateTime.now.month).to_i
     day = (params[:day] || DateTime.now.day).to_i
     @starting_day = DateTime.new(year, month, day)
-    @date_group = @starting_day.strftime("the week of %_m/%d/%Y")
+    @date_group = params[:year].nil? ? 'events this week' : @starting_day.strftime("week of %_m/%d/%Y")
   end
 
   def mobile
