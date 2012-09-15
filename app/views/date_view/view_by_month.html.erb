@@ -32,6 +32,10 @@
 </div>
 <% end %>
 
+<% content_for :description_of_viewing_mode do %>
+Free food events for <%= @date_group %>
+<% end %>
+
 <% content_for :left_arrow do %>
   <%= link_to image_tag('left-arrow.png'), "/month/#{previous_month(@calendar_month.to_i)}/year/#{previous_months_year(@calendar_month.to_i, @calendar_year.to_i)}", :id => 'previous_month' %>
 <% end %>
