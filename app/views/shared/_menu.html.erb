@@ -1,7 +1,7 @@
 <div id="centeredmenu">
    <ul>
       <% menu_items.each do |menu_item| %>
-        <% if request.path == menu_item[:url] %>
+        <% if menu_item_matches_request(request.path, menu_item) %>
           <li><a href="#" class="active"><%= menu_item[:link_name] %></a></li>
         <% else %>
           <% if menu_item.has_key?(:method) %>

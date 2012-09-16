@@ -9,7 +9,20 @@
   </div>
   <div class="span4">
     <h2><%= yield :description_of_viewing_mode %></h2><br />
-    <%= yield :menu %>
+    <%= menu(
+      [
+        {
+          link_name: "view by month",
+          url: '/view_by_month',
+          regex: /\/(view_by_month|month).*/,
+        },
+        {
+          link_name: "view by week",
+          url: '/view_by_week',
+          regex: /\/view_by_week.*/,
+        },
+      ])
+    %>
   </div>
   <div class="span2">
     <%= yield :right_arrow %>

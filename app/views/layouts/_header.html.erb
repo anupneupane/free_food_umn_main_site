@@ -7,7 +7,8 @@
       menu_links = [
         {
           link_name: "Home",
-          url: "/view_by_week",
+          url: root_path,
+          regex: /\/(view_by_week|view_by_month|month).*/,
         },
         {
           link_name: "Add event",

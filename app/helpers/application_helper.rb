@@ -3,6 +3,14 @@ module ApplicationHelper
     render 'shared/menu', :menu_items => menu_items
   end
 
+  def menu_item_matches_request request, menu_item
+    if menu_item.has_key?(:regex)
+      menu_item[:regex].match(request) ? true : false
+    else
+      menu_item[:url] == request
+    end
+  end
+
   def format_hours date
     return date.strftime("%l:%M %P")
   end

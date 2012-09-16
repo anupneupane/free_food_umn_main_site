@@ -1,20 +1,4 @@
 
-
-<% content_for :menu do %>
-  <%= menu(
-    [
-      {
-        link_name: "view by month",
-        url: "/view_by_month",
-      },
-      {
-        link_name: "view by week",
-        url: "/view_by_week",
-      },
-    ])
-  %>
-<% end %>
-
 <% @day_iterator = @starting_day %>
 
 <% content_for :date_view do %>
