@@ -21,14 +21,14 @@ admins:
     - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
     - 
     - 
-    - '2012-09-14 04:23:06.548180'
-    - 22
-    - '2012-09-14 14:54:18.330860'
-    - '2012-09-14 04:23:06.552049'
+    - 
+    - 37
+    - '2012-09-17 14:53:53.893362'
+    - '2012-09-17 00:18:22.339194'
     - 146.57.249.82
-    - 146.57.249.82
+    - 97.86.232.127
     - '2012-09-07 06:14:27.241942'
-    - '2012-09-14 14:54:18.331373'
+    - '2012-09-17 18:31:44.469297'
 
 ---
 organizations:
@@ -103,9 +103,9 @@ events:
     - Free Comedy Screening
     - Dinner, movie, gift bags, and prize drawings
     - '2012-09-06 19:00:00.000000'
-    - '2012-09-07 04:00:00.000000'
+    - '2012-09-06 20:00:00.000000'
     - '2012-09-09 05:14:28.262415'
-    - '2012-09-09 18:04:14.770030'
+    - '2012-09-15 02:07:59.167176'
     - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
     - true
     - Coffman Union, Mississippi Room
@@ -119,10 +119,10 @@ events:
   - - 14
     - HMSA's Back 2 School BBQ
     - Hot dogs, hamburgers, volleyball and football!
-    - '2012-09-07 19:00:00.000000'
-    - '2012-09-08 04:00:00.000000'
+    - '2012-09-07 12:00:00.000000'
+    - '2012-09-07 17:00:00.000000'
     - '2012-09-09 05:20:44.838237'
-    - '2012-09-09 18:07:20.200035'
+    - '2012-09-15 02:05:42.391887'
     - https://maps.google.com/maps?q=East+River+Flats,+Minneapolis,+MN&hl=en&ll=44.970248,-93.233993&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=east+ri&t=h&hq=East+River+Flats,+Minneapolis,+MN&z=16
     - true
     - East River Flats
@@ -135,9 +135,9 @@ events:
     - New Student Welcome Night 2012
     - Korean BBQ
     - '2012-09-05 18:00:00.000000'
-    - '2012-09-06 03:00:00.000000'
+    - '2012-09-05 20:00:00.000000'
     - '2012-09-10 05:09:53.037986'
-    - '2012-09-10 05:09:53.037986'
+    - '2012-09-15 02:03:45.011989'
     - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
     - true
     - Coffman Theater
@@ -151,9 +151,9 @@ events:
     - ¡Viva Kiva! Back to School BBQ
     - Dinner, pinata, slip-n-slide, bonfire!
     - '2012-09-07 18:00:00.000000'
-    - '2012-09-08 03:00:00.000000'
+    - '2012-09-07 19:30:00.000000'
     - '2012-09-10 05:45:31.979690'
-    - '2012-09-10 05:45:31.979690'
+    - '2012-09-15 02:02:41.071004'
     - http://maps.google.com/maps?q=1077+22nd+ave+se&hl=en&hnear=1077+22nd+Ave+SE,+Minneapolis,+Minnesota+55413&t=m&z=16
     - true
     - 1077 22nd Ave SE (In Como)
@@ -164,9 +164,9 @@ events:
     - Innovative Engineers first meeting
     - Free pizza!
     - '2012-09-07 15:00:00.000000'
-    - '2012-09-07 20:00:00.000000'
+    - '2012-09-07 16:30:00.000000'
     - '2012-09-10 05:49:42.413918'
-    - '2012-09-10 05:49:42.413918'
+    - '2012-09-15 02:01:32.607283'
     - ''
     - true
     - STSS 312
@@ -176,9 +176,9 @@ events:
     - Gamma-Beta Cookout
     - Grilling & fun
     - '2012-09-14 15:00:00.000000'
-    - '2012-09-14 21:00:00.000000'
+    - '2012-09-14 18:00:00.000000'
     - '2012-09-10 08:41:28.611341'
-    - '2012-09-10 08:41:28.611341'
+    - '2012-09-15 02:00:13.825974'
     - ''
     - true
     - Coffman
@@ -188,9 +188,9 @@ events:
     - WSAC Open House
     - Free Falafels!
     - '2012-09-12 14:00:00.000000'
-    - '2012-09-12 18:00:00.000000'
+    - '2012-09-12 16:00:00.000000'
     - '2012-09-10 08:47:10.272854'
-    - '2012-09-10 08:47:10.272854'
+    - '2012-09-15 01:59:19.298014'
     - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.982027,-93.228728&sspn=0.084873,0.209255&oq=coffman+munion&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=16
     - true
     - Coffman Union 202
@@ -200,10 +200,10 @@ events:
   - - 21
     - Business Fair
     - Free Qdoba, Jimmy John's, t-shirts, and much more!
-    - '2012-09-10 08:00:00.000000'
-    - '2012-09-10 10:00:00.000000'
+    - '2012-09-10 10:30:00.000000'
+    - '2012-09-10 15:00:00.000000'
     - '2012-09-11 00:24:53.148573'
-    - '2012-09-11 00:24:53.148573'
+    - '2012-09-15 01:58:33.025442'
     - ''
     - true
     - Coffman Front Lawn
@@ -214,9 +214,9 @@ events:
     - General Mills Breakfast
     - Free breakfast!
     - '2012-09-10 09:00:00.000000'
-    - '2012-09-10 20:30:00.000000'
+    - '2012-09-10 11:30:00.000000'
     - '2012-09-11 00:27:48.691056'
-    - '2012-09-11 00:27:48.691056'
+    - '2012-09-15 01:56:34.944418'
     - ''
     - true
     - Lind Hall Library
@@ -226,9 +226,9 @@ events:
     - Glow-in-the-Dark Frisbee
     - Pizza and frisbee
     - '2012-09-04 19:00:00.000000'
-    - '2012-09-05 04:00:00.000000'
+    - '2012-09-04 20:30:00.000000'
     - '2012-09-13 01:39:42.672476'
-    - '2012-09-13 01:39:42.672476'
+    - '2012-09-15 01:55:10.054664'
     - ''
     - true
     - Coffman Lawn
@@ -238,9 +238,9 @@ events:
     - Labor Day Picnic
     - Hamburgers and hotdogs!
     - '2012-09-03 12:00:00.000000'
-    - '2012-09-03 15:00:00.000000'
+    - '2012-09-03 13:30:00.000000'
     - '2012-09-13 01:41:50.817441'
-    - '2012-09-13 01:41:50.817441'
+    - '2012-09-15 01:54:46.196114'
     - ''
     - true
     - Coffman Lawn
@@ -250,9 +250,9 @@ events:
     - Smoothie Social
     - Smoothies and friendship!
     - '2012-08-30 18:30:00.000000'
-    - '2012-08-31 02:30:00.000000'
+    - '2012-08-30 20:00:00.000000'
     - '2012-09-13 01:44:04.834432'
-    - '2012-09-13 01:44:04.834432'
+    - '2012-09-15 01:54:03.349640'
     - ''
     - true
     - Coffman 303
@@ -261,10 +261,10 @@ events:
   - - 26
     - BSU & NSBE BBQ
     - Barbecue and music
-    - '2012-08-03 15:00:00.000000'
-    - '2012-08-03 22:00:00.000000'
+    - '2012-09-03 15:00:00.000000'
+    - '2012-09-03 19:00:00.000000'
     - '2012-09-13 03:56:19.701082'
-    - '2012-09-13 03:56:19.701082'
+    - '2012-09-15 01:52:56.369934'
     - ''
     - true
     - Superblock
@@ -274,10 +274,10 @@ events:
   - - 29
     - BSU Kick-Off
     - Dinner
-    - '2012-09-19 16:00:00.000000'
-    - '2012-09-19 22:00:00.000000'
+    - '2012-10-19 17:00:00.000000'
+    - '2012-10-19 20:00:00.000000'
     - '2012-09-13 13:47:10.682303'
-    - '2012-09-13 13:52:35.839925'
+    - '2012-09-15 01:52:00.945250'
     - ''
     - true
     - Northrop Plaza
@@ -287,10 +287,10 @@ events:
   - - 30
     - BSU General Membership Meeting
     - Soul food
-    - '2012-09-28 16:00:00.000000'
-    - '2012-09-28 22:00:00.000000'
+    - '2012-10-28 16:00:00.000000'
+    - '2012-10-28 18:00:00.000000'
     - '2012-09-13 13:51:11.056831'
-    - '2012-09-13 13:51:11.056831'
+    - '2012-09-15 01:51:17.042162'
     - ''
     - true
     - Coffman 209
@@ -302,10 +302,10 @@ events:
   - - 31
     - Fab Launch Party
     - Bruegger's Bagels
-    - '2012-09-13 16:30:00.000000'
-    - '2012-09-13 23:30:00.000000'
+    - '2012-10-13 16:30:00.000000'
+    - '2012-10-13 19:00:00.000000'
     - '2012-09-13 19:13:14.565098'
-    - '2012-09-13 19:13:14.565098'
+    - '2012-09-15 01:50:25.332240'
     - ''
     - true
     - Outdoor Plaza between Northrop & Rapson
@@ -317,10 +317,10 @@ events:
   - - 32
     - Amnesty International kick-off
     - Free food
-    - '2012-09-12 19:00:00.000000'
-    - '2012-09-13 03:30:00.000000'
+    - '2012-10-12 19:00:00.000000'
+    - '2012-10-12 21:00:00.000000'
     - '2012-09-13 19:33:07.215100'
-    - '2012-09-13 19:33:07.215100'
+    - '2012-09-15 01:49:54.943844'
     - ''
     - true
     - Coffman room 302
@@ -329,10 +329,10 @@ events:
   - - 34
     - BLW Kick-off Event
     - Free Food!!!!
-    - '2012-09-14 18:00:00.000000'
-    - '2012-09-15 01:00:00.000000'
+    - '2012-10-14 18:00:00.000000'
+    - '2012-10-14 20:00:00.000000'
     - '2012-09-14 01:58:19.623513'
-    - '2012-09-14 01:58:19.623513'
+    - '2012-09-15 01:48:16.890448'
     - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
     - true
     - Coffman Memorial Union, President's Room
@@ -342,10 +342,10 @@ events:
   - - 35
     - Chip Samples
     - Free chips
-    - '2012-09-13 11:00:00.000000'
-    - '2012-09-13 12:00:00.000000'
+    - '2012-10-13 11:00:00.000000'
+    - '2012-10-13 13:00:00.000000'
     - '2012-09-14 02:03:13.258835'
-    - '2012-09-14 02:03:13.258835'
+    - '2012-09-15 01:47:29.681352'
     - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman+m&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
     - true
     - Gopher Express in Coffman
@@ -354,10 +354,10 @@ events:
   - - 36
     - Welcome Geek
     - snacks and Vitamin Water
-    - '2012-09-21 17:00:00.000000'
-    - '2012-09-22 03:00:00.000000'
+    - '2012-10-21 17:00:00.000000'
+    - '2012-10-21 22:00:00.000000'
     - '2012-09-14 02:06:17.404015'
-    - '2012-09-14 02:06:17.404015'
+    - '2012-09-14 16:53:11.456685'
     - ''
     - true
     - STSS 530B
@@ -368,9 +368,9 @@ events:
     - The Great Fall Get Together
     - Corn roast & BBQ
     - '2012-10-06 19:30:00.000000'
-    - '2012-10-07 04:30:00.000000'
+    - '2012-10-06 21:00:00.000000'
     - '2012-09-14 04:25:03.430368'
-    - '2012-09-14 04:25:03.430368'
+    - '2012-09-14 16:52:17.187259'
     - https://maps.google.com/maps?q=St.+Paul+Student+Center,+Buford+Avenue,+Saint+Paul,+MN&hl=en&ll=44.985472,-93.183482&spn=0.010609,0.026157&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=saint+paul+student+center&t=h&hnear=St+Paul+Student+Center,+2017+Buford
     - true
     - Saint Paul Student Center, Garden Terrace
@@ -380,9 +380,9 @@ events:
     - Gopher Celebration
     - Pizza & pop
     - '2012-09-21 16:00:00.000000'
-    - '2012-09-22 00:00:00.000000'
+    - '2012-09-21 20:00:00.000000'
     - '2012-09-14 04:29:38.432684'
-    - '2012-09-14 04:29:38.432684'
+    - '2012-09-15 01:43:51.990527'
     - https://maps.google.com/maps?q=St.+Paul+Student+Center,+Buford+Avenue,+Saint+Paul,+MN&hl=en&ll=44.985472,-93.183482&spn=0.010609,0.026157&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=saint+paul+student+center&t=h&hnear=St+Paul+Student+Center,+2017+Buford
     - true
     - Saint Paul Student Center
@@ -394,9 +394,129 @@ events:
     - '2012-09-20 08:00:00.000000'
     - '2012-09-20 17:00:00.000000'
     - '2012-09-14 15:06:34.280283'
-    - '2012-09-14 15:06:34.280283'
+    - '2012-09-15 01:43:07.006474'
     - ''
     - true
     - Saint Paul Student Center, Gopher Spot
     - Sample a variety of products at Gopher Spot from desserts, to snacks, to beverages.
+    - 
+  - - 43
+    - MCAE Open House
+    - Free food!
+    - '2012-09-17 11:30:00.000000'
+    - '2012-09-17 13:30:00.000000'
+    - '2012-09-16 18:29:23.660000'
+    - '2012-09-16 18:29:23.660000'
+    - ''
+    - true
+    - St. Paul Student Center, room 207
+    - Multicultural Center for Academic Excellence
+    - 
+  - - 44
+    - Ice Cream Social with Game Show
+    - Ice cream
+    - '2012-09-17 12:00:00.000000'
+    - '2012-09-17 14:00:00.000000'
+    - '2012-09-16 18:33:24.836459'
+    - '2012-09-16 18:33:24.836459'
+    - ''
+    - true
+    - St Paul Student Center, front terrace
+    - In partnership with GLBTA programs office
+    - 
+  - - 45
+    - El Grito
+    - Dinner
+    - '2012-09-21 18:00:00.000000'
+    - '2012-09-21 20:00:00.000000'
+    - '2012-09-18 01:43:56.149451'
+    - '2012-09-18 01:43:56.149451'
+    - ''
+    - true
+    - Coffman Union, Great Hall
+    - ! "El Grito is a day celebrated to commemorate the independence of Latin American
+      countries. Join us for a night of festivities as we celebrate different aspects
+      of independence!\r\nFree and open to the public."
+    - 
+  - - 46
+    - Open Door Night Dinner
+    - Dinner
+    - '2012-09-18 18:00:00.000000'
+    - '2012-09-18 19:30:00.000000'
+    - '2012-09-18 05:29:23.954177'
+    - '2012-09-18 05:29:23.954177'
+    - https://maps.google.com/maps?q=1381+Cleveland+Avenue+North,+Saint+Paul,+MN&hl=en&ll=44.982756,-93.187666&spn=0.010609,0.026157&sll=44.975622,-93.174942&sspn=0.01061,0.026157&oq=1381+N+Cleveland+Avenue&t=h&hnear=1381+Cleveland+Ave+N,+St+Paul,+Minnesota+551
+    - true
+    - 1381 N Cleveland Avenue
+    - Lamda Delta Phi
+    - 
+  - - 47
+    - MISA Fall Carnival!
+    - Food & Games
+    - '2012-09-28 12:00:00.000000'
+    - '2012-09-28 16:00:00.000000'
+    - '2012-09-19 20:47:23.630687'
+    - '2012-09-19 20:47:23.630687'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Behind Coffman Union
+    - ! "What is UP everyone??\r\n\r\nNow I know we just had one big event, but we
+      don't stop here at MISA! There's another event coming up in a couple weeks.\r\n\r\nMISA
+      is hosting our 4th ANNUAL fall carnival!!! There will be Delicious Food, Crazy
+      Carnival Games, Bumping Music, and lots of Cool People! So come by between classes,
+      and relax!\r\n\r\nThe event will be held behind Coffman Union from 12PM-4PM
+      on Friday, September 28th.\r\n\r\nInvite your friends, come and have FUN!"
+    - 
+  - - 48
+    - SWAGATAM 2012- The Welcome Reception
+    - Indian Dinner
+    - '2012-09-21 18:00:00.000000'
+    - '2012-09-21 20:00:00.000000'
+    - '2012-09-19 20:59:56.711985'
+    - '2012-09-19 20:59:56.711985'
+    - https://maps.google.com/maps?q=222+Pleasant+Street+SE+Minneapolis,+MN+55455&hl=en&ll=44.975083,-93.23689&spn=0.003751,0.006539&sll=44.9727,-93.2354&sspn=0.010611,0.026157&t=h&hnear=222+Pleasant+St+SE,+Minneapolis,+Minnesota+55455&z=18
+    - true
+    - STSS 412 (right across from Weisman Art Museum)
+    - ! "Bharat- The Indians, cordially invites you to the most awaited welcome reception
+      on campus - SWAGATAM 2012!\r\n\r\nAs classes start taking a toll on you, take
+      a break from them books and join the most vibrant Indian Student Organization
+      at the U of M to pick up some Desi swag! \r\n\r\n*Get a glimpse of the Indian
+      Culture*\r\n*Treat yourself to an Indian Dinner*\r\n*Catch up with friends and
+      make some new ones*\r\n*Enjoy a series of fun filled games, activities and Bollywood
+      karaoke*\r\n\r\n~~All this is FREE with your U Card!!~~\r\n\r\nHope to see y'all
+      pretty faces there :)"
+    - 
+  - - 49
+    - ! 'African Student Association Presents: Fall Open House 2012'
+    - Free food
+    - '2012-09-20 15:30:00.000000'
+    - '2012-09-20 18:00:00.000000'
+    - '2012-09-19 21:17:28.950276'
+    - '2012-09-19 21:17:28.950276'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.975083,-93.23689&sspn=0.003751,0.006539&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman, La Raza, Room 211
+    - ! "Welcome back students!! The African Student Association is excited to begin
+      the new semester and what better way to start out the semester and new school
+      year than having our Fall open house! \r\n\r\nFall Open House:\r\n\r\nDate:
+      September 20th, 2012\r\nTime: Doors will open at 3:30 pm and the event will
+      end at 6:00pm\r\nLocation: Coffman Memorial Union, La Raza, Room 211\r\n\r\nDuring
+      our open house, you will have the chance to meet and greet with the new board
+      for the 2012-2013 year, get the opportunity to mingle with other students (old
+      and new), and have the chance to figure out how you can get more involved on
+      campus and with ASA! \r\n\r\nNot only will we be providing everyone with great
+      vibes, fun board games, and free prizes...we will be serving FREE FOOD!!! \r\n\r\nYou
+      do not want to miss out on our first event! Come and enjoy yourself! "
+    - 
+  - - 50
+    - Shift
+    - Free Pizza for freshmen!
+    - '2012-09-20 20:00:00.000000'
+    - '2012-09-20 21:00:00.000000'
+    - '2012-09-20 02:08:30.178552'
+    - '2012-09-20 02:08:30.178552'
+    - ''
+    - true
+    - Willey Hall
+    - Christian event
     - 
