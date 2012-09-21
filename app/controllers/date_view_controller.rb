@@ -40,13 +40,20 @@ class DateViewController < DateViewAndUiController
     end
 
     def get_event_closed_to_today events
-      today = DateTime.now
-      closest_to_today = 0
-      closest_to_today_event = events[0]
+      today = DateTime.new(DateTime.now.year,DateTime.now.month,DateTime.now.day)
+      closest_to_today = nil
+      closest_to_today_event = nil
       events.each_with_index do |event, index|
-        if (event.date - today).abs < (closest_to_today_event.date - today).abs
-          closest_to_today = index
-          closest_to_today_event = event
+        if event.date - today > 0
+          if closest_to_today == nil
+            closest_to_today = index
+            closest_to_today_event = event
+          else
+            if event.date - today < closest_to_today
+              closest_to_today = index
+              closest_to_today_event = event
+            end
+          end
         end
       end
       return closest_to_today

@@ -6,7 +6,8 @@ It needs to be put in a common module
 
 duplicate code in models/event_spec.rb: the tests after Event.create/Event.new -> event.save
 
-next_month and previous_month helpers can be refactoring according to the template method pattern
-
 instead of figuring out why delete requests were not working, I hacked around it. This isn't
 pretty but not the end of the world. Still, not the rails way and it would be nice to fix.
+
+mobile view might crash if there aren't any events. However, our business will crash if
+there aren't any events, so this might be a moot point.
