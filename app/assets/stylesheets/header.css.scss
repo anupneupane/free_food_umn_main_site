@@ -1,15 +1,17 @@
+$gold: #fffc27;
+$marron: #97001f;
 
 .header {
-  background-color: #670016;
+  background-color: $marron;
 }
 
 .top_menu {
-  background-color: #f9bc0f;
+  background-color: $gold;
   text-align: center;
 }
 
 h2 {
-  color: #f9bc0f;
+  color: $gold;
 }
 
 .jumbotron {
