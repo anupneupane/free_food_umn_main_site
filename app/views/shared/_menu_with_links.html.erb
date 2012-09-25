@@ -1,0 +1,12 @@
+<% menu_items.each do |menu_item| %>
+  <% if menu_item_matches_request(request.path, menu_item) %>
+    <a href="#" class="active"><%= menu_item[:link_name] %></a>
+  <% else %>
+    <% if menu_item.has_key?(:method) %>
+      <%= link_to(menu_item[:link_name], menu_item[:url], :method => menu_item[:method]) %>
+    <% else %>
+      <%= link_to(menu_item[:link_name], menu_item[:url]) %>
+    <% end %>
+  <% end %>
+  &nbsp;&nbsp;
+<% end %>

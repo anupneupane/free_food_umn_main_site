@@ -15,8 +15,9 @@
 </head>
 <body>
   <%= render 'layouts/facebook_api' %>
+  <div class="top_menu"><%= render "layouts/top_menu" %></div>
+  <div class="header"><div class="container"><%= render 'layouts/header' %></div></div>
   <div class="container wrapper">
-    <%= render 'layouts/header' %>
     <% if notice or alert %>
       <br />
       <%= content_tag(:div, notice, :class => 'alert alert-info') unless notice.nil? %>

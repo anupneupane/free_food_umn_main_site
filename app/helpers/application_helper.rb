@@ -3,6 +3,10 @@ module ApplicationHelper
     render 'shared/menu', :menu_items => menu_items
   end
 
+  def menu_with_link menu_items
+    render 'shared/menu_with_links', :menu_items => menu_items
+  end
+
   def menu_item_matches_request request, menu_item
     if menu_item.has_key?(:regex)
       menu_item[:regex].match(request) ? true : false

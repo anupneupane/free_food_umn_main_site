@@ -1,46 +1,9 @@
+
 <div class="row">
   <div class="span4">
-    <%= link_to image_tag("logo_sunny_side_eggs.png"), root_path %>
+    <%= link_to image_tag("logo.png"), root_path %>
   </div>
   <div class="span8">
-    <%=
-      menu_links = [
-        {
-          link_name: "Home",
-          url: root_path,
-          regex: /\/(view_by_week|view_by_month|month).*/,
-        },
-        {
-          link_name: "Add event",
-          url: "/events/new",
-        },
-      ]
-      if admin_signed_in?
-        menu_links += [
-          {
-            link_name: "Admin signout",
-            url: "/admins/signout",
-          },
-          {
-            link_name: "Admin",
-            url: "/admin",
-          }
-        ]
-      end
-      if organization_signed_in?
-        menu_links += [
-          {
-            link_name: "Sign out",
-            url: "/organizations/signout",
-          },
-          {
-            link_name: "Edit organization details",
-            url: "/organizations/edit",
-          }
-        ]
-      end
-      menu(menu_links)
-    %>
     <br />
     <%= yield :date_view_ui %>
   </div>
