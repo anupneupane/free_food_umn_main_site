@@ -1,0 +1,15 @@
+@import "config";
+
+.mobile_header {
+  background-color: $maroon;
+}
+
+.navbar {
+  background-color: $maroon;
+}
+
+.mobile .nav li a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: $gold;
+}

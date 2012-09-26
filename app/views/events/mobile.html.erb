@@ -1,16 +1,30 @@
 <html>
 <head>
   <meta name="viewport" content="initial-scale=1.0" />
+  <%= stylesheet_link_tag "application" %>
 </head>
 
 <body>
-  
+
 
 <% datestring = "%B, %_d" %>
 <% date = @events.length > 0 ? DateTime.now : @events[0].date %>
 <% date = date.strftime(datestring) %>
 
-<%= image_tag "mobile_logo.png" %><br />
+<div class="mobile">
+  
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand" href="#"><%= image_tag "mobile_logo.png" %></a>
+      <div class="btn-group">
+        <ul class="nav pull-right">
+          <li><a href="/">Main site (This is our mobile site)</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <% if @events[0].date.today? %>
   <h2>Today</h2>
@@ -38,6 +52,8 @@
 
   <br />
 <% end %>
+
+</div>
 
 </body>
 </html>
