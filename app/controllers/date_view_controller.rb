@@ -1,7 +1,7 @@
 
 class DateViewController < DateViewAndUiController
 
-  before_filter :set_events_var
+  before_filter :set_events_var, :only => [:view_by_month, :view_by_week, :mobile]
 
   def view_by_month
     @calendar_year = (params[:year] || DateTime.now.year).to_i
@@ -36,7 +36,6 @@ class DateViewController < DateViewAndUiController
       @events_of_approved_organizations = Event.all(:joins => :organization, :conditions => { :organizations => { :approved_by_admin => true } })
       @approved_events = Event.where(:approved_by_admin => true).all
       @events = @events_of_approved_organizations + @approved_events
-      mobile if is_mobile_device?
     end
 
     def get_event_closed_to_today events

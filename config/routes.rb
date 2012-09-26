@@ -13,7 +13,7 @@ FreeFoodUmn::Application.routes.draw do
   devise_for :organizations
   match '/create_event' => 'events#create_event_from_session_stored_params'
 
-  root :to => redirect('/view_by_week')
+  root :to => "application#index"
   match '/join_us' => "pages#join_us"
 
   match '/view_by_month' => 'date_view#view_by_month'
