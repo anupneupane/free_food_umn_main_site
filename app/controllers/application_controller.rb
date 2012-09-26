@@ -1,8 +1,10 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  has_mobile_fu
 
   def index
     if is_mobile_device?
+      session[:mobile_view] = false
       redirect_to "/mobile"
     else
       redirect_to "/view_by_week"
