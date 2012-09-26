@@ -1,9 +1,13 @@
 
-$linkColor: #670016;
+@import "config";
+
+$linkColor: $maroon;
+$navbarBackground: $maroon;
+$navbarBackgroundHighlight: #ac001d;
 
 @import "bootstrap";
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
