@@ -1,5 +1,26 @@
 <div class="footer">
   <%= link_to "Campus groups sign in", "/organizations/sign_in" unless organization_signed_in? %><hr />
+  <button id="opener">Contact Us</button><br />
   <p>Copyright &copy; 2012 free food umn</p>
-  <p>Contact Us: freefoodumn.com@gmail.com</p>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var $dialog = $('<div></div>')
+			.html('freefoodumn.com@gmail.com<br />210 Delaware Street SE, Room S116, Minneapolis, MN, 55455<br />507-219-1944')
+			.dialog({
+				autoOpen: false,
+        draggable: false,
+        resizeable: false,
+				title: 'Contact Us',
+			});
+
+		$('#opener').click(function() {
+			$dialog.dialog('open');
+			// prevent the default action, e.g., following a link
+			return false;
+		});
+	});
+	</script>
+
 </div>
+
