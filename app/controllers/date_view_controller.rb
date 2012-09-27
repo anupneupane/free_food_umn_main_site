@@ -1,7 +1,7 @@
 
 class DateViewController < DateViewAndUiController
 
-  before_filter :set_events_var, :only => [:view_by_month, :view_by_week, :mobile]
+  before_filter :set_events_var, :only => [:view_by_month, :view_by_week, :view_by_list, :mobile]
 
   def view_by_month
     @calendar_year = (params[:year] || DateTime.now.year).to_i
@@ -29,6 +29,22 @@ class DateViewController < DateViewAndUiController
     @events = @events[start_event_index, end_event_index]
     render 'events/mobile', :layout => false
     return false
+  end
+
+  def view_by_list
+    number_of_events_per_page = 30
+    @events.sort_by! {|event| event.date}
+    closest_to_today = get_event_closed_to_today @events
+    @show_left_arrow = ((closest_to_today - number_of_events_per_page*(params[:n]).to_i) < 1) ? false : true
+    @show_right_arrow = ((closest_to_today + number_of_events_per_page*(params[:n]).to_i) > @events.length - 2) ? false : true
+
+    start_event_index = [closest_to_today - number_of_events_per_page*(params[:n]).to_i, 0].max
+    end_event_index = [start_event_index + number_of_events_per_page, @events.length-1].min
+    @events = @events[start_event_index, end_event_index]
+
+    @datestring = "%B, %_d"
+    @date = @events.length > 0 ? DateTime.now : @events[0].date
+    @date = @date.strftime(@datestring)
   end
 
   private

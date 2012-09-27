@@ -1,0 +1,46 @@
+
+<% @day_iterator = @starting_day %>
+
+<% content_for :date_view do %>
+
+  <% if @events[0].date.today? %>
+    <h2>Today</h2>
+  <% end %>
+  
+  <% @events.each do |event| %>
+  
+    <% if event.date.strftime(@datestring) != @date %>
+      <% @date = event.date.strftime(@datestring) %>
+      <h2><%= @date %></h2>
+    <% end %>
+  
+    <p>
+      <strong><%= link_to(truncate(event.name, length: 150), "/events/#{event.id}") %></strong> |
+      <%= event.description %> |
+      <strong><%= format_hours(event.date) %> - <%= format_hours(event.end_date) %></strong> |
+    <% if event.google_maps_url? %>
+      <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
+    <% else %>
+      <% if event.location? %>
+        <%= event.location %>
+      <% end %>
+    <% end %>
+    </p>
+  
+    <br />
+  <% end %>
+
+<% end %>
+
+<% content_for :description_of_viewing_mode do %>
+<%= @date_group %>
+<% end %>
+
+
+<% content_for :left_arrow do %>
+  <%=  image_tag('left-arrow-unclickable.png') %>
+<% end %>
+
+<% content_for :right_arrow do %>
+  <%= image_tag('right-arrow-unclickable.png') %>
+<% end %>
