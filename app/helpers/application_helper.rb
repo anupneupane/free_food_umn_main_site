@@ -1,4 +1,10 @@
 module ApplicationHelper
+
+  def is_today? datetime
+    now = DateTime.now
+    datetime.month == now.month and datetime.year == now.year and datetime.day == now.day
+  end
+
   def menu menu_items
     render 'shared/menu', :menu_items => menu_items
   end

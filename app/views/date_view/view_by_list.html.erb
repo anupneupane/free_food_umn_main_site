@@ -3,7 +3,7 @@
 
 <% content_for :date_view do %>
 
-  <% if @events[0].date.today? %>
+  <% if is_today? @events[0].date %>
     <h2>Today</h2>
   <% end %>
   
