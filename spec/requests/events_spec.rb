@@ -61,7 +61,7 @@ describe "when I fill out the new event form" do
         it { Organization.first.approved_by_admin.should == true }
 
         it do
-          visit '/'
+          visit '/view_by_week'
           page.should have_selector('p', :text => 'Chess Club meeting')
         end
 
@@ -74,7 +74,7 @@ describe "when I fill out the new event form" do
 
       describe "if organization not admin-approved" do
         it do
-          visit '/'
+          visit '/view_by_week'
           page.should_not have_selector('p', :text => 'Chess Club meeting')
         end
 
