@@ -17,7 +17,7 @@ describe "when I fill out the new event form" do
 
   it "should increment events and redirect to homepage with a message" do
     expect do
-      click_button 'Create Event'
+      click_button 'Submit Event'
     end.to change(Event, :count).by(1)
 
     page.should have_selector('div', :class => 'alert alert-info',
