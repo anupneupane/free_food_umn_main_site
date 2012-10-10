@@ -7,7 +7,7 @@ will be, exciting activities, etc." %>
   <table>
     <tr>
       <td class="start_date_time" colspan="3">Beginning of event</td>
-      <td colspan="1">&nbsp;&nbsp;how long you expect the event to be</td>
+      <td colspan="1">&nbsp;&nbsp;How long you expect the event to be</td>
     </tr>
     <tr>
       <td class="start_date_time">
@@ -32,7 +32,7 @@ will be, exciting activities, etc." %>
   <%= f.input :long_description, :input_html => { :rows => 5 }, :placeholder => "optional" %>
 
   <%= f.actions do %>
-    <%= f.action :submit, :as => :button %>
+    <%= f.action :submit, :as => :button, :label => 'Submit Event' %>
     <%= f.action :submit, :as => :button, :label => 'Submit Event as Organization', :button_html => { name: "submit_as_organization" } %>
   <% end %>
 
