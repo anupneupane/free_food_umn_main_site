@@ -21,14 +21,14 @@ admins:
     - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
     - 
     - 
-    - 
-    - 37
-    - '2012-09-17 14:53:53.893362'
-    - '2012-09-17 00:18:22.339194'
-    - 146.57.249.82
+    - '2012-10-12 00:31:49.344110'
+    - 40
+    - '2012-10-12 00:31:49.350529'
+    - '2012-10-10 15:03:07.772324'
     - 97.86.232.127
+    - 160.94.86.108
     - '2012-09-07 06:14:27.241942'
-    - '2012-09-17 18:31:44.469297'
+    - '2012-10-12 00:31:49.351296'
 
 ---
 organizations:
@@ -81,6 +81,22 @@ organizations:
     - '2012-09-10 03:00:43.199820'
     - SMD
     - false
+    - 
+  - - 3
+    - nsbe@umn.edu
+    - $2a$10$9xQnkgJBTgNdKJvsh.49o.4zcEXJbFdo2d9xyp0nAGQmlEuQH.X6e
+    - 
+    - 
+    - 
+    - 2
+    - '2012-10-08 15:18:32.228449'
+    - '2012-10-06 01:38:54.187239'
+    - 128.101.254.225
+    - 24.118.132.2
+    - '2012-10-06 01:38:54.149346'
+    - '2012-10-08 15:18:32.229569'
+    - National Society of Black Engineers
+    - true
     - 
 
 ---
@@ -519,4 +535,251 @@ events:
     - true
     - Willey Hall
     - Christian event
+    - 
+  - - 51
+    - Tết Trung Thu
+    - Tons of free food
+    - '2012-09-30 14:00:00.000000'
+    - '2012-09-30 17:00:00.000000'
+    - '2012-09-25 02:07:48.739861'
+    - '2012-09-25 02:07:48.739861'
+    - http://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.412426,0.891953&oq=coffman+m&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&t=m&z=17
+    - true
+    - Coffman Union, Great Hall
+    - ! "Event open to all ages\r\nAdmission is free!\r\n-Tons of free food\r\n-Live
+      performances\r\n-Children carnival activities\r\n-Lantern painting\r\n-Prizes!
+      Prizes! Prizes!"
+    - 
+  - - 52
+    - Southeast Minneapolis Learning Carnival
+    - Taste local food
+    - '2012-09-29 13:00:00.000000'
+    - '2012-09-29 16:00:00.000000'
+    - '2012-09-28 07:53:06.828382'
+    - '2012-09-28 07:53:06.828382'
+    - https://maps.google.com/maps?q=901+15th+Ave+SE,+Minneapolis,+MN&hl=en&sll=43.674096,-92.973738&sspn=0.081448,0.209255&oq=901+15th+ave+s&t=h&hnear=901+15th+Ave+SE,+Minneapolis,+Hennepin,+Minnesota+55414&z=16
+    - true
+    - Van Cleve Park 901 15th Ave. SE
+    - ! "Meet animals from the Como Zoo,\r\nShoot video with IFP MN and MTN\r\nExplore
+      the solar system with the Bell Museum\r\nMake art with ArtiCulture, the Weisman,
+      and MCAD\r\nTaste local foods with Midwest Food Connection\r\nPlay music with
+      the West Bank School of Music\r\nDance with Essence of Prodigy Dance Studio\r\nand
+      more!"
+    - 
+  - - 53
+    - Frybread Fryday
+    - Free food
+    - '2012-09-28 17:00:00.000000'
+    - '2012-09-28 18:00:00.000000'
+    - '2012-09-28 07:54:59.677147'
+    - '2012-09-28 07:54:59.677147'
+    - ''
+    - true
+    - Coffman 204
+    - AISCC
+    - 
+  - - 54
+    - 2012 Moon Festival
+    - Food & Bubble Tea
+    - '2012-09-29 17:00:00.000000'
+    - '2012-09-29 20:30:00.000000'
+    - '2012-09-28 07:59:32.522492'
+    - '2012-09-28 07:59:32.522492'
+    - ''
+    - true
+    - Coffman Mississippi Room 321
+    - Free food, bubble tea, activities, prizes, and culture!
+    - 
+  - - 55
+    - Veg Week Kickoff Concert
+    - Pizza Luce & live music
+    - '2012-09-29 19:00:00.000000'
+    - '2012-09-29 22:00:00.000000'
+    - '2012-09-28 08:05:24.540741'
+    - '2012-09-28 08:05:24.540741'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.985563,-93.242855&sspn=0.039824,0.104628&oq=coffman+&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Whole Music Club, Coffman Memorial Union
+    - ! "Compassionate Action for Animals is hosting a concert to celebrate the beginning
+      of Veg Week. At this concert, we will enjoy fun, free music. We will give a
+      short presentation about Veg Week and Compassionate Action for Animals. Attendees
+      can pledge to be vegetarian or vegan for a week, and get a care pack with free
+      vegan food samples, coupons, and literature. We will serve Pizza Luce at the
+      end of the evening.\r\nPerformances by Roe Family Singers"
+    - 
+  - - 56
+    - Veg Week 2012 Spaghetti Feed-In
+    - Spaghetti Dinner
+    - '2012-10-01 18:00:00.000000'
+    - '2012-10-01 21:30:00.000000'
+    - '2012-10-01 18:23:43.453554'
+    - '2012-10-01 18:23:43.453554'
+    - ''
+    - true
+    - Coffman Union, Mississippi Room
+    - Enjoy free spaghetti in the Mississippi Room, but come early because this is
+      on a first come, first serve basis! After all of the food has been eaten, stick
+      around for a screening of the fantastic documentary Vegucated! This documentary
+      is about how three meat eaters try a vegan diet for six weeks and learn what
+      it's all about.
+    - 
+  - - 57
+    - Haunted Substandard House
+    - Refreshments and snacks
+    - '2012-10-20 16:00:00.000000'
+    - '2012-10-20 19:00:00.000000'
+    - '2012-10-03 15:04:10.292677'
+    - '2012-10-03 15:04:10.292677'
+    - ''
+    - true
+    - 3001 4th Street SE
+    - Come join Twin Cities Habitat for Humanity Youth United for our 2nd Annual Haunted
+      Substandard House. Join us for a fun evening for all ages to learn more about
+      substandard housing and ways to eliminate poverty housing.
+    - 
+  - - 61
+    - Muhammad And His Place In Islam
+    - Free food!
+    - '2012-10-05 17:00:00.000000'
+    - '2012-10-05 19:00:00.000000'
+    - '2012-10-04 06:03:14.231452'
+    - '2012-10-04 06:03:14.231452'
+    - ''
+    - true
+    - STSS 312
+    - ! "An EXCELLENT chance to learn who Muhammad really is, why Muslims love him
+      so much, and the purpose behind his message today!\r\nSo come to the Presentation,
+      Open Discussion and have ALL your questions answered!\r\nGuest speaker: Youssef
+      Soussi"
+    - 
+  - - 62
+    - Presidential Debate Watch Party
+    - Mesa Pizza
+    - '2012-10-03 20:00:00.000000'
+    - '2012-10-03 22:00:00.000000'
+    - '2012-10-04 06:06:03.749080'
+    - '2012-10-04 06:06:03.749080'
+    - ''
+    - true
+    - Wiley Hall 175
+    - Minnesota Student Association
+    - 
+  - - 63
+    - Light Up the Night
+    - Delicious Free Food!
+    - '2012-10-05 18:00:00.000000'
+    - '2012-10-05 21:00:00.000000'
+    - '2012-10-05 02:40:25.996239'
+    - '2012-10-05 02:40:25.996239'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Memorial Front Plaza
+    - ! "Friday, October 5th! You’re going to want to open up this night because  you
+      don’t wanna miss it! Come join the Asian-American Student Union and its affiliates
+      at Light Up the Night 2012! This is ASU’s biggest event of the semester!!!!\r\n\r\nCome
+      for a bright night full of diverse cultures, delicious free food, and exciting
+      activities! Each affiliate will have their own booth to showcase their respective
+      cultures!\r\n\r\nHere are the affiliates that will be participating in this
+      event:\r\n\r\nCASA: Chinese American Student Association\r\nCSAM: Cambodian
+      Student Association of Minnesota\r\nDPO: Delta Phi Omega\r\nISA: Indian Student
+      Association\r\nJSA: Japanese Student Association\r\nKSA: Korean Student Association\r\nLSA:
+      Lao Student Association\r\nPERMIAS: Indonesian Student Association\r\nPSA: Philippine
+      Student Association\r\nSGSA: Singapore Student Assocation\r\nVSAM: Vietnamese
+      Student Association of Minnesota\r\nLight up the Night will be held at Coffman
+      Memorial Front Plaza from 6-9pm.\r\n\r\nIf anyone has any questions regarding
+      LUTN, please post your questions on the FB event page, or email us at asu@umn.edu.\r\n\r\nWe
+      hope to see everyone there!!"
+    - 
+  - - 65
+    - French National Honor Society
+    - FREE MESA PIZZA!
+    - '2012-10-08 18:30:00.000000'
+    - '2012-10-08 20:00:00.000000'
+    - '2012-10-06 07:09:57.382229'
+    - '2012-10-06 07:30:32.562203'
+    - https://maps.google.com/maps?q=Folwell+Hall,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=folwell+hall&t=h&hnear=Folwell+Hall,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - 113 Folwell Hall
+    - ! "All levels of French speakers are welcome and encouraged to attend!\r\nDon't
+      miss this opportunity to join and discuss the direction of the chapter's involvement
+      in philanthropy, academics, networking, art and culture."
+    - 
+  - - 66
+    - ! 'The Changing Times: A study on Bible prophecy'
+    - Pizza, Pop, and Prophecy
+    - '2012-10-10 10:00:00.000000'
+    - '2012-10-10 18:00:00.000000'
+    - '2012-10-06 07:16:50.821373'
+    - '2012-10-09 13:18:14.781645'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235409&spn=0.010611,0.026157&sll=44.978168,-93.234102&sspn=0.01061,0.026157&oq=c&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Memorial Union 303
+    - ! "Questions?\r\nCall Steph - 218-277-8120 or\r\nEmail - ChristianBibleFellowship@yahoo.com
+      -\r\nwww.cbfwebsite.org"
+    - 
+  - - 67
+    - Oriental Music Club
+    - Free Food & Drinks
+    - '2012-10-06 18:30:00.000000'
+    - '2012-10-06 20:30:00.000000'
+    - '2012-10-06 07:20:49.293709'
+    - '2012-10-06 07:20:49.293709'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235409&spn=0.010611,0.026157&sll=44.978168,-93.234102&sspn=0.01061,0.026157&oq=c&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman, the Whole Music Club
+    - ! 'Facebook: facebook.com/omc.minneapolis'
+    - 
+  - - 68
+    - Make Hummus—Not Hamas!
+    - Hummus and conversation!
+    - '2012-10-08 18:30:00.000000'
+    - '2012-10-08 20:00:00.000000'
+    - '2012-10-06 07:27:24.180208'
+    - '2012-10-06 07:27:24.180208'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235409&spn=0.010611,0.026157&sll=44.978168,-93.234102&sspn=0.01061,0.026157&oq=c&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Union 319
+    - ! "What: Students Supporting Israel at the University of Minnesota invites you
+      to join our event!\r\nWhy: Because we believe that sharing a hummus dish over
+      a joint table will lead to better peace negotiations than promoting terror.\r\nWho:
+      All university students, faculty and staff are invited!"
+    - 
+  - - 69
+    - ! 'Accenture Consulting: Corporate Visit'
+    - Accenture will present information and take resumes!!!!
+    - '2012-10-10 17:00:00.000000'
+    - '2012-10-10 18:00:00.000000'
+    - '2012-10-08 14:39:35.475807'
+    - '2012-10-08 14:40:33.921696'
+    - ''
+    - true
+    - ME1130 (Mechanical Engineering building)
+    - ! "by: National Society of Black Engineers.\r\n\r\n\r\nFree food also provided!"
+    - 
+  - - 70
+    - Liberty in North Korea
+    - Free Pizza
+    - '2012-10-12 17:30:00.000000'
+    - '2012-10-12 19:00:00.000000'
+    - '2012-10-08 23:55:58.310749'
+    - '2012-10-08 23:55:58.310749'
+    - https://maps.google.com/maps?q=Science+Teaching+and+Student+Services,+Pleasant+Street+Southeast,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=science+teachi&t=h&hnear=Science+Teaching+and+Student+Services,+222+Pleasant+St+SE,+M
+    - true
+    - STSS 330
+    - Premiering "The People's Crisis," a 50-minute documentary about the real crisis
+      in North Korea.
+    - 
+  - - 71
+    - Voterpalooza!
+    - Free Food!
+    - '2012-10-10 10:00:00.000000'
+    - '2012-10-10 18:00:00.000000'
+    - '2012-10-09 13:13:45.750242'
+    - '2012-10-09 13:17:36.363525'
+    - ''
+    - true
+    - Northrop Plaza
+    - ! "Get registered to Vote at the Carnival of Democracy!\r\nSpeakers:\r\nCongressman
+      Keith Ellison,\r\nSecretary of State Mark Ritchie,\r\nMayor R. T. Rybak,\r\nand
+      more!"
     - 
