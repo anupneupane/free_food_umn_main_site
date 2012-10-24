@@ -56,7 +56,7 @@ describe "Admin page" do
             fill_in "event_start_time_string", with: "11:15"
             choose 'event_meridian_indicator_pm'
             fill_in "event_duration", with: "3:15"
-            click_button "Update Event"
+            click_button "Submit Event"
           end
           it "Event should be changed" do
             event = Event.first
