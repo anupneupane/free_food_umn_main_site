@@ -7,7 +7,7 @@ describe "Weekview" do
       before do
         Event.create!(name: "not admin-approved",
                       description: "New event",
-                      date_string: "#{DateTime.now.year}-#{DateTime.now.month}-#{DateTime.now.day}",
+                      date_string: "#{DateTime.now.month}/#{DateTime.now.day}/#{DateTime.now.year}",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",
@@ -29,7 +29,7 @@ describe "Weekview" do
       before do
         Event.create!(name: "admin-approved",
                       description: "New event",
-                      date_string: "#{DateTime.now.year}-#{DateTime.now.month}-#{DateTime.now.day}",
+                      date_string: "#{DateTime.now.month}/#{DateTime.now.day}/#{DateTime.now.year}",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",

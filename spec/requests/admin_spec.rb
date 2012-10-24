@@ -19,7 +19,7 @@ describe "Admin page" do
   
       Event.create(name: "title",
                     description: "New event",
-                    date_string: "2012-1-11",
+                    date_string: "01/11/2012",
                     start_time_string: "10:10",
                     meridian_indicator: "pm",
                     duration: "2:20",
@@ -52,7 +52,7 @@ describe "Admin page" do
         describe "editing an event" do
           before do
             click_link "Edit"
-            fill_in "event_date_string", with: "2015-3-15"
+            fill_in "event_date_string", with: "03/15/2015"
             fill_in "event_start_time_string", with: "11:15"
             choose 'event_meridian_indicator_pm'
             fill_in "event_duration", with: "3:15"

@@ -14,7 +14,7 @@ describe Event do
     let(:event) do
       Event.create!(name: "title",
                     description: "New event",
-                    date_string: "2012-1-11",
+                    date_string: "01/11/2012",
                     start_time_string: "10:10",
                     meridian_indicator: "pm",
                     duration: "2:20",
@@ -26,7 +26,7 @@ describe Event do
     #it { Event.all.count.should == 1 }
     it { event.description.should == "New event" }
     it { (event.end_date - event.date).should == 60*60 * (2 + 2.0/6) }
-    it { event.date.strftime("%_m/%d/%Y %l:%M %P").strip.should == "1/11/2012 10:10 pm" }
+    it { event.date.strftime("%m/%d/%Y %l:%M %P").strip.should == "01/11/2012 10:10 pm" }
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
@@ -53,7 +53,7 @@ describe Event do
     it "should be able to update events" do
       event.update_attributes({name: "title",
                     description: "New event",
-                    date_string: "2015-3-13",
+                    date_string: "03/13/2015",
                     start_time_string: "7:15",
                     meridian_indicator: "am",
                     duration: "1:15",
@@ -71,7 +71,7 @@ describe Event do
       event = Event.new
       event.name = "title"
       event.description = "New event"
-      event.date_string = "2012-1-11"
+      event.date_string = "01/11/2012"
       event.start_time_string = "10:10"
       event.meridian_indicator =  "pm"
       event.duration = "2:20"
@@ -84,7 +84,7 @@ describe Event do
     #it { Event.all.count.should == 1 }
     it { event.description.should == "New event" }
     it { (event.end_date - event.date).should == 60*60 * (2 + 2.0/6) }
-    it { event.date.strftime("%_m/%d/%Y %l:%M %P").strip.should == "1/11/2012 10:10 pm" }
+    it { event.date.strftime("%m/%d/%Y %l:%M %P").strip.should == "01/11/2012 10:10 pm" }
     it { event.google_maps_url.should == 'http://maps.google.com' }
     it { event.approved_by_admin.should == false }
     it { event.location.should == "coffman" }
@@ -108,7 +108,7 @@ describe Event do
     it "should be invalid if google_maps_url is given without location" do
       expect {
         Event.create(description: "New event",
-                      date_string: "2012-1-11",
+                      date_string: "01/11/2012",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",
@@ -118,7 +118,7 @@ describe Event do
 
     it "should be invalid" do
       expect {
-        Event.create(date_string: "2012-1-11",
+        Event.create(date_string: "01/11/2012",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20")

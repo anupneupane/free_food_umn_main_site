@@ -7,7 +7,7 @@ class Event < ActiveRecord::Base
                   :duration, :start_time_string,
                   :location, :long_description
 
-  VALID_DATE_STRING_REGEX = /\d{4,4}-\d{1,2}-\d{2,2}/i
+  VALID_DATE_STRING_REGEX = /\d{2,2}\/\d{2,2}\/\d{4,4}/i
   validates :date_string, presence: true, format: { with: VALID_DATE_STRING_REGEX }
 
   VALID_START_TIME_STRING = /\d{1,2}:\d{2,2}/i
@@ -31,7 +31,7 @@ class Event < ActiveRecord::Base
   }
 
   def date_string
-    @@date_string || (date.nil? ? nil : date.strftime("%Y-%m-%d"))
+    @@date_string || (date.nil? ? nil : date.strftime("%m/%d/%Y"))
   end
 
   def start_time_string
@@ -56,7 +56,7 @@ class Event < ActiveRecord::Base
   end
 
   def starting_date
-    return DateTime.strptime("#{@@date_string} #{@@start_time_string} #{@@meridian_indicator}", "%Y-%m-%d %l:%M %P")
+    return DateTime.strptime("#{@@date_string} #{@@start_time_string} #{@@meridian_indicator}", "%m/%d/%Y %l:%M %P")
   end
 
   def ending_date

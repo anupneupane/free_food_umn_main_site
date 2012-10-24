@@ -6,7 +6,7 @@ describe "when I fill out the new event form" do
     visit '/events/new'
 
     fill_in 'event_name', with: 'Example title'
-    fill_in 'event_date_string', with: Time.now.strftime("%Y-%m-%d")
+    fill_in 'event_date_string', with: Time.now.strftime("%m/%d/%Y")
     fill_in 'event_start_time_string', with: '10:00'
     choose 'event_meridian_indicator_am'
     fill_in 'event_duration', with: '5:00'
