@@ -15,6 +15,9 @@
   <div><%= f.label :password_confirmation %><br />
   <%= f.password_field :password_confirmation %></div>
 
+  <div><%= f.label "Your's group's web address" %><br />
+  <%= f.text_field :url, :placeholder => 'optional' %></div>
+
   <div><%= f.submit "Sign up" %></div>
 <% end %>
 

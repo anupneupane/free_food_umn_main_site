@@ -13,6 +13,20 @@ describe "when I fill out the new event form" do
     fill_in 'event_description', with: 'Chess Club meeting'
     fill_in 'event_location', with: 'coffman'
     fill_in 'event_google_maps_url', with: 'http://maps.google.com'
+    fill_in 'event_long_description', with: "sample \n long description"
+  end
+
+  describe "show event" do
+    before do
+      click_button 'Submit Event'
+      visit "/events/#{event.id}"
+    end
+    let(:event) do
+      Event.where(name: "Example title").first
+    end
+    it "long description should be line breaked properly" do
+      page.should have_selector("br")
+    end
   end
 
   it "should increment events and redirect to homepage with a message" do
@@ -38,6 +52,7 @@ describe "when I fill out the new event form" do
         fill_in "organization_name", with: "Test Organization"
         fill_in "organization_password", with: "asdAsd123q"
         fill_in "organization_password_confirmation", with: "asdAsd123q"
+        fill_in "organization_url", with: "http://www.test-url.com"
         click_button "Sign up"
       end
 
@@ -65,11 +80,21 @@ describe "when I fill out the new event form" do
           page.should have_selector('p', :text => 'Chess Club meeting')
         end
 
-        it do
-          id = Event.first.id
-          visit "/events/#{id}"
-          page.should have_selector('p', :text => "By: Test Organization")
+        describe "view event's profile" do
+          let(:url_array) do
+            visit '/view_by_week'
+            url_of_event = page.html.match(/<a href="(.*)">Example title<\/a>/)[1]
+            unless url_of_event.nil?
+              visit url_of_event
+            end
+            page.html.match(/<a href="(.*)">Test Organization<\/a>/)
+          end
+
+          it "organization url" do
+            url_array[1].should == "http://www.test-url.com"
+          end
         end
+
       end
 
       describe "if organization not admin-approved" do
