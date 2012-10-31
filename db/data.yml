@@ -22,13 +22,13 @@ admins:
     - 
     - 
     - '2012-10-12 00:31:49.344110'
-    - 40
-    - '2012-10-12 00:31:49.350529'
-    - '2012-10-10 15:03:07.772324'
+    - 49
+    - '2012-10-24 05:10:37.715319'
+    - '2012-10-19 22:16:54.961197'
     - 97.86.232.127
-    - 160.94.86.108
+    - 97.86.232.127
     - '2012-09-07 06:14:27.241942'
-    - '2012-10-12 00:31:49.351296'
+    - '2012-10-24 05:10:37.715896'
 
 ---
 organizations:
@@ -782,4 +782,367 @@ events:
     - ! "Get registered to Vote at the Carnival of Democracy!\r\nSpeakers:\r\nCongressman
       Keith Ellison,\r\nSecretary of State Mark Ritchie,\r\nMayor R. T. Rybak,\r\nand
       more!"
+    - 
+  - - 72
+    - National Coming Out Week Open House
+    - Free food provided.
+    - '2012-10-15 13:30:00.000000'
+    - '2012-10-15 16:00:00.000000'
+    - '2012-10-15 06:21:15.283676'
+    - '2012-10-15 06:21:15.283676'
+    - ''
+    - true
+    - QSCC Coffman Room 205
+    - ! "After the National Coming Out Week Rally at 11:30 in front of Coffman.\r\nFeaturing
+      Goldy the Gopher!\r\nThe Queer Student Cultural Center"
+    - 
+  - - 73
+    - French National Honor Society
+    - Free Mesa Pizza!
+    - '2012-10-15 18:00:00.000000'
+    - '2012-10-15 19:00:00.000000'
+    - '2012-10-15 06:23:20.125828'
+    - '2012-10-15 06:23:20.125828'
+    - ''
+    - true
+    - 113 Folwell Hall
+    - ! "All levels of French speakers are welcome and encouraged to attend!\r\nDon't
+      miss this opportunity to join and discuss the direction of the chapter's involvement
+      in philanthropy, academics, networking, art and culture."
+    - 
+  - - 74
+    - Saving Face
+    - Film screening, snacks provided.
+    - '2012-10-17 19:00:00.000000'
+    - '2012-10-17 20:30:00.000000'
+    - '2012-10-16 05:42:20.226210'
+    - '2012-10-16 05:42:20.226210'
+    - https://maps.google.com/maps?q=Bell+Museum+of+Natural+History,+Minneapolis,+MN&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&oq=bell+mu&t=h&hq=Bell+Museum+of+Natural+History,+Minneapolis,+MN&z=15
+    - true
+    - Bell Museum Auditorium
+    - ! "Every year in Pakistan, many people - the majority of them women - are known
+      to be victimized by brutal acid attacks, while numerous other cases go unreported.
+      With little or no access to reconstructive surgery, survivors are physically
+      and emotionally scarred. Many reported assailants, often a husband or someone
+      else close to the victim, receive minimal if any punishment from the state.\r\nRecently
+      honored with a Best Documentary Short Oscar®. SAVING FACE chronicles the lives
+      of acid-attack survivors Zakia and Rukhsana as they attempt to bring their assailants
+      to justice and move on with their lives. The women are supported by NGOs, sympathetic
+      policy-makers, and skilled doctors, such as the Acid Survivors Foundation-Pakistan,
+      plastic surgeon Dr. Mohammad Jawad, who returns to his home country to assist
+      them, attorney Ms. Sarkar Abbass who fights Zakia's case, and female politician
+      Marvi Memon who advocates for new legislation. SAVING FACE is an intimate look
+      inside Pakistani society, illuminating each woman's personal journey while showing
+      how reformers are tackling this horrific problem."
+    - 
+  - - 75
+    - Food, Good for Eating
+    - FREE LUNCH served at 12:15!
+    - '2012-10-23 10:00:00.000000'
+    - '2012-10-23 15:00:00.000000'
+    - '2012-10-16 05:46:35.698405'
+    - '2012-10-16 05:46:35.698405'
+    - ''
+    - true
+    - Coffman Great Hall
+    - U of M Food Day
+    - 
+  - - 76
+    - Can we feed the world without destroying it?
+    - Free food!
+    - '2012-10-24 15:00:00.000000'
+    - '2012-10-24 17:00:00.000000'
+    - '2012-10-18 04:35:59.523765'
+    - '2012-10-18 04:35:59.523765'
+    - ''
+    - true
+    - Coffman Union Theatre
+    - ! 'Prof. Jon Foley, Director of the Institute on the Environment, will give
+      Food Day''s keynote presentation on the future of our global food systems. Food
+      Day is a two-day, student-led event built on the theme: Food: Good For Eating,
+      Good For Thinking'
+    - 
+  - - 77
+    - Meet, Greet & Eat
+    - Mesa Pizza & Soda for first years!
+    - '2012-10-17 17:00:00.000000'
+    - '2012-10-17 18:00:00.000000'
+    - '2012-10-18 04:38:57.056815'
+    - '2012-10-18 04:38:57.056815'
+    - ''
+    - true
+    - STSS Room 220
+    - ! "First Years!\r\nThe CLA Student Board Presents:\r\nMeet, Greet, & Eat\r\nDiscuss
+      your first year experience and 'Never Let Me Go' with the Dean of CLA"
+    - 
+  - - 78
+    - Kiva's 7th Birthday
+    - Free food and entertainment
+    - '2012-10-20 19:00:00.000000'
+    - '2012-10-20 21:00:00.000000'
+    - '2012-10-18 04:47:26.650883'
+    - '2012-10-18 04:47:26.650883'
+    - https://maps.google.com/maps?q=cedar+cultural+center&hq=cedar+cultural+center&t=h&z=15
+    - true
+    - Cedar Cultural Center
+    - kivamsp@gmail.com
+    - 
+  - - 79
+    - Doctor Boo Wholloween Party!
+    - Food and activities!
+    - '2012-10-28 17:00:00.000000'
+    - '2012-10-28 21:00:00.000000'
+    - '2012-10-23 03:02:38.878699'
+    - '2012-10-23 03:02:38.878699'
+    - ''
+    - true
+    - Coffman, President's Room
+    - ! "Break out your bowties and fezzes for an evening of Who centric activities
+      including pumpkin decorating, games, costumes, food, and fun!\r\nBy: The Gallifreyan
+      Human Alliance"
+    - 
+  - - 80
+    - ! 'Christians United for Israel: Autumn Meet & Greet'
+    - Free apple cider!
+    - '2012-10-25 18:30:00.000000'
+    - '2012-10-25 19:30:00.000000'
+    - '2012-10-23 03:06:14.820861'
+    - '2012-10-23 03:06:14.820861'
+    - ''
+    - true
+    - Coffman 323
+    - ! "Apple cider will be served in addition to a tutorial on navigating the media.\r\nAll
+      are welcome!"
+    - 
+  - - 81
+    - ! 'Reproductive Health: Implications from the 2012 Election'
+    - Light lunch
+    - '2012-10-23 11:45:00.000000'
+    - '2012-10-23 13:00:00.000000'
+    - '2012-10-23 03:14:15.656719'
+    - '2012-10-23 03:14:15.656719'
+    - https://maps.google.com/maps?q=mayo+building+minneapolis&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&t=h&hq=mayo+building&hnear=Minneapolis,+Hennepin,+Minnesota&z=14
+    - true
+    - Mayo Building 3-100
+    - ! "Light Lunch provided. Vegan, vegetarian, and gluten free options available
+      on a first come, first serve basis.\r\nPanelists:\r\n-Zobeida Bonilla, University
+      of Minnesota\r\n-Timothy Stanley, Planned Parenthood Minnesota\r\n-Gary Greenfield,
+      Minnesota Department of Health\r\n-Laura Attanasio, University of Minnesota"
+    - 
+  - - 82
+    - School of Nursing Career Fair
+    - Career opportunities and refreshments!
+    - '2012-10-24 15:30:00.000000'
+    - '2012-10-24 18:30:00.000000'
+    - '2012-10-23 03:20:56.397430'
+    - '2012-10-23 03:20:56.397430'
+    - ''
+    - true
+    - Coffman Memorial Union, Mississippi Room
+    - ! "Please join us at the School of Nursing Career Fair to explore the opportunities
+      for internships and careers in your own community!\r\nVendors such as HCMC,
+      Gillette Children's Hospital, Mayo Clinic, Sanford Health, the Navy, Fairview,
+      & ACR Homes will be attending!\r\nRefreshments will be provided!\r\nProfessional
+      attire or scrubs encouraged."
+    - 
+  - - 83
+    - ! 'From Waste to Wares: Upcycling Plastic for International Relief, Aid, Health
+      and Development'
+    - Free pizza!
+    - '2012-10-24 12:00:00.000000'
+    - '2012-10-24 13:00:00.000000'
+    - '2012-10-23 03:27:28.877041'
+    - '2012-10-23 03:27:28.877041'
+    - https://maps.google.com/maps?q=nils+hasselmo+hall&hl=en&ll=44.972419,-93.231354&spn=0.010611,0.026157&sll=44.97273,-93.232577&sspn=0.042443,0.104628&t=h&hq=nils+hasselmo+hall&z=16
+    - true
+    - Nils Hasselmo Hall 2-101 (Next to Coffman Union)
+    - ! "Kimberly Golynskiy, MLS\r\nPizza at noon. Intros 12:10 pm; free & open to
+      all\r\nProgram in Human Rights and Health"
+    - 
+  - - 84
+    - Dokdo Day
+    - FREE Korean Food
+    - '2012-10-25 17:00:00.000000'
+    - '2012-10-25 20:00:00.000000'
+    - '2012-10-24 04:56:45.902070'
+    - '2012-10-24 04:56:45.902070'
+    - ''
+    - true
+    - Coffman President's Room
+    - ! "By: Korea's Island Dokdo\r\nLearn more about this beautiful island in South
+      Korea!"
+    - 
+  - - 85
+    - Halloween Costume Party
+    - Free Food
+    - '2012-10-26 15:30:00.000000'
+    - '2012-10-26 16:30:00.000000'
+    - '2012-10-24 05:00:21.276383'
+    - '2012-10-24 05:00:21.276383'
+    - https://maps.google.com/maps?q=Elliott+Hall,+Minneapolis,+MN&hl=en&ll=44.980525,-93.250065&spn=0.021219,0.052314&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=elliott+hal&t=h&hq=Elliott+Hall,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15&iwloc=A
+    - true
+    - Elliott N119
+    - Society of Undergraduate Linguists invites you to its annual Halloween Party!
+      Dress up, eat good food, meet linguists, and have a good time! Costume prizes
+      will be awarded!
+    - 
+  - - 86
+    - HECUA
+    - Info Session with Free Food
+    - '2012-10-24 12:00:00.000000'
+    - '2012-10-24 13:00:00.000000'
+    - '2012-10-24 05:05:36.075535'
+    - '2012-10-24 05:05:36.075535'
+    - ''
+    - true
+    - Regis In-Flux
+    - ! "Come and learn about the off-campus study programs offered through HECUA.
+      By enrolling, you can focus on critical social justice issues and social change
+      strategies and earn U of M credit. Each program bridges classroom studies, an
+      internship, and field work.\r\nLearn more at: www.offcampusstudy.umn.edu"
+    - 
+  - - 87
+    - ! 'Mixed Mingle: Racial Experiences at the U'
+    - Free food and cultural discussion
+    - '2012-10-24 17:30:00.000000'
+    - '2012-10-24 19:00:00.000000'
+    - '2012-10-24 21:09:21.694978'
+    - '2012-10-24 21:09:21.694978'
+    - ''
+    - true
+    - ! 'Folwell Hall: Room 116'
+    - ! "\"We aim for Mixed Mingles to be engaging, insightful, reflective, and fun\"\r\n\r\nMulticultural
+      individuals are all over this campus and this is the space for us to come together
+      and learn. Sharing our experiences with each other is only the beginning to
+      building and illuminating the mixed community. As those that identify as being
+      'more than one race' increases exponentially nationally and right here in Minnesota,
+      awareness and representation must follow.\r\n\r\nPlease join us if you identify
+      as multiculural OR monocultural. Everyone is welcome and encouraged to discuss
+      the impacts of cultural integration on themselves and the world around them.\r\n\r\nFree
+      food provided. \r\n\r\nWith love,\r\n- In The Mix"
+    - 
+  - - 88
+    - Dance Marathon Tailgate!
+    - Food, games, prizes!
+    - '2012-10-27 12:30:00.000000'
+    - '2012-10-27 13:30:00.000000'
+    - '2012-10-26 05:16:13.006557'
+    - '2012-10-26 05:16:13.006557'
+    - ''
+    - true
+    - Coffman Union
+    - ! "Come join us before the game for a mini-tailgate to hear all about Dance
+      Marathon and how you can get involved! There will be food, games, and prizes!
+      Including cookies and hot chocolate!\r\n\r\nDance Marathon at the University
+      of Minnesota-TC is a student led year long fundraising event that culminates
+      into a 12-hour annual dance marathon to raise money for two great beneficiaries:
+      OneHeartland and Amplatz Children’s Hospital. \r\n\r\nOneHeartland helps to
+      raise awareness about pediatric HIV/AIDS. They host summer camps all over the
+      United States where children battling HIV/AIDS can attend with facilities to
+      handle the needs of these immune-compromised campers.\r\nLearn more at http://oneheartland.org/\r\n\r\nAmplatz
+      Children's Hospital is the University of Minnesota’s Children’s Hospital located
+      right here on campus on West Bank."
+    - 
+  - - 89
+    - High Tea with JSA
+    - Refreshents and prizes
+    - '2012-10-26 16:00:00.000000'
+    - '2012-10-26 17:00:00.000000'
+    - '2012-10-26 05:18:19.131223'
+    - '2012-10-26 05:18:19.131223'
+    - ''
+    - true
+    - ! 'Coffman Union: ASU'
+    - ! "Come join ASU and JSA for High Tea this Friday from 4pm-5pm in the ASU room!\r\n\r\nLearn
+      more about Japanese culture, lifestyle, and food that you might not know about!\r\n\r\nRefreshments
+      will be provided and make sure to participate in the trivia! There will be yummy
+      prizes!!!"
+    - 
+  - - 90
+    - All Pink Everything
+    - Free Pink Lemonade
+    - '2012-10-29 12:00:00.000000'
+    - '2012-10-29 16:00:00.000000'
+    - '2012-10-29 05:13:26.060863'
+    - '2012-10-29 05:13:26.060863'
+    - ''
+    - true
+    - Coffman Union
+    - ! "Come and learn about Breast Cancer prevention, facts, and myths. See how
+      you can make a difference with the brothers of Beta Chi Theta National Fraternity,
+      Inc.\r\n\r\nAlso, help yourself to some free pink lemonade. Wear pink to show
+      support for Breast Cancer research, prevention, and treatment.\r\n\r\nIt's All
+      Pink Everything!!!"
+    - 
+  - - 91
+    - SSA Eid Celebration
+    - Free pizza, drinks, bowling and pool!!
+    - '2012-10-30 16:30:00.000000'
+    - '2012-10-30 20:30:00.000000'
+    - '2012-10-29 05:18:48.437817'
+    - '2012-10-29 05:18:48.437817'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Goldy's Gameroom (Coffman)
+    - ! "Come Join SSA Eid Celebration which includes free bowling, & pool in Goldy's
+      Game room (Ground Level)! We will also provide free pizza and drinks, and something
+      extra for those of you the show up!\r\n\r\nEid Wanaagsan from SSA to You :)"
+    - 
+  - - 92
+    - MISA's Girls Night!!!!! :)
+    - Karaoke, photo booth, nail polishing, henna and food!!!
+    - '2012-11-02 18:00:00.000000'
+    - '2012-11-02 21:00:00.000000'
+    - '2012-10-29 05:23:11.610537'
+    - '2012-10-29 05:23:11.610537'
+    - https://maps.google.com/maps?q=Science+Teaching+and+Student+Services,+Pleasant+Street+Southeast,+Minneapolis,+MN&hl=en&sll=45.1135,-93.264013&sspn=0.338714,0.837021&oq=science+tea&t=h&hnear=Science+Teaching+and+Student+Services,+222+Pleasant+St+SE,+Minnea
+    - true
+    - STSS 330
+    - ! "What's happening with MISA now?\r\n\r\nWe are still here and want to present
+      to you our next BIG event:\r\n\r\nGIRL's NIGHT\r\n\r\nIf you do not know, it
+      is a night where there will be no BOYS ALLOWED!!!! WE REPEAT!!!! NO BOYS!!!!\r\n\r\nIt
+      will be a Girls Night for Girls ONLY!!!!\r\n\r\nAwesome KARAOKE, Memorable PHOTO
+      BOOTH Pictures, NAIL POLISHING Wonders, Cool HENNA Tattoos and Delicious FOOD!!!!\r\n\r\nLocation:
+      STSS\r\nRoom: 330\r\nTime: 6-9pm\r\nWhen: FRIDAY NOVEMBER 2th!!!!!\r\n\r\nIt
+      is FREEEEEE!!!!!! So Girls, be ready to be Glamourous, Pretty, Hardcore, and
+      Beautiful!!!!!"
+    - 
+  - - 93
+    - Health Disparities from a Cultural Perspective
+    - Dinner provided
+    - '2012-11-01 17:00:00.000000'
+    - '2012-11-01 19:00:00.000000'
+    - '2012-10-29 05:27:51.657041'
+    - '2012-10-29 05:27:51.657041'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.973992,-93.237414&sspn=0.010611,0.026157&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - President's Room in Coffman Union
+    - ! "Come and participate in discussions about health issues in various communities!
+      There will be speakers, cultural performances, and dinner.\r\nFor more information,
+      please email cog@umn.edu."
+    - 
+  - - 94
+    - got research?
+    - Prize giveaway, research resources, and Free Chipotle!!
+    - '2012-10-29 16:00:00.000000'
+    - '2012-10-29 17:30:00.000000'
+    - '2012-10-29 05:31:05.278691'
+    - '2012-10-29 05:31:05.278691'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&sll=44.97808,-93.251003&sspn=0.02122,0.052314&oq=moos+tower&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Moos Tower 2-620
+    - ! "Learn how to get involved in research!\r\nPresentations from:\r\nDr. Kelaine
+      Haas Ph.D.\r\nDr. Gent Luxton Ph.D."
+    - 
+  - - 95
+    - Jeff Munneke of the Minnesota Timberwolves!!
+    - Free food!
+    - '2012-10-29 12:30:00.000000'
+    - '2012-10-29 13:30:00.000000'
+    - '2012-10-29 05:34:48.685968'
+    - '2012-10-29 05:34:48.685968'
+    - https://maps.google.com/maps?q=Carlson+School+of+Management,+19th+Avenue+South,+Minneapolis,+MN&hl=en&sll=44.973144,-93.231326&sspn=0.010611,0.026157&oq=carlson&t=h&hq=Carlson+School+of+Management,+19th+Avenue+South,+Minneapolis,+MN&z=15
+    - true
+    - Carlson Room 1-135
+    - University of Minnesota Sports Management Association
     - 
