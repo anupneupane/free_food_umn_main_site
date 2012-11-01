@@ -21,6 +21,7 @@ FreeFoodUmn::Application.routes.draw do
   match '/view_by_week' => "date_view#view_by_week", :as => 'root'
   match '/view_by_week/:year/:month/:day' => "date_view#view_by_week"
   match '/view_by_list' => 'date_view#view_by_list'
+  match '/view_by_list/xml' => 'date_view#view_by_list_xml'
 
   match '/mobile' => "date_view#mobile"
   match '/mobile/previous/:n' => "date_view#mobile"

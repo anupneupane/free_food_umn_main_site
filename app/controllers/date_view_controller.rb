@@ -1,7 +1,7 @@
 
 class DateViewController < DateViewAndUiController
 
-  before_filter :set_events_var, :only => [:view_by_month, :view_by_week, :view_by_list, :mobile]
+  before_filter :set_events_var, :only => [:view_by_month, :view_by_week, :view_by_list, :view_by_list_xml, :mobile]
 
   def view_by_month
     @calendar_year = (params[:year] || DateTime.now.year).to_i
@@ -19,8 +19,6 @@ class DateViewController < DateViewAndUiController
 
   def mobile
     number_of_events_per_page = 30
-    @events.sort_by! {|event| event.date}
-    closest_to_today = get_event_closed_to_today @events
     @show_left_arrow = ((closest_to_today - number_of_events_per_page*(params[:n]).to_i) < 1) ? false : true
     @show_right_arrow = ((closest_to_today + number_of_events_per_page*(params[:n]).to_i) > @events.length - 2) ? false : true
 
@@ -33,18 +31,26 @@ class DateViewController < DateViewAndUiController
 
   def view_by_list
     number_of_events_per_page = 30
-    @events.sort_by! {|event| event.date}
-    closest_to_today = get_event_closed_to_today @events
-    @show_left_arrow = ((closest_to_today - number_of_events_per_page*(params[:n]).to_i) < 1) ? false : true
-    @show_right_arrow = ((closest_to_today + number_of_events_per_page*(params[:n]).to_i) > @events.length - 2) ? false : true
 
-    start_event_index = [closest_to_today - number_of_events_per_page*(params[:n]).to_i, 0].max
-    end_event_index = [start_event_index + number_of_events_per_page, @events.length-1].min
-    @events = @events[start_event_index, end_event_index]
+    closest_to_today = get_event_closed_to_today(@events)
+
+    @n = params[:n]
+    offset = @n ? number_of_events_per_page * @n.to_i : 0
+    right_offset = @n ? number_of_events_per_page * (@n.to_i + 1) : 0
+
+    @show_left_arrow = (closest_to_today + offset < 1) ? false : true
+    @show_right_arrow = ((closest_to_today + right_offset) > @events.length - 2) ? false : true
+
+    @events = get_events_that_havent_happened_yet @events, number_of_events_per_page, offset
 
     @datestring = "%B, %_d"
     @date = @events.length > 0 ? DateTime.now : @events[0].date
     @date = @date.strftime(@datestring)
+  end
+
+  def view_by_list_xml
+    @events = get_events_that_havent_happened_yet @events, 30
+    render 'view_by_list.xml.erb'
   end
 
   private
@@ -55,23 +61,29 @@ class DateViewController < DateViewAndUiController
     end
 
     def get_event_closed_to_today events
-      today = DateTime.new(DateTime.now.year,DateTime.now.month,DateTime.now.day)
+      today = DateTime.now
       closest_to_today = nil
-      closest_to_today_event = nil
       events.each_with_index do |event, index|
-        if event.date - today > 0
+        if event.date.to_i - today.to_i > 0
           if closest_to_today == nil
             closest_to_today = index
-            closest_to_today_event = event
           else
-            if event.date - today < closest_to_today
+            if event.date.to_i - today.to_i < events[closest_to_today].date.to_i - today.to_i
               closest_to_today = index
-              closest_to_today_event = event
             end
           end
         end
       end
       return closest_to_today
+    end
+
+    def get_events_that_havent_happened_yet events, number_of_events_per_page, offset=0
+      events_that_havent_happened_yet = events
+      events_that_havent_happened_yet.sort_by! {|event| event.date}
+      closest_to_today = get_event_closed_to_today(events_that_havent_happened_yet)
+
+      start_event_index = [closest_to_today + offset, 0].max
+      return events_that_havent_happened_yet[start_event_index, number_of_events_per_page]
     end
 
 end

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<events>
+<% @events.each do |event| %>
+<event>
+  <name><%= event.name %></name>
+  <description><%= event.description %></description>
+  <date><%= event.date %></date>
+  <end_date><%= event.end_date %></end_date>
+</event>
+<% end %>
+</events>
