@@ -3,11 +3,12 @@ require "spec_helper"
 describe "Weekview" do
 
   describe "current date" do
+    let(:now) { DateTime.now }
     describe "not admin-approved" do
       before do
         Event.create!(name: "not admin-approved",
                       description: "New event",
-                      date_string: "#{DateTime.now.month}/#{DateTime.now.day}/#{DateTime.now.year}",
+                      date_string: "#{now.strftime("%m/%d/%Y")}",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",
@@ -29,7 +30,7 @@ describe "Weekview" do
       before do
         Event.create!(name: "admin-approved",
                       description: "New event",
-                      date_string: "#{DateTime.now.month}/#{DateTime.now.day}/#{DateTime.now.year}",
+                      date_string: "#{now.strftime("%m/%d/%Y")}",
                       start_time_string: "10:10",
                       meridian_indicator: "pm",
                       duration: "2:20",
