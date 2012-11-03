@@ -16,17 +16,10 @@
   <%= render 'layouts/facebook_api' %>
   <div class="top_menu"><%= render "layouts/top_menu" %></div>
   <div class="header"><div class="container"><%= render 'layouts/header' %></div></div>
-  <div class="container wrapper">
-    <% if notice or alert %>
-      <br />
-      <%= content_tag(:div, notice, :class => 'alert alert-info') unless notice.nil? %>
-      <%= content_tag(:div, alert, :class => 'alert alert-error') unless alert.nil? %>
-    <% end %>
-    <%= content_for?(:content) ? yield(:content) : yield %>
-    <br /><br />
-    <div class="push"></div>
-  </div>
-  <%= render 'layouts/footer' %>
+
+  <%= yield(:notice) if content_for?(:notice) %>
+
+  <%= content_for?(:content) ? yield(:content) : yield %>
 
   <%= javascript_include_tag "application" %>
 </body>
