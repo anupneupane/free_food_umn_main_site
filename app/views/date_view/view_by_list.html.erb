@@ -39,7 +39,7 @@
 
 <% content_for :left_arrow do %>
   <% if @show_left_arrow %>
-    <%= link_to image_tag('left-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i - 1).to_s : "?n=-1" }" %>
+    <%= link_to image_tag('left-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i - 1).to_s : "?n=-1" }", id: "left_arrow" %>
   <% else %>
     <%= image_tag('left-arrow-unclickable.png') %>
   <% end %>
@@ -47,7 +47,7 @@
 
 <% content_for :right_arrow do %>
   <% if @show_right_arrow %>
-    <%= link_to image_tag('right-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i + 1).to_s : "?n=1" }" %>
+    <%= link_to image_tag('right-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i + 1).to_s : "?n=1" }", id: "right_arrow" %>
   <% else %>
     <%= image_tag('right-arrow-unclickable.png') %>
   <% end %>

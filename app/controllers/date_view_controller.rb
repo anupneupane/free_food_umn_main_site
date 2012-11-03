@@ -34,7 +34,7 @@ class DateViewController < DateViewAndUiController
 
     closest_to_today = get_event_closed_to_today(@events)
 
-    @n = params[:n]
+    @n = params[:n] || 0
     offset = @n ? number_of_events_per_page * @n.to_i : 0
     right_offset = @n ? number_of_events_per_page * (@n.to_i + 1) : 0
 
