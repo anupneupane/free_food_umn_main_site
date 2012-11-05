@@ -21,14 +21,14 @@ admins:
     - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
     - 
     - 
-    - '2012-10-12 00:31:49.344110'
-    - 49
-    - '2012-10-24 05:10:37.715319'
-    - '2012-10-19 22:16:54.961197'
-    - 97.86.232.127
-    - 97.86.232.127
+    - 
+    - 53
+    - '2012-11-04 04:46:02.391046'
+    - '2012-11-03 20:57:18.670979'
+    - 134.84.67.233
+    - 134.84.67.233
     - '2012-09-07 06:14:27.241942'
-    - '2012-10-24 05:10:37.715896'
+    - '2012-11-04 04:46:02.391864'
 
 ---
 organizations:
@@ -98,6 +98,54 @@ organizations:
     - National Society of Black Engineers
     - true
     - 
+  - - 4
+    - freefoodumn.com@gmail.com
+    - $2a$10$nljXW7nMDvww/jCrm300..hgF928A6NWVHJnDyyGRigWh7EaRdRku
+    - 
+    - 
+    - 
+    - 7
+    - '2012-11-05 02:55:56.388996'
+    - '2012-11-05 02:55:49.497028'
+    - 97.86.232.127
+    - 134.84.109.85
+    - '2012-10-31 21:20:09.800629'
+    - '2012-11-05 02:55:56.389628'
+    - Free Food Umn
+    - true
+    - http://freefoodumn.com/view_by_week#
+  - - 5
+    - caa@umn.edu
+    - $2a$10$B9vFhr4LDTVlTZolNLwccene7uR73N2KxVbo6Lt9.LK9KJ0sYXmga
+    - 
+    - 
+    - 
+    - 3
+    - '2012-11-01 08:02:15.664955'
+    - '2012-10-31 21:31:38.249966'
+    - 97.116.165.81
+    - 134.84.66.24
+    - '2012-10-31 21:25:24.684033'
+    - '2012-11-01 08:03:32.780686'
+    - caa@umn.edu
+    - true
+    - http://www.exploreveg.org/
+  - - 6
+    - iba@umn.edu
+    - $2a$10$x38jPPTCyHxaUDKrIkbNm.3.zQnRuoWi4bMaV7HdXnMtnJzUIoXn2
+    - 
+    - 
+    - 
+    - 1
+    - '2012-11-02 19:10:04.909157'
+    - '2012-11-02 19:10:04.909157'
+    - 24.118.135.155
+    - 24.118.135.155
+    - '2012-11-02 19:10:04.843816'
+    - '2012-11-02 19:10:04.909688'
+    - ! 'International Business Association '
+    - true
+    - www.facebook.com/UMNiba
 
 ---
 events:
@@ -1145,4 +1193,138 @@ events:
     - true
     - Carlson Room 1-135
     - University of Minnesota Sports Management Association
+    - 
+  - - 96
+    - Physics Open House
+    - Pizza lunch
+    - '2012-11-01 23:30:00.000000'
+    - '2012-11-02 00:30:00.000000'
+    - '2012-11-02 00:13:32.804454'
+    - '2012-11-02 00:13:32.804454'
+    - ''
+    - true
+    - 435 Tate
+    - Overview of physics program, learn about jobs in physics from speakers in industry,
+      research & development, and high school teaching.
+    - 
+  - - 97
+    - Why Am I Here?
+    - Free Dinner!
+    - '2012-11-02 19:00:00.000000'
+    - '2012-11-02 20:00:00.000000'
+    - '2012-11-02 00:17:59.972815'
+    - '2012-11-02 00:17:59.972815'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Coffman 3rd floor, President's Room
+    - ! 'By: Acts2fellowship'
+    - 
+  - - 98
+    - ! 'Jingle: Jewish and Mingle Night'
+    - Free Food Mocktails and Fun!
+    - '2012-11-01 19:30:00.000000'
+    - '2012-11-01 21:00:00.000000'
+    - '2012-11-02 00:23:35.258228'
+    - '2012-11-02 00:23:35.258228'
+    - https://maps.google.com/maps?q=Loring+Pasta+Bar,+14th+Avenue+Southeast,+Minneapolis,+MN&hl=en&ll=44.980342,-93.236117&spn=0.021219,0.052314&sll=44.97808,-93.251003&sspn=0.02122,0.052314&oq=loring+&t=h&hq=Loring+Pasta+Bar,+14th+Avenue+Southeast,+Minneapoli
+    - true
+    - Loring Pasta Bar
+    - Join us for a classy outing sponsered by Hillel!
+    - 
+  - - 99
+    - Honoring American Indian Women Luncheon
+    - FREE Food!
+    - '2012-11-08 11:00:00.000000'
+    - '2012-11-08 13:00:00.000000'
+    - '2012-11-03 01:41:35.728199'
+    - '2012-11-03 01:41:35.728199'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=35.603719,-95.625&sspn=46.203231,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Mississippi Room - Coffman Memorial Union, 3rd Floor
+    - Part of Native American Heritage Month!
+    - 
+  - - 100
+    - ! 'Unity Dinner 2012: "Elevating the Standard of Excellence"'
+    - Delicious food and talented speakers!
+    - '2012-11-04 17:30:00.000000'
+    - '2012-11-04 21:00:00.000000'
+    - '2012-11-03 01:52:00.000925'
+    - '2012-11-03 01:52:00.000925'
+    - https://maps.google.com/maps?q=McNamara+Alumni+Center,+Minneapolis,+MN&hl=en&ll=44.975607,-93.227963&spn=0.019915,0.052314&sll=44.97808,-93.251003&sspn=0.019914,0.052314&oq=mcnamara+al&t=h&hq=McNamara+Alumni+Center,+Minneapolis,+MN&z=15
+    - true
+    - McNamara Alumni Center
+    - ! "The Black Student Union would love for you to join us for this evening of
+      elegance to take place on Sunday, November 4th, 2012 in the Memorial Hall of
+      McNamara Alumni Center on the University Of Minnesota, Twin Cities campus for
+      our Annual Unity Dinner. \r\n\r\nDoors for the event will open at 5:30pm and
+      the program will run from 6:00pm-9:00pm.\r\n\r\nUnity Dinner 2012 strives to
+      \"Elevate the Standard of Excellence\" as we bring people and resources together
+      from the Greater Twin Cities communities for an evening of delicious food, inspirational
+      speakers, talented artists, and networking opportunities to promote political
+      awareness, unity, service, leadership, community development and diversity.\r\n\r\nWhile
+      this is a FREE event, we invite groups and organizations to reserve tables for
+      just $10! Each table seats 10 people. There will be a cap set on table reservation,
+      so get yours fast! Complete the Google form (https://docs.google.com/a/umn.edu/spreadsheet/viewform?fromEmail=true&formkey=dHZHWGdKTlRKWllXOTdOR3BQOW1FTkE6MQ)
+      to reserve your table.\r\n\r\nDress code is strictly enforced!! Business professional
+      and/or Cocktail attire."
+    - 
+  - - 101
+    - EIDRAGEOUS!!
+    - Ice skating and Chipotle!!
+    - '2012-11-09 16:00:00.000000'
+    - '2012-11-09 20:00:00.000000'
+    - '2012-11-03 02:06:22.499751'
+    - '2012-11-03 02:06:22.499751'
+    - https://maps.google.com/maps?q=Mariucci+Arena,+Minneapolis,+MN&hl=en&ll=44.97843,-93.228393&spn=0.019914,0.052314&sll=44.975601,-93.22798&sspn=0.019915,0.052314&oq=mariucci+a&t=h&hq=Mariucci+Arena,+Minneapolis,+MN&z=15
+    - true
+    - Mariucci Arena
+    - ! "Eid Mubarak to all!!!! We know you all loved our Valley Fair Eid Al-Fitr
+      event, so we're bringing you another unconventional bit of awesomeness! \r\n\r\nThis
+      Eidrageous will take place in Mariucci Arena--ice skating for a good four hours:)
+      And don't worry if you've never tried before--it's a lot of fun regardless!
+      AND--wait for it--Chipotle, snacks, and deserts (AKA red velvet cupcakes) waiting
+      for you for whenever you feel like taking a break for dinner:) Best part: you
+      won't have to pay a penny;) and FIFA 13!!!\r\n\r\nOnce more, Eid Mubarak, and
+      we hope to see you there,\r\nThe AMCC Board"
+    - 
+  - - 102
+    - HMSA 3rd Social
+    - Food and drinks!
+    - '2012-11-09 16:30:00.000000'
+    - '2012-11-09 18:00:00.000000'
+    - '2012-11-03 02:12:51.153775'
+    - '2012-11-03 02:12:51.153775'
+    - https://maps.google.com/maps?q=University+of+Minnesota+Armory,+Minneapolis,+MN&hl=en&ll=44.977519,-93.232083&spn=0.019915,0.052314&sll=44.97843,-93.228393&sspn=0.019914,0.052314&oq=armory&t=h&hq=University+of+Minnesota+Armory,+Minneapolis,+MN&z=15
+    - true
+    - University of Minnesota Armory
+    - Hello Everyone! First and foremost thank you to all those who made it to the
+      Monster Bash, it was a great turn out. Now, HMSA is proud to present our 3rd
+      Social of the year. We will have games such as Hmoob Bingo, "Dress to Impress",
+      and Heritage Day charades. I recommend brushing up on previous Heritage Days
+      plays! There will also be food and drinks as always, so invite your friends
+      family and everyone you know!
+    - 
+  - - 103
+    - Roshni~ ISA Diwali Show 2012
+    - Dinner and a show!
+    - '2012-11-09 18:00:00.000000'
+    - '2012-11-09 21:00:00.000000'
+    - '2012-11-03 02:18:12.990692'
+    - '2012-11-03 02:18:12.990692'
+    - https://maps.google.com/maps?q=Ted+Mann+Concert+Hall,+Minneapolis,+MN&hl=en&sll=44.977519,-93.232083&sspn=0.019915,0.052314&oq=ted&t=h&hq=Ted+Mann+Concert+Hall,&hnear=Minneapolis,+Hennepin,+Minnesota&z=14
+    - true
+    - Tedd Mann Auditorium
+    - ! "ISA's BIGGEST event of the Fall semester is FINALLY HERE! Come join us for
+      music and dance that showcase the culture of INDIA!! ROSHNI- Diwali Show 2012
+      is on FRIDAY NOVEMBER 9 at the TED MANN AUDITORIUM!! \r\nMake sure to bring
+      some friends and family too!\r\n\r\nFREE ADMISSIONS! \r\nThe Social and Food
+      hour starts at 6 pm followed by the show at 7pm\r\n\r\n\r\nWe would love to
+      see all your beautiful faces!!!! BE THERE!!!! Mark November 9th on your calendar
+      because this is a show you won't want to miss!! Make sure to invite all your
+      friends, family and even strangers!!!! \r\n\r\n\r\nTed Mann Address: \r\n2128
+      Fourth Street South \r\nMinneapolis, MN 55455\r\n\r\nParking: \r\nConvenient
+      parking is available at the University's 19th Avenue and 21st Avenue parking
+      ramps; you must pay a fee to park in these ramps.\r\n\r\nVolunteers Needed:\r\nIn
+      order to make this event possible, we need your help! Please click the following
+      link to sign up as a volunteer!\r\n\r\nhttps://docs.google.com/a/umn.edu/spreadsheet/viewform?fromEmail=true&formkey=dFVra3BLS3QyeUFZaGtlNFVHcTRrRmc6MQ"
     - 
