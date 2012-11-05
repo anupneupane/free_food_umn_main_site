@@ -23,7 +23,7 @@ class BlogController < ApplicationController
         parking: {
           author: "Zoltan Kiss (kissx012@umn.edu)",
           title: "Free Parking at the UofM",
-          date: "Oct 10, 2012",
+          date: "Nov 4, 2012",
           body: """<p>
           Turns out, at the UofM there is not only an abundance of events with free food,
           there is also an abundance of places with free parking. Unfortunately I only discovered
