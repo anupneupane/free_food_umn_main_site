@@ -39,6 +39,10 @@ FreeFoodUmn::Application.routes.draw do
   end
   match '/delete/event/:id' => "events#destroy"
 
+  #blog
+  match '/blog' => 'blog#index'
+  match '/parking' => 'blog#parking'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

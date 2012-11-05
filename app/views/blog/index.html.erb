@@ -1,0 +1,9 @@
+
+<% content_for :date_view_ui do %>
+  <br /><br />
+  <h1>Blog</h1>
+<% end %>
+
+<% @blog_posts.each do |blog_post_name, blog_post| %>
+  <%= blog_post blog_post[:author], blog_post[:title], blog_post[:date], blog_post[:body] %>
+<% end %>

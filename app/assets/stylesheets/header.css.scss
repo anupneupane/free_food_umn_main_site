@@ -2,6 +2,11 @@
 
 .header {
   background-color: $maroon;
+  h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: $gold;
+  }
 }
 
 .top_menu {
@@ -14,4 +19,10 @@
 
 .viewing_mode_description h2 {
   color: $gold;
+}
+
+.promotion_message {
+  a {
+    color: yellow;
+  }
 }
