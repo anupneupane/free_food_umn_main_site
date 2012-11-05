@@ -19,7 +19,13 @@
 
   <%= yield(:notice) if content_for?(:notice) %>
 
-  <%= content_for?(:content) ? yield(:content) : yield %>
+  <% if content_for?(:skip_having_layout) %>
+    <%= content_for?(:content) ? yield(:content) : yield %>
+  <% else %>
+    <div class="container">
+      <%= content_for?(:content) ? yield(:content) : yield %>
+    </div>
+  <% end %>
 
   <%= javascript_include_tag "application" %>
 </body>
