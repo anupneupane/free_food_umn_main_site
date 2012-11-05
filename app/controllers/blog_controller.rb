@@ -7,6 +7,7 @@ class BlogController < ApplicationController
   def method_missing(method, *args, &block)
     initalize_variables
     if not @blog_posts[method].nil?
+      @path = method
       @author = @blog_posts[method][:author]
       @title = @blog_posts[method][:title]
       @date = @blog_posts[method][:date]

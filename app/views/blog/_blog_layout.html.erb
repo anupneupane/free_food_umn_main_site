@@ -5,6 +5,7 @@
   <tr>
     <td align="left">
       <h1><%= title %></h1>
+      <div class="fb-like" data-href="http://www.freefoodumn.com/<%= path %>" data-send="true" data-width="450" data-show-faces="true"></div>
     </td>
     <td align="right">
       <span class="date"><%= date %></span>&nbsp;&nbsp;
@@ -16,6 +17,8 @@
 <br />
 
 <%= raw body %>
+
+<div class="fb-comments" data-href="http://www.freefoodumn.com/<%= path %>" data-num-posts="20" data-width="470"></div>
 
 </div>
 
