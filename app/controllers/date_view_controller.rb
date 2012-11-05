@@ -50,7 +50,7 @@ class DateViewController < DateViewAndUiController
 
   def view_by_list_xml
     @events = get_events_that_havent_happened_yet @events, 30
-    render 'view_by_list.xml.erb'
+    render 'view_by_list', formats: [:xml]
   end
 
   private
