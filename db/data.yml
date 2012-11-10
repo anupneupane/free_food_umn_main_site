@@ -22,130 +22,13 @@ admins:
     - 
     - 
     - 
-    - 53
+    - 54
+    - '2012-11-05 04:12:14.229881'
     - '2012-11-04 04:46:02.391046'
-    - '2012-11-03 20:57:18.670979'
-    - 134.84.67.233
+    - 134.84.109.85
     - 134.84.67.233
     - '2012-09-07 06:14:27.241942'
-    - '2012-11-04 04:46:02.391864'
-
----
-organizations:
-  columns:
-  - id
-  - email
-  - encrypted_password
-  - reset_password_token
-  - reset_password_sent_at
-  - remember_created_at
-  - sign_in_count
-  - current_sign_in_at
-  - last_sign_in_at
-  - current_sign_in_ip
-  - last_sign_in_ip
-  - created_at
-  - updated_at
-  - name
-  - approved_by_admin
-  - url
-  records: 
-  - - 1
-    - test@test.com
-    - $2a$10$h4Uitai84o2/PJeVQeFfd.WBtmAFpkd.8rq9wAvEFUDw78obNEWU6
-    - 
-    - 
-    - 
-    - 1
-    - '2012-09-10 02:18:21.111493'
-    - '2012-09-10 02:18:21.111493'
-    - 97.86.232.127
-    - 97.86.232.127
-    - '2012-09-10 02:18:21.105960'
-    - '2012-09-10 02:18:21.112308'
-    - ! 'test test asd '
-    - false
-    - 
-  - - 2
-    - gkiss25@gmail.com
-    - $2a$10$eXLfXb30ph4Wnowwx/rD7ubEan1riSISyPND4m4zUr4Ox2crnW36O
-    - 
-    - 
-    - 
-    - 1
-    - '2012-09-10 03:00:43.198808'
-    - '2012-09-10 03:00:43.198808'
-    - 160.94.87.2
-    - 160.94.87.2
-    - '2012-09-10 03:00:43.193700'
-    - '2012-09-10 03:00:43.199820'
-    - SMD
-    - false
-    - 
-  - - 3
-    - nsbe@umn.edu
-    - $2a$10$9xQnkgJBTgNdKJvsh.49o.4zcEXJbFdo2d9xyp0nAGQmlEuQH.X6e
-    - 
-    - 
-    - 
-    - 2
-    - '2012-10-08 15:18:32.228449'
-    - '2012-10-06 01:38:54.187239'
-    - 128.101.254.225
-    - 24.118.132.2
-    - '2012-10-06 01:38:54.149346'
-    - '2012-10-08 15:18:32.229569'
-    - National Society of Black Engineers
-    - true
-    - 
-  - - 4
-    - freefoodumn.com@gmail.com
-    - $2a$10$nljXW7nMDvww/jCrm300..hgF928A6NWVHJnDyyGRigWh7EaRdRku
-    - 
-    - 
-    - 
-    - 7
-    - '2012-11-05 02:55:56.388996'
-    - '2012-11-05 02:55:49.497028'
-    - 97.86.232.127
-    - 134.84.109.85
-    - '2012-10-31 21:20:09.800629'
-    - '2012-11-05 02:55:56.389628'
-    - Free Food Umn
-    - true
-    - http://freefoodumn.com/view_by_week#
-  - - 5
-    - caa@umn.edu
-    - $2a$10$B9vFhr4LDTVlTZolNLwccene7uR73N2KxVbo6Lt9.LK9KJ0sYXmga
-    - 
-    - 
-    - 
-    - 3
-    - '2012-11-01 08:02:15.664955'
-    - '2012-10-31 21:31:38.249966'
-    - 97.116.165.81
-    - 134.84.66.24
-    - '2012-10-31 21:25:24.684033'
-    - '2012-11-01 08:03:32.780686'
-    - caa@umn.edu
-    - true
-    - http://www.exploreveg.org/
-  - - 6
-    - iba@umn.edu
-    - $2a$10$x38jPPTCyHxaUDKrIkbNm.3.zQnRuoWi4bMaV7HdXnMtnJzUIoXn2
-    - 
-    - 
-    - 
-    - 1
-    - '2012-11-02 19:10:04.909157'
-    - '2012-11-02 19:10:04.909157'
-    - 24.118.135.155
-    - 24.118.135.155
-    - '2012-11-02 19:10:04.843816'
-    - '2012-11-02 19:10:04.909688'
-    - ! 'International Business Association '
-    - true
-    - www.facebook.com/UMNiba
+    - '2012-11-05 04:12:14.231466'
 
 ---
 events:
@@ -1328,3 +1211,287 @@ events:
       order to make this event possible, we need your help! Please click the following
       link to sign up as a volunteer!\r\n\r\nhttps://docs.google.com/a/umn.edu/spreadsheet/viewform?fromEmail=true&formkey=dFVra3BLS3QyeUFZaGtlNFVHcTRrRmc6MQ"
     - 
+  - - 104
+    - Frybread Friday
+    - FREE, food will be provided
+    - '2012-11-16 17:00:00.000000'
+    - '2012-11-16 18:00:00.000000'
+    - '2012-11-05 16:24:09.038303'
+    - '2012-11-05 16:24:09.038303'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=35.603719,-95.625&sspn=46.203231,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - AISCC - Coffman Memorial Union, 2nd Floor
+    - Part of Native American Heritage Month hosted by AISCC.
+    - 
+  - - 105
+    - Native Comedy Night
+    - FREE, food will be provided
+    - '2012-11-28 18:30:00.000000'
+    - '2012-11-28 19:30:00.000000'
+    - '2012-11-05 16:25:59.833510'
+    - '2012-11-05 16:25:59.833510'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=35.603719,-95.625&sspn=46.203231,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - President's Room - Coffman Memorial Union, 3rd Floor
+    - Part of Native American Heritage Month hosted by AISCC.
+    - 
+  - - 106
+    - Large Event Emergency Medicine
+    - Lunch lecture (with food)
+    - '2012-11-07 12:15:00.000000'
+    - '2012-11-07 13:15:00.000000'
+    - '2012-11-07 23:56:36.743471'
+    - '2012-11-07 23:56:36.743471'
+    - https://maps.google.com/maps?q=Mayo+Building,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=mayo+buildin&t=h&hq=Mayo+Building,+Minneapolis,+MN&z=15
+    - true
+    - Mayo Building 3-100
+    - ! "Join the University of Minnesota Department of Emergency Medicine and GAPSA
+      for a series of lunch lectures (with food) open to all graduate and undergraduate
+      students interested in Emergency Medicine!\r\nWith Dr. John Hick"
+    - 
+  - - 107
+    - Amazing Stories of the ER
+    - Lunch lecture (with food)
+    - '2012-11-08 12:15:00.000000'
+    - '2012-11-08 13:15:00.000000'
+    - '2012-11-07 23:58:12.137201'
+    - '2012-11-07 23:58:12.137201'
+    - https://maps.google.com/maps?q=Mayo+Building,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=mayo+buildin&t=h&hq=Mayo+Building,+Minneapolis,+MN&z=15
+    - true
+    - Mayo Building 3-100
+    - ! "Join the University of Minnesota Department of Emergency Medicine and GAPSA
+      for a series of lunch lectures (with food) open to all graduate and undergraduate
+      students interested in Emergency Medicine!\r\nWith Dr. Doug Brunette"
+    - 
+  - - 108
+    - Prehospital and Disaster Medicine
+    - Lunch lecture (with food)
+    - '2012-11-09 12:15:00.000000'
+    - '2012-11-09 13:15:00.000000'
+    - '2012-11-08 00:01:07.201280'
+    - '2012-11-08 00:01:07.201280'
+    - https://maps.google.com/maps?q=Phillips+Wangensteen+Building.,+Minneapolis,+MN&hl=en&sll=44.971967,-93.233021&sspn=0.021222,0.052314&oq=phillips&t=h&hnear=Phillips+Wangensteen+Building.,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - PWB 2-470
+    - ! "Join the University of Minnesota Department of Emergency Medicine and GAPSA
+      for a series of lunch lectures (with food) open to all graduate and undergraduate
+      students interested in Emergency Medicine! \r\nWith Dr. Paul Satterlee"
+    - 
+  - - 109
+    - Medical Student Panel
+    - Pizza and drinks provided!
+    - '2012-11-08 18:00:00.000000'
+    - '2012-11-08 19:00:00.000000'
+    - '2012-11-08 00:04:52.883762'
+    - '2012-11-08 00:04:52.883762'
+    - https://maps.google.com/maps?q=Molecular+and+Cellular+Biology,+Minneapolis,+MN&hl=en&ll=44.972187,-93.232609&spn=0.003752,0.006539&sll=44.972787,-93.233344&sspn=0.003752,0.006539&oq=molecular+and&t=h&hq=Molecular+and+Cellular+Biology,&hnear=Minneapolis,+H
+    - true
+    - MCB 2-122
+    - Please bring any questions you have about preparation, the application process,
+      and life as a medical/graduate student!
+    - 
+  - - 110
+    - CBS Student Social
+    - Free Chips, Dip, Veggies, Wings and More!!!
+    - '2012-11-08 18:00:00.000000'
+    - '2012-11-08 20:00:00.000000'
+    - '2012-11-08 00:06:55.622528'
+    - '2012-11-08 00:06:55.622528'
+    - https://maps.google.com/maps?q=Sally's+Saloon+%26+Eatery,+Washington+Avenue+Southeast,+Minneapolis,+MN&hl=en&sll=44.972187,-93.232609&sspn=0.003752,0.006539&oq=sally's+&t=h&hq=Sally's+Saloon+%26+Eatery,&hnear=Washington+Ave+SE,+Minneapolis,+Minnesota&z=16
+    - true
+    - Sally's Saloon & Eatery
+    - All upper and underclassmen are encouraged to attend!
+    - 
+  - - 111
+    - ! 'Lunch and Learn, Guest Speaker: Sam Jasmine'
+    - Afro Deli
+    - '2012-11-02 13:00:00.000000'
+    - '2012-11-02 14:00:00.000000'
+    - '2012-11-08 00:48:40.684385'
+    - '2012-11-08 00:48:40.684385'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.97359,-93.228035&sspn=0.010611,0.026157&oq=cof&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Coffman 203
+    - Join us at the disabled student cultural center (DSCC) for a game of darts with
+      Sam Jasmine, eat free food (Afro Deli), bring your friends!
+    - 
+  - - 112
+    - Symposium
+    - Free Pizza & Open to All
+    - '2012-11-09 17:30:00.000000'
+    - '2012-11-09 20:15:00.000000'
+    - '2012-11-08 01:07:28.191947'
+    - '2012-11-08 01:07:28.191947'
+    - https://maps.google.com/maps?q=Walter+F.Mondale+Hall,+Minneapolis,+MN&hl=en&ll=44.973148,-93.244336&spn=0.010611,0.026157&sll=44.973375,-93.245848&sspn=0.010611,0.026157&oq=walter+f+mon&t=h&hnear=Walter+F.Mondale+Hall,+Minneapolis,+Minnesota+55454&z=16
+    - true
+    - Mondale Hall (Law) 25
+    - ! 'Human Trafficking: International Perspectives on Policing, Legal and Field
+      Interventions'
+    - 
+  - - 113
+    - ! 'An Innovative Clinical Model: Women''s Integrative Health'
+    - Light Lunch Provided
+    - '2012-11-14 12:00:00.000000'
+    - '2012-11-14 13:00:00.000000'
+    - '2012-11-08 01:12:08.469185'
+    - '2012-11-08 01:12:08.469185'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&ll=44.973148,-93.231332&spn=0.010611,0.026157&sll=44.973148,-93.244336&sspn=0.010611,0.026157&oq=moos&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - 2-530 Moos Tower
+    - ! "The lecture will address the following:\r\n-What do women want from health
+      care and what can we give them?\r\n-Translating \"integrative/interdisciplinary/interprofessional\"
+      into a clinical practice reality\r\n-New perspectives and the new tool box:
+      creating sustainability"
+    - 
+  - - 114
+    - Pepero Day
+    - Free Korean Snacks
+    - '2012-11-10 19:30:00.000000'
+    - '2012-11-10 22:00:00.000000'
+    - '2012-11-09 19:35:28.635595'
+    - '2012-11-09 19:35:28.635595'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Coffman President's Room
+    - ! "Play Pepero games and find your Love!\r\n\r\nFun Games\r\n\r\nFree Korean
+      Snacks\r\n\r\nand Big Prizes!"
+    - 
+  - - 115
+    - Join us in hearing from Cargill
+    - Free food provided!
+    - '2012-11-13 12:00:00.000000'
+    - '2012-11-13 13:00:00.000000'
+    - '2012-11-09 19:37:08.187054'
+    - '2012-11-09 19:37:08.187054'
+    - https://maps.google.com/maps?q=Carlson+School+of+Management,+19th+Avenue+South,+Minneapolis,+MN&hl=en&ll=44.970415,-93.244829&spn=0.021223,0.052314&sll=44.97808,-93.251003&sspn=0.02122,0.052314&oq=csom&t=h&hq=Carlson+School+of+Management,+19th+Avenue+Sout
+    - true
+    - CSOM 1-132
+    - Net Impact
+    - 
+
+---
+organizations:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  - name
+  - url
+  - description
+  - approved_by_admin
+  records: 
+  - - 1
+    - test@test.com
+    - $2a$10$h4Uitai84o2/PJeVQeFfd.WBtmAFpkd.8rq9wAvEFUDw78obNEWU6
+    - 
+    - 
+    - 
+    - 1
+    - '2012-09-10 02:18:21.111493'
+    - '2012-09-10 02:18:21.111493'
+    - 97.86.232.127
+    - 97.86.232.127
+    - '2012-09-10 02:18:21.105960'
+    - '2012-09-10 02:18:21.112308'
+    - ! 'test test asd '
+    - 
+    - 
+    - false
+  - - 2
+    - gkiss25@gmail.com
+    - $2a$10$eXLfXb30ph4Wnowwx/rD7ubEan1riSISyPND4m4zUr4Ox2crnW36O
+    - 
+    - 
+    - 
+    - 1
+    - '2012-09-10 03:00:43.198808'
+    - '2012-09-10 03:00:43.198808'
+    - 160.94.87.2
+    - 160.94.87.2
+    - '2012-09-10 03:00:43.193700'
+    - '2012-09-10 03:00:43.199820'
+    - SMD
+    - 
+    - 
+    - false
+  - - 3
+    - nsbe@umn.edu
+    - $2a$10$9xQnkgJBTgNdKJvsh.49o.4zcEXJbFdo2d9xyp0nAGQmlEuQH.X6e
+    - 
+    - 
+    - 
+    - 2
+    - '2012-10-08 15:18:32.228449'
+    - '2012-10-06 01:38:54.187239'
+    - 128.101.254.225
+    - 24.118.132.2
+    - '2012-10-06 01:38:54.149346'
+    - '2012-10-08 15:18:32.229569'
+    - National Society of Black Engineers
+    - 
+    - 
+    - true
+  - - 4
+    - freefoodumn.com@gmail.com
+    - $2a$10$04QN7h0Z2alVsHe8CG1xqeZWHjz0DVFIRt.PdGtLCfZpz9XLnZ67y
+    - 
+    - 
+    - 
+    - 8
+    - '2012-11-05 03:11:20.094079'
+    - '2012-11-05 02:55:56.388996'
+    - 134.84.109.85
+    - 97.86.232.127
+    - '2012-10-31 21:20:09.800629'
+    - '2012-11-05 04:05:12.074030'
+    - Free Food Umn
+    - http://freefoodumn.com/view_by_week
+    - ''
+    - true
+  - - 5
+    - caa@umn.edu
+    - $2a$10$B9vFhr4LDTVlTZolNLwccene7uR73N2KxVbo6Lt9.LK9KJ0sYXmga
+    - 
+    - 
+    - 
+    - 3
+    - '2012-11-01 08:02:15.664955'
+    - '2012-10-31 21:31:38.249966'
+    - 97.116.165.81
+    - 134.84.66.24
+    - '2012-10-31 21:25:24.684033'
+    - '2012-11-06 08:39:41.624429'
+    - Compassionate Action for Animals
+    - http://www.exploreveg.org/
+    - Compassionate Action for Animals (CAA) has been serving the Twin Cities since
+      1998 as a 501(c)(3) nonprofit. In 2003, CAA opened a chapter at the University
+      of Minnesota. Our mission is to inspire respect for animals and promote vegetarianism
+      through outreach, education, and community building.
+    - true
+  - - 6
+    - iba@umn.edu
+    - $2a$10$x38jPPTCyHxaUDKrIkbNm.3.zQnRuoWi4bMaV7HdXnMtnJzUIoXn2
+    - 
+    - 
+    - 
+    - 1
+    - '2012-11-02 19:10:04.909157'
+    - '2012-11-02 19:10:04.909157'
+    - 24.118.135.155
+    - 24.118.135.155
+    - '2012-11-02 19:10:04.843816'
+    - '2012-11-02 19:10:04.909688'
+    - ! 'International Business Association '
+    - www.facebook.com/UMNiba
+    - 
+    - true
