@@ -17,6 +17,7 @@ gem 'sqlite3'
 #gem 'rb-inotify', '~> 0.8.8'
 
 gem 'mobile-fu'
+gem 'listview'
 
 gem 'jquery-ui-rails'
 #gem "capybara-webkit"

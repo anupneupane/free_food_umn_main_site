@@ -1,37 +1,26 @@
 
-<% @day_iterator = @starting_day %>
+
 
 <% content_for :date_view do %>
-
-  <% if @events.length > 0 %>
-    <% if is_today? @events[0].date %>
-      <h2>Today</h2>
-    <% end %>
-  <% end %>
-  
-  <% @events.each do |event| %>
-  
-    <% if event.date.strftime(@datestring) != @date %>
-      <% @date = event.date.strftime(@datestring) %>
-      <h2><%= @date %></h2>
-    <% end %>
-  
-    <p>
-      <strong><%= link_to(truncate(event.name, length: 150), "/events/#{event.id}") %></strong> |
-      <%= event.description %> |
+<%= @no_events %><br />
+<%= @l %><br />
+<%= @r %>
+  <% @event_date_groups.each do |event_date_group| %>
+    <h2><%= event_date_group[:date] %></h2>
+    <% event_date_group[:events].each do |event| %>
+      <%= link_to event.name, "/events/#{event.id}" %> | <%= event.description %> |
       <strong><%= format_hours(event.date) %> - <%= format_hours(event.end_date) %></strong> |
-    <% if event.google_maps_url? %>
-      <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
-    <% else %>
-      <% if event.location? %>
-        <%= event.location %>
+      <% if event.google_maps_url? %>
+        <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
+      <% else %>
+        <% if event.location? %>
+          <%= event.location %>
+        <% end %>
       <% end %>
+      <br /><br />
     <% end %>
-    </p>
-
-    <br />
   <% end %>
-
+  <br />
 <% end %>
 
 <% content_for :description_of_viewing_mode do %>
@@ -41,7 +30,7 @@
 
 <% content_for :left_arrow do %>
   <% if @show_left_arrow %>
-    <%= link_to image_tag('left-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i - 1).to_s : "?n=-1" }", id: "left_arrow" %>
+    <%= link_to image_tag('left-arrow.png'), "/view_by_list/?n=#{ @page - 1 }", id: "left_arrow" %>
   <% else %>
     <%= image_tag('left-arrow-unclickable.png') %>
   <% end %>
@@ -49,7 +38,7 @@
 
 <% content_for :right_arrow do %>
   <% if @show_right_arrow %>
-    <%= link_to image_tag('right-arrow.png'), "/view_by_list/#{ @n ? "?n="+(@n.to_i + 1).to_s : "?n=1" }", id: "right_arrow" %>
+    <%= link_to image_tag('right-arrow.png'), "/view_by_list/?n=#{ @page + 1 }", id: "right_arrow" %>
   <% else %>
     <%= image_tag('right-arrow-unclickable.png') %>
   <% end %>
