@@ -2,25 +2,35 @@
 
 
 <% content_for :date_view do %>
-<%= @no_events %><br />
-<%= @l %><br />
-<%= @r %>
-  <% @event_date_groups.each do |event_date_group| %>
-    <h2><%= event_date_group[:date] %></h2>
-    <% event_date_group[:events].each do |event| %>
-      <%= link_to event.name, "/events/#{event.id}" %> | <%= event.description %> |
-      <strong><%= format_hours(event.date) %> - <%= format_hours(event.end_date) %></strong> |
-      <% if event.google_maps_url? %>
-        <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
-      <% else %>
-        <% if event.location? %>
-          <%= event.location %>
-        <% end %>
-      <% end %>
-      <br /><br />
+
+<% date = nil %>
+
+<% @events.each do |event| %>
+  <% if event.date.strftime("%B %-d, %Y") != date %>
+    <% if event.date.strftime("%B %-d, %Y") == DateTime.now.strftime("%B %-d, %Y") %>
+      <% date = "Today" %>
+    <% else %>
+      <% date = event.date.strftime("%B %-d, %Y") %>
+    <% end %>
+    <h2><%= date %></h2>
+  <% end %>
+
+
+  <%= link_to event.name, "/events/#{event.id}" %> | <%= event.description %> |
+  <strong><%= format_hours(event.date) %> - <%= format_hours(event.end_date) %></strong> |
+  <% if event.google_maps_url? %>
+    <%= link_to (event.location ? event.location : "google maps"), event.google_maps_url %>
+  <% else %>
+    <% if event.location? %>
+      <%= event.location %>
     <% end %>
   <% end %>
-  <br />
+  <br /><br />
+
+
+<% end %>
+
+<br />
 <% end %>
 
 <% content_for :description_of_viewing_mode do %>

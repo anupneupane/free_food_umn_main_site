@@ -18,23 +18,17 @@ class DateViewController < DateViewAndUiController
   end
 
   def mobile
-    number_of_events_per_page = 30
+    @page = params[:n].to_i
 
-    closest_to_today = get_event_closed_to_today(@events)
+    event_vars = ListView.get_events_and_page_info(
+      events: @events,
+      page: @page,
+      events_per_page: 30)
 
-    @n = params[:n] || 0
-    offset = @n ? number_of_events_per_page * @n.to_i : 0
-    right_offset = @n ? number_of_events_per_page * (@n.to_i + 1) : 0
+    @events = event_vars[:events]
+    @show_left_arrow = (event_vars[:leftmost_page] == 0 ? false : true)
+    @show_right_arrow = (event_vars[:rightmost_page] == 0 ? false : true)
 
-    if closest_to_today.nil?
-      @show_left_arrow = false
-      @show_right_arrow = false
-    else
-      @show_left_arrow = (closest_to_today + offset < 1) ? false : true
-      @show_right_arrow = ((closest_to_today + right_offset) > @events.length - 2) ? false : true
-    end
-
-    @events = get_events_that_havent_happened_yet @events, number_of_events_per_page, offset
     render 'events/mobile', :layout => false
     return false
   end
@@ -42,14 +36,12 @@ class DateViewController < DateViewAndUiController
   def view_by_list
     @page = params[:n].to_i
 
-    event_vars = ListView.organization_events_by_day(
+    event_vars = ListView.get_events_and_page_info(
       events: @events,
-      today: DateTime.now,
       page: @page,
-      events_per_page: 30,
-      date_format: "%B, %d")
+      events_per_page: 30)
 
-    @event_date_groups = event_vars[:events]
+    @events = event_vars[:events]
     @show_left_arrow = (event_vars[:leftmost_page] == 0 ? false : true)
     @show_right_arrow = (event_vars[:rightmost_page] == 0 ? false : true)
   end
