@@ -21,14 +21,14 @@ admins:
     - $2a$10$XovCWLqlVbKP70lYD0WZQuW8g/vJ522fsbH4ltsgunThlXR2xAY4O
     - 
     - 
-    - 
-    - 54
-    - '2012-11-05 04:12:14.229881'
-    - '2012-11-04 04:46:02.391046'
-    - 134.84.109.85
-    - 134.84.67.233
+    - '2013-01-16 11:58:35.849030'
+    - 72
+    - '2013-01-18 15:45:12.295298'
+    - '2013-01-16 11:58:35.853502'
+    - 97.86.232.127
+    - 97.86.232.127
     - '2012-09-07 06:14:27.241942'
-    - '2012-11-05 04:12:14.231466'
+    - '2013-01-18 15:45:12.295856'
 
 ---
 events:
@@ -1368,6 +1368,532 @@ events:
     - CSOM 1-132
     - Net Impact
     - 
+  - - 116
+    - UMN World Fair
+    - Lots of delicious free food!
+    - '2012-11-15 17:00:00.000000'
+    - '2012-11-15 18:00:00.000000'
+    - '2012-11-12 01:02:53.100303'
+    - '2012-11-12 01:02:53.100303'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Coffman Great Hall
+    - MSA is proud to present the second annual World Fair on the University of Minnesota
+      campus! The celebration of cultures will include free food, performances, and
+      interactive activities like Henna, palm reading, sumo wrestling. Additionally,
+      our very own student groups will be participating in order to share information
+      on their activities and opportunities. You can look forward to some delicious
+      free food from Hong Kong Noodles, Glockenspiel, Copper Pot and Afro Deli!
+    - 
+  - - 117
+    - ! 'LSA Presents: Sabaidee Flavors of Laos'
+    - Sticky Rice, Papaya Salad, Chicken, Desserts!
+    - '2012-11-15 17:00:00.000000'
+    - '2012-11-15 19:00:00.000000'
+    - '2012-11-12 03:42:27.414764'
+    - '2012-11-12 03:42:27.414764'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - Mississippi Room - Coffman Memorial Union
+    - ! "The UMN Lao Student Association is proud to present our fall event, \"Sabaidee
+      Flavors of Laos.\" At this event, we will present to you the customary ways
+      of Lao dining through room set up so you can get the full experience! Our VP
+      will give a short presentation on her summer trip to Laos as well. There will
+      be FOOD FOOD FOOD, dessert included ;) As well as entertainment. Please stop
+      by to enjoy and experience some Lao food and culture! \r\n\r\nWhat: Our 3rd
+      Annual LSA Presents - Sabaidee: Flavors of Laos\r\nLocation: Mississippi Room
+      - Coffman Memorial Union\r\nTime: 5-7PM\r\nFood: - Sticky Rice, Papaya Salad,
+      Chicken, Desserts\r\nCost - FREE!"
+    - 
+  - - 118
+    - SFT U of M Movie Night - Sun Behind the Clouds
+    - Free movie and food!
+    - '2012-11-16 16:30:00.000000'
+    - '2012-11-16 18:30:00.000000'
+    - '2012-11-12 17:12:34.610281'
+    - '2012-11-12 17:13:02.852889'
+    - https://maps.google.com/maps?q=Science+Teaching+and+Student+Services,+222+Pleasant+St+SE,+Minneapolis,+MN&hl=en&sll=44.97808,-93.251003&sspn=0.02122,0.052314&oq=science+te&t=h&hnear=Science+Teaching+and+Student+Services,+222+Pleasant+St+SE,+Minneapolis,+M
+    - true
+    - ! 'Science Teaching & Student Services #131B'
+    - ! "SFT U of M will be hosting a MOVIE NIGHT in which we will be showing Sun
+      Behind the Cloud on FRI, NOV 16th from 4:30-6:30! Make sure you come and bring
+      friends! And yes, we will have FREE FOOD.\r\n\r\n\r\nThe Sun Behind the Clouds
+      looks at China's occupation of Tibet from the perspective of the vocally secessionist
+      Tibetan youth, and from that of their spiritual leader, the Dalai Lama, whose
+      reaction to the Chinese presence has been markedly less confrontational. Directed
+      by Ritu Sarin and Tenzing Sonam, the film features interviews with the Dalai
+      Lama and Tenzin Tsundue\r\n\r\nBe There or Be Square!\r\nU of M STSS Building,
+      Room Number #131B\r\nFriday, Nov 16 4:30pm! \r\n\r\nTrailer: http://bit.ly/UatxR5"
+    - 
+  - - 119
+    - Music Workshop
+    - Band performance, instrument workshop, and free food!
+    - '2012-11-16 18:15:00.000000'
+    - '2012-11-16 21:00:00.000000'
+    - '2012-11-13 06:33:25.101234'
+    - '2012-11-13 06:33:25.101234'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=coffman&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=15
+    - true
+    - President Room (Coffman Third floor)
+    - ! 'By: Oriental Music Club'
+    - 
+  - - 120
+    - CLA Art FAir
+    - Free food (party platters), student artwork, live music
+    - '2012-11-19 09:00:00.000000'
+    - '2012-11-19 18:00:00.000000'
+    - '2012-11-15 21:37:27.030480'
+    - '2012-11-15 21:37:27.030480'
+    - https://maps.google.com/maps?hl=en&q=coffman+union+map&ie=UTF-8&ei=BWClUMHLKIGc2QXydg&ved=0CAUQ_AUoAA
+    - true
+    - Mississippi Room (Coffman 3rd floor)
+    - ! 'Hosted by the CLA Student Board, this gallery of student artwork is a must
+      see.  Come enjoy snacks and refreshments, vote on your favorite art, and enjoy
+      live music by student musicians.  The event is going on all day, with an awards
+      ceremony happening at 6pm.  '
+    - 
+  - - 121
+    - ! 'Peb Zaj Dab Neeg: Our Folklore'
+    - Free event, Lunch will be served
+    - '2012-11-17 12:00:00.000000'
+    - '2012-11-17 16:00:00.000000'
+    - '2012-11-17 20:10:16.189988'
+    - '2012-11-17 20:10:16.189988'
+    - https://maps.google.com/maps?q=St+Paul+Student+Center,+2017+Buford+Ave,+St+Paul,+MN&hl=en&sll=37.0625,-95.677068&sspn=48.287373,107.138672&oq=st+paul+s&t=h&hq=St+Paul+Student+Center,&hnear=2017+Buford+Ave,+St+Paul,+Minnesota+55108&z=16
+    - true
+    - St. Paul Student Center, North Star Ballroom
+    - ! 'Hmong Minnesota Student Association presents: Heritage Day Musical'
+    - 
+  - - 122
+    - MAPS Summer Options
+    - Food will be provided!! FREE
+    - '2012-11-19 16:00:00.000000'
+    - '2012-11-19 17:00:00.000000'
+    - '2012-11-19 02:33:39.221869'
+    - '2012-11-19 02:33:39.221869'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Room 325
+    - ! "What are you doing over the summer? Don't be a couch potato! Instead, build
+      your resume over the summer! Join MAPS this Monday to learn about summer enrichment
+      programs, research, volunteer, and experiences abroad from past participants!
+      \r\n\r\nWHEN: Monday Nov. 19 from 4-5PM\r\nWHERE: Coffman Room 325\r\nWHY: Build
+      your resume, gain experience and meet new people!"
+    - 
+  - - 123
+    - creo elements/pro workshop
+    - Mesa Pizza!
+    - '2012-11-19 17:30:00.000000'
+    - '2012-11-19 18:30:00.000000'
+    - '2012-11-19 17:35:41.619442'
+    - '2012-11-19 17:35:41.619442'
+    - https://maps.google.com/maps?q=Mechanical+Engineering,+111+church+street+se+minneapolis&hl=en&sll=44.981435,-93.255215&sspn=0.084874,0.209255&t=h&hq=Mechanical+Engineering,&hnear=111+Church+St+SE,+Minneapolis,+Hennepin,+Minnesota+55455&z=16
+    - true
+    - ME 314
+    - Join us for our Creo (ProEngineer) workshop and learn the basic to intermediate
+      skills necessary to be successful in your future career! You'll get great experience
+      in modeling and assemblies. We'll be serving Mesa Pizza so come hungry!
+    - 
+  - - 124
+    - Global China Connection Conference 2012
+    - Free subs and soft drink!
+    - '2012-11-26 16:00:00.000000'
+    - '2012-11-26 20:00:00.000000'
+    - '2012-11-20 06:10:51.005881'
+    - '2012-11-20 06:10:51.005881'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Union @ President's Room
+    - ! "Theme: Explore business opportunities in China\r\nWhen: Mon. 11/26, 4:00-8:00
+      PM\r\nWhere: Coffman Union @ Presidents RM\r\nDress Code: Business Casual"
+    - 
+  - - 125
+    - ! 'Student Board Presents: Concert in the Whole'
+    - FREE MESA PIZZA!
+    - '2012-12-05 20:00:00.000000'
+    - '2012-12-05 22:00:00.000000'
+    - '2012-11-20 06:15:17.260630'
+    - '2012-11-20 06:15:17.260630'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.957024,-93.261566&sspn=0.33964,0.837021&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - The Whole, Basement of Coffman
+    - Come enjoy musical, vocal, and visual performances for free!
+    - 
+  - - 126
+    - 2013 Summer Advanced Research Program (ARP)
+    - Informational Session, Lunch provided!
+    - '2012-12-04 12:15:00.000000'
+    - '2012-12-04 13:00:00.000000'
+    - '2012-11-20 06:27:05.649302'
+    - '2012-11-20 06:28:51.694972'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&ll=44.973148,-93.231332&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=moos+to&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - 2-118 Moos
+    - ! "-Mentored summer research program for graduate-level health sciences students
+      (includes Predocs, Medicine, Nursing, Pharmacy, Dentistry)\r\n-Gain research
+      skills and experience in clinical and translational science\r\n-Weekly seminar
+      series and career development\r\n-Stipend - $560/week for 8-12 weeks over summer\r\n-Up
+      to $1,200 in travel funds for outstanding projects\r\n-Applications due January
+      29th, 2012\r\n\r\nAdditional information may be found at:\r\nhttp://med.umn.edu/che/training/Programs/che_arp\r\nhttp://ctsi.umn.edu/education/programs-opportunities/pre-doc"
+    - 
+  - - 127
+    - 2013 Summer Advanced Research Program (ARP)
+    - Informational Session, Lunch provided!
+    - '2012-11-27 12:00:00.000000'
+    - '2012-11-27 13:00:00.000000'
+    - '2012-11-20 06:28:37.177363'
+    - '2012-11-20 07:20:18.397056'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&ll=44.973148,-93.231332&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=moos+to&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - 2-580 Moos
+    - ! "-Mentored summer research program for graduate-level health sciences students
+      (includes Predocs, Medicine, Nursing, Pharmacy, Dentistry)\r\n-Gain research
+      skills and experience in clinical and translational science\r\n-Weekly seminar
+      series and career development\r\n-Stipend - $560/week for 8-12 weeks over summer\r\n-Up
+      to $1,200 in travel funds for outstanding projects\r\n-Applications due January
+      29th, 2012\r\n\r\nAdditional information may be found at:\r\nhttp://med.umn.edu/che/training/Programs/che_arp\r\nhttp://ctsi.umn.edu/education/programs-opportunities/pre-doc"
+    - 
+  - - 128
+    - ! 'Real Interrogation: What Actually Happens When Cops Question Kids'
+    - Refreshments will be served.
+    - '2012-12-06 13:30:00.000000'
+    - '2012-12-06 15:30:00.000000'
+    - '2012-11-20 06:33:51.309925'
+    - '2012-11-20 06:33:51.309925'
+    - https://maps.google.com/maps?q=Nolte+Center,+Minneapolis,+MN&hl=en&sll=44.973148,-93.231332&sspn=0.010611,0.026157&oq=nolte+center&t=h&hq=Nolte+Center,&hnear=Minneapolis,+Hennepin,+Minnesota&z=14
+    - true
+    - 235 Nolte Center
+    - ''
+    - 
+  - - 129
+    - STEM Professional Seminar!
+    - Food will be provided
+    - '2012-11-29 17:00:00.000000'
+    - '2012-11-29 18:15:00.000000'
+    - '2012-11-20 06:39:12.266756'
+    - '2012-11-20 06:39:12.266756'
+    - https://maps.google.com/maps?q=Mechanical+Engineering,+111+Church+Street+Southeast,+Minneapolis,+Minnesota&hl=en&ll=44.975364,-93.233156&spn=0.01061,0.026157&sll=44.973148,-93.231332&sspn=0.010611,0.026157&oq=mechanical+&t=h&hq=Mechanical+Engineering,&hne
+    - true
+    - ME 1130
+    - Professionals in the STEM fields will be coming in to teach students how to
+      prepare to enter the corporate world, to be more successful once there, and
+      how to move up the ladder within a company. Come with questions, and be prepared
+      to learn a lot!
+    - 
+  - - 130
+    - Red Spots
+    - Education. Awareness. Discussion. Dinner.
+    - '2012-11-30 18:00:00.000000'
+    - '2012-11-30 21:00:00.000000'
+    - '2012-11-20 06:44:22.809853'
+    - '2012-11-20 06:44:22.809853'
+    - https://maps.google.com/maps?q=McNamara+Alumni+Center,+Minneapolis,+MN&hl=en&sll=44.975364,-93.233156&sspn=0.01061,0.026157&oq=mcnamar&t=h&hq=McNamara+Alumni+Center,+Minneapolis,+MN&z=15
+    - true
+    - McNamara Alumni Center
+    - ! "Join us in observance of world AIDS Day.\r\nSemi-formal dress code enforced.\r\nDoors
+      open at 5:30.\r\nBy: The African Student Association, in partnership with The
+      Black Student Union, Minnesota Student Association, Ethiopian Student Association,
+      National Society of Black Engineers, and SHADE"
+    - 
+  - - 131
+    - Net Impact
+    - Lunch!
+    - '2012-12-04 12:00:00.000000'
+    - '2012-12-04 13:00:00.000000'
+    - '2012-11-20 07:31:55.406352'
+    - '2012-11-20 07:31:55.406352'
+    - https://maps.google.com/maps?q=Carlson+School+of+Management,+Minneapolis,+MN&hl=en&ll=44.970415,-93.244829&spn=0.021223,0.052314&sll=44.975601,-93.22798&sspn=0.021221,0.052314&oq=carls&t=h&hq=Carlson+School+of+Management,+Minneapolis,+MN&z=15
+    - true
+    - CSOM 1-132
+    - Join us for lunch as we talk with Nick Pilger, from Community Relations at the
+      American Cancer Society!
+    - 
+  - - 132
+    - Works in Progress
+    - Health seminar, Lunch provided
+    - '2012-11-27 13:00:00.000000'
+    - '2012-11-27 14:00:00.000000'
+    - '2012-11-20 08:17:30.269309'
+    - '2012-11-20 08:17:30.269309'
+    - https://maps.google.com/maps?q=717+Delaware+Street+Southeast,+Minneapolis,+MN&hl=en&sll=44.970415,-93.244829&sspn=0.021223,0.052314&oq=717+de&t=h&hnear=717+Delaware+St+SE,+Minneapolis,+Hennepin,+Minnesota+55414&z=16
+    - true
+    - 717 Delaware Building Room 105
+    - ''
+    - 
+  - - 133
+    - ! 'Project Runway: BMW Style'
+    - Food, Fashion, Entertainment and Prizes!
+    - '2012-11-30 18:00:00.000000'
+    - '2012-11-30 20:30:00.000000'
+    - '2012-11-24 23:40:42.768901'
+    - '2012-11-24 23:40:42.768901'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=46.44186,-93.36129&sspn=10.584477,26.784668&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Mississippi Room, Coffman Memorial Union
+    - ! "You are officially invited to Black Motivated Women's Annual Fashion Show!
+      There will be some fierce ladies and gentlemen ripping the runway! Like we have
+      never done before! This will be something you don't want to miss!\r\n\r\nBe
+      sure to arrive on time for Food and Drinks!\r\n\r\nWe will be previewing the
+      latest designs of local designers you don't want to miss! We're talking Men's
+      and Women's Fashion!!!\r\n\r\nCome Dress To IMPRESS in your cocktail attire
+      !!! We will be giving away prizes for some of the BEST DRESSED Attendees!!!\r\n\r\nThis
+      is sure to be a evening of Elegance and Fun \r\n\r\nIn the Mississippi Room!"
+    - 
+  - - 134
+    - ! 'Women''s Week: Rep Yo Roots!'
+    - Food from La Raza
+    - '2012-11-26 19:30:00.000000'
+    - '2012-11-26 20:30:00.000000'
+    - '2012-11-24 23:45:04.776994'
+    - '2012-11-25 00:22:59.005796'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=46.44186,-93.36129&sspn=10.584477,26.784668&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - The Whole, Basement of Coffman
+    - ! "REP YO ROOTS! Brought to you by: Voices Merging\r\n-In the Whole! CMU, UMN\r\n-Monday,
+      November 26th, 2012.\r\n-Doors open at 7:30 p.m.\r\n-Event is FREE and open
+      to the public.\r\n-Join us and represent your roots. Be ready to have fun and
+      learn about our diverse histories and stories! In the Mix and Bomba Umoya will
+      be performing. Be ready to be inspired, be ready to inspire and represent your
+      roots! Food provided by La Raza Student Cultural Center."
+    - 
+  - - 135
+    - ! 'Women''s Week: Reproductive Justice in the Queer and Immigrant Latina Communities'
+    - Food from Chimborazo restaurant will be provided!
+    - '2012-11-28 15:00:00.000000'
+    - '2012-11-28 16:00:00.000000'
+    - '2012-11-25 00:25:57.480615'
+    - '2012-11-25 00:25:57.480615'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235431&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Coffman Theater
+    - ! "-CoSponsored by WSAC\r\n-Coffman Theater\r\n-Wednesday, November 28th, 2012.\r\n-Starting
+      at 3:00 p.m.\r\n-Event is FREE and open to the public\r\n-Come hear from speaker
+      and writer Miriam Perez. She will be discussing and analyzing certain myths
+      that plague the Queer and Immigrant Latina communities. She is also a former
+      editor of http://feministing.com/, founder of the blog http://radicaldoula.com/,
+      and is currently serving as the Board Chair of the Astraea Lesbian Foundation
+      for Justice (http://www.astraeafoundation.org/)."
+    - 
+  - - 136
+    - ! 'Women''s Week: Women of Color in Academia'
+    - Free food will be provided.
+    - '2012-11-30 12:00:00.000000'
+    - '2012-11-30 13:00:00.000000'
+    - '2012-11-25 00:27:59.109887'
+    - '2012-11-25 00:27:59.109887'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235431&spn=0.010611,0.026157&sll=44.9727,-93.2354&sspn=0.010611,0.026157&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - President's Room in Coffman Union
+    - ! "-President’s Room, CMU, UMN\r\n-Friday, November 30th, 2012.\r\n-Starting
+      at 12:00 p.m.\r\n-Event is FREE and open to the public.\r\n-Come and learn about
+      the experiences and struggles of Women of Color in Academia. Various professors
+      will be joining us from different departments of the University of Minnesota.
+      Come and learn how the community can help be advocates and support women of
+      color in academia. And how we as a community can be advocates for race and gender
+      equality!"
+    - 
+  - - 137
+    - J-Cafe Takoyaki-kai
+    - Japanese octopus dumplings, green tea, shamisen music.
+    - '2012-11-30 22:00:00.000000'
+    - '2012-11-30 23:00:00.000000'
+    - '2012-11-29 04:00:50.366716'
+    - '2012-11-29 17:18:13.246209'
+    - ''
+    - true
+    - ! 'Nolte Restaurant '
+    - ! 'Join us for takoyaki (Japanese octopus dumplings), green tea, roll cake,
+      and a good time. There will also be a shamisen (3-stringed instrument) music
+      performance at 4:30. '
+    - 
+  - - 138
+    - Soup on the Mall
+    - Hillel UMN
+    - '2012-12-03 11:30:00.000000'
+    - '2012-12-03 13:00:00.000000'
+    - '2012-12-03 01:16:41.451273'
+    - '2012-12-03 01:18:11.527704'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Steps of Coffman
+    - Jewish Culture Week
+    - 
+  - - 139
+    - Bagels on the Bridge
+    - Hillel UMN
+    - '2012-12-04 09:30:00.000000'
+    - '2012-12-04 11:30:00.000000'
+    - '2012-12-03 01:19:31.115540'
+    - '2012-12-03 01:19:31.115540'
+    - ''
+    - true
+    - Washington Ave Bridge
+    - Jewish Culture Week
+    - 
+  - - 141
+    - December Lunch and Learn
+    - Eat and learn about brain injury!
+    - '2012-12-07 12:00:00.000000'
+    - '2012-12-07 13:00:00.000000'
+    - '2012-12-03 19:41:40.898442'
+    - '2012-12-03 19:41:40.898442'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235409&spn=0.010611,0.026157&sll=44.972981,-93.235366&sspn=0.010611,0.026157&oq=coff&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - ! 'Disabled Student Cultural Center, Coffman Union, '
+    - ! "This presentation will cover the cause of brain injury nationally and in
+      the state of Minnesota. The prevalence of brain injury among children, teens
+      and adults will also be addressed. Common changes caused by brain injury will
+      be discussed including cognitive, behavioral and physical symptoms. Basic medical
+      rehabilitation, compensatory strategies and resources will also be provided.\r\n\r\nInspired
+      by a personal event, Robyn has dedicated her nursing career to the care and
+      support of those affected by neurological damage from brain injury or stroke. "
+    - 
+  - - 143
+    - AMCC Culture Vulture with Somali Student Association
+    - Culture and food!
+    - '2012-12-07 14:30:00.000000'
+    - '2012-12-07 16:30:00.000000'
+    - '2012-12-04 00:16:14.188033'
+    - '2012-12-04 00:16:14.188033'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=35.603719,-95.625&sspn=49.109858,107.138672&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Al-Madinah Cultural Center, 217 Coffman Union
+    - Join Al-Madinah Culutural Center in welcoming the Somali Student Association!
+      They'll share their colorful culture with us, and we'll meet their fantastic
+      board! And of course, they'll bring us a delicious Somali meal!
+    - 
+  - - 144
+    - Land O'Lakes, Inc. Meet and Greet
+    - Bowling, pool, and Buffalo Wild Wings!
+    - '2012-12-04 16:30:00.000000'
+    - '2012-12-04 18:30:00.000000'
+    - '2012-12-04 00:37:47.575265'
+    - '2012-12-04 00:37:47.575265'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=35.603719,-95.625&sspn=49.109858,107.138672&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Goldy's Gameroom (Coffman)
+    - Please take this opportunity to join us and network with the Land O'Lakes IT
+      team. This is an informal networking event aimed at connecting students with
+      our Land O'Lakes recruiting staff and educating students on IT opportunities
+      within Land O'Lakes. This even will include a brief informational session presented
+      by VP Mike Macrie.
+    - 
+  - - 145
+    - ! '"Pride @ Work:  GLBT Employees" 1st Meeting '
+    - Lunch provided.
+    - '2012-12-06 12:00:00.000000'
+    - '2012-12-06 13:30:00.000000'
+    - '2012-12-04 15:30:33.334122'
+    - '2012-12-04 15:30:33.334122'
+    - https://maps.google.com/maps?q=Appleby+Hall,+Pleasant+Street+Southeast,+Minneapolis,+MN&hl=en&sll=37.6,-95.665&sspn=48.009222,107.138672&oq=appleby+hall&t=h&hq=Appleby+Hall,&hnear=Pleasant+St+SE,+Minneapolis,+Minnesota&z=16
+    - true
+    - Appleby 41
+    - Hosted by Pride @ Work & GLBTA Programs Office
+    - 
+  - - 146
+    - ! '"Gender Euphoria:  Queer Crafts & Pizza"'
+    - Pizza provided, with Vegan & Gluten Free options.
+    - '2012-12-06 17:00:00.000000'
+    - '2012-12-06 19:00:00.000000'
+    - '2012-12-04 15:33:49.680741'
+    - '2012-12-04 15:33:49.680741'
+    - http://www1.umn.edu/twincities/maps/EdSciB/
+    - true
+    - 325 Educational Sciences Building
+    - Hosted by Transgender Commission
+    - 
+  - - 147
+    - 2013-2014 FY Budget Review; FY2012 Actual Results
+    - Pizza & cookies, while supplies last!
+    - '2012-12-11 12:15:00.000000'
+    - '2012-12-11 13:00:00.000000'
+    - '2012-12-09 06:50:44.729662'
+    - '2012-12-09 06:50:44.729662'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&sll=44.970697,-93.261478&sspn=0.339559,0.837021&oq=moos+to&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - Room 2-650 Moos Tower
+    - ! 'Presented by: Mr. Jeff Ogden'
+    - 
+  - - 148
+    - Hot Cocoa for $1
+    - 100% of profits donated to charity
+    - '2012-12-11 09:00:00.000000'
+    - '2012-12-11 12:00:00.000000'
+    - '2012-12-09 06:54:59.490832'
+    - '2012-12-09 06:54:59.490832'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&ll=44.972707,-93.235409&spn=0.010611,0.026157&sll=44.973144,-93.231326&sspn=0.010611,0.026157&oq=coffman&t=h&hnear=Coffman+Memorial+Union,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - front of Coffman
+    - We will be donating 100% of the profits to the non-profit organization, Poverty
+      Stops Here (http://www.povertystopshere.org) to help combat extreme poverty
+      through micro-loans and sustainable development.
+    - 
+  - - 149
+    - ! '"Cardiometabolic Status in Childhood Cancer Survivors"'
+    - Light Lunch Provided.
+    - '2012-12-10 12:15:00.000000'
+    - '2012-12-10 13:15:00.000000'
+    - '2012-12-09 06:57:04.930121'
+    - '2012-12-09 06:57:41.266508'
+    - https://maps.google.com/maps?q=Moos+Tower,+Minneapolis,+MN&hl=en&ll=44.973148,-93.231332&spn=0.010611,0.026157&sll=44.972707,-93.235409&sspn=0.010611,0.026157&oq=moos&t=h&hnear=Moos+Tower,+Minneapolis,+Minnesota+55455&z=16
+    - true
+    - 2-580 Moos
+    - ! "Cancer Detection, Treatment and Survivorship Research Program Seminar\r\n\r\nJulia
+      Steinberger, M.D., M.S."
+    - 
+  - - 150
+    - Shabe Yalda!
+    - Dinner will be provided, along with traditional music.
+    - '2012-12-21 18:30:00.000000'
+    - '2012-12-21 23:00:00.000000'
+    - '2012-12-09 07:07:39.741900'
+    - '2012-12-09 07:07:39.741900'
+    - https://maps.google.com/maps?q=St+Paul+Student+Center&hl=en&sll=44.984675,-93.18499&sspn=0.010609,0.026157&t=h&hq=St+Paul+Student+Center&z=16
+    - true
+    - Northstar Ballroom, St. Paul Student Center
+    - ! "Please join the Persian Student Organization of Minnesota (PSOM) in celebrating
+      Shab-e Yalda on Friday, December 21st, 2012 from 6:30pm to 11pm in the Northstar
+      Ballroom, St. Paul Student Center, at the University of Minnesota. \r\n\r\nThis
+      is a Free event and everybody is welcome!\r\n\r\nPlease email psom@umn.edu for
+      more information, or contact a Board Member.\r\n\r\nAgain, the venue is located
+      at North Star Ballroom at the St. Paul Student Center (2017 Buford Avenue, St.
+      Paul, Minnesota 55108) \r\n\r\nWe recommend the Gortner Parking Ramp for event
+      parking (http://www1.umn.edu/twincities/maps/GortRamp/)"
+    - 
+  - - 151
+    - MISA Royal Tea Event
+    - Royal bubble tea and Finnish cake!
+    - '2013-01-21 16:30:00.000000'
+    - '2013-01-21 18:30:00.000000'
+    - '2013-01-16 11:52:10.060268'
+    - '2013-01-16 11:52:10.060268'
+    - https://maps.google.com/maps?q=Coffman+Memorial+Union,+Minneapolis,+MN&hl=en&sll=46.44186,-93.36129&sspn=10.584477,26.784668&oq=coffman+&t=h&hq=Coffman+Memorial+Union,&hnear=Minneapolis,+Hennepin,+Minnesota&z=14
+    - true
+    - MISA Lounge, Coffman
+    - ! "What are you doing the night before school starts?? Well, whether you're
+      not all that excited about rearranging your textbooks for the 5th time, or tired
+      of video gaming for days on end, come spend some time at MISA Lounge to see
+      the end of winter break properly. English proper.\r\n\r\nWe will be serving
+      royal bubble tea from Tea Garden and Finnish cake! Several rounds of catch phrase,
+      laughs, hugs, and catching up with each other are guaranteed to happen.\r\n\r\nCome
+      by, we look forward to seeing you there!\r\n\r\n-MISA Board"
+    - 
+  - - 152
+    - Surprise! It's Ethiopia!!! at Small World Coffee Hour
+    - Free food and coffee!!
+    - '2013-01-25 16:00:00.000000'
+    - '2013-01-25 17:00:00.000000'
+    - '2013-01-16 11:57:09.615813'
+    - '2013-01-16 11:57:09.615813'
+    - https://maps.google.com/maps?q=Mark+G.+Yudof+Hall,+Minneapolis,+MN&hl=en&ll=44.972502,-93.235871&spn=0.005305,0.013078&sll=44.972826,-93.235337&sspn=0.042443,0.104628&oq=mark+g+&t=h&hnear=Mark+G.Yudof+Hall,+Minneapolis,+Minnesota+55455&z=17
+    - true
+    - Mark G. Yudof Hall
+    - We invented coffee! So come and enjoy it from the people who know it best, Ethiopians!
+      There will be free food as well as free coffee! Ethiopia is one of the few places
+      in Africa that has castles and the only place to have a building cut from a
+      mountain. Come and have your expectations shattered for the INTRODUCING ETHIOPIA
+      event for SWCH!
+    - 
 
 ---
 organizations:
@@ -1493,5 +2019,90 @@ organizations:
     - '2012-11-02 19:10:04.909688'
     - ! 'International Business Association '
     - www.facebook.com/UMNiba
+    - 
+    - true
+  - - 7
+    - clasb@umn.edu
+    - $2a$10$KhQzBtvqW9E7fbWpUy2XpOBbLRfVJenAhQhBkzI0/uRzn2u6gpNMq
+    - 
+    - 
+    - 
+    - 1
+    - '2012-11-16 00:27:30.664123'
+    - '2012-11-16 00:27:30.664123'
+    - 107.2.101.136
+    - 107.2.101.136
+    - '2012-11-16 00:27:30.645501'
+    - '2012-11-16 00:27:30.664911'
+    - College of Liberal Arts Student Board
+    - http://www.umnclasb.com/
+    - 
+    - true
+  - - 8
+    - prepare@umn.edu
+    - $2a$10$99nF1jpusQqHuamcDjVewOLxOStAhPd4rmTchnl/dnak1exI7JwxG
+    - 
+    - 
+    - 
+    - 1
+    - '2012-11-28 05:25:45.913317'
+    - '2012-11-28 05:25:45.913317'
+    - 97.116.154.250
+    - 97.116.154.250
+    - '2012-11-28 05:25:45.898090'
+    - '2012-11-28 05:25:45.914127'
+    - Prepare Ministries
+    - http://www.prepareministries.com/
+    - 
+    - true
+  - - 9
+    - pshatumn@gmail.com
+    - $2a$10$//KIak6idsmh95tcur0dTOSpW2GUPX6lAox9vWRbxyNf92vSiYzhC
+    - 
+    - 
+    - 
+    - 1
+    - '2012-12-03 21:48:40.446807'
+    - '2012-12-03 21:48:40.446807'
+    - 216.45.228.35
+    - 216.45.228.35
+    - '2012-12-03 21:48:40.442980'
+    - '2012-12-03 21:48:40.447560'
+    - Poverty Stops Here at the UofM
+    - ''
+    - 
+    - true
+  - - 10
+    - gregfarnam@hotmail.com
+    - $2a$10$yaevlhrGWkxNYfB38tt8FuBPlBYFGRwpNqXQyCT5JmpeNiORFtk0a
+    - 
+    - 
+    - 
+    - 3
+    - '2013-01-06 14:32:08.277640'
+    - '2013-01-06 14:30:23.227363'
+    - 107.2.65.64
+    - 107.2.65.64
+    - '2013-01-06 14:23:33.631516'
+    - '2013-01-06 14:32:08.278637'
+    - Gregfarnam
+    - ''
+    - 
+    - false
+  - - 11
+    - macleod.kaitlin@gmail.com
+    - $2a$10$tby9Q1sNZlwuz.hJdi17sezs/Yli5rQ2r8waxKRh6rLJxB/QVH4IG
+    - 
+    - 
+    - 
+    - 1
+    - '2013-01-09 02:06:06.838759'
+    - '2013-01-09 02:06:06.838759'
+    - 174.20.81.228
+    - 174.20.81.228
+    - '2013-01-09 02:06:06.776222'
+    - '2013-01-09 02:06:06.839534'
+    - Minneapolis Community and Technical College
+    - ''
     - 
     - true
