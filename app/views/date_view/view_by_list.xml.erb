@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<events>
+<items>
 <% @events.each do |event| %>
-<event>
-  <name><%= event.name %></name>
-  <description><%= event.description %></description>
+<item>
+  <title><%= event.name %></title>
+  <summary><%= event.description %></summary>
+  <link><%= event.google_maps_url %></link>
   <date><%= event.date %></date>
   <end_date><%= event.end_date %></end_date>
-</event>
+</item>
 <% end %>
-</events>
+</items>
