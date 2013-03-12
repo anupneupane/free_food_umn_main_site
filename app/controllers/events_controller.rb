@@ -47,14 +47,10 @@ class EventsController < ApplicationController
 
     @event = Event.new(params[:event])
 
-    respond_to do |format|
-      if @event.save
-        format.html { redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.' }
-        format.json { render json: @event, status: :created, location: @event }
-      else
-        format.html {  }
-        format.json { render json: @event.errors, status: :unprocessable_entity }
-      end
+    if @event.save
+      redirect_to root_path, notice: 'Thank you for submitting the event! An admin should approve it shortly.'
+    else
+      redirect_to new_event_path, alert: "#{@event.errors.full_messages.join(', ')}"
     end
   end
 
