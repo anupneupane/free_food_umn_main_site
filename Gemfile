@@ -39,6 +39,10 @@ group :development do
   gem 'guard-spork'
 end
 
+gem 'capistrano'
+gem 'capistrano-ext'
+gem 'rvm-capistrano'
+
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
@@ -62,4 +66,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger', :git => 'https://github.com/windwiny/debugger.git'
